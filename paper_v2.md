@@ -232,7 +232,9 @@ The DI ranges from 0 (infeasible) to a theoretical maximum dependent on weight c
 
 ### 4.1 Hardware Configuration
 
-All experiments are conducted on a single consumer-grade laptop with the following specifications:
+Experiments are conducted on two consumer-grade laptops to enable cross-device reproducibility validation:
+
+**Device 1 (Primary):**
 
 | Component | Specification |
 |---|---|
@@ -241,10 +243,20 @@ All experiments are conducted on a single consumer-grade laptop with the followi
 | RAM | 16 GB DDR4 |
 | Storage | 512 GB NVMe SSD |
 | GPU | None (integrated Intel Iris Xe only, not used for inference) |
-| Operating System | Ubuntu 22.04 LTS / [or specify your OS] |
+| Operating System | Ubuntu 22.04 LTS |
 | Power Profile | Performance mode (plugged in) |
 
-This hardware represents a common mid-range consumer laptop as of 2024–2025, making our results directly applicable to a broad user base.
+**Device 2 (Validation):**
+
+| Component | Specification |
+|---|---|
+| Processor | Intel Core i5-1334U (13th Gen Raptor Lake) |
+| Architecture | 2 Performance cores (up to 4.6 GHz) + 8 Efficient cores (up to 3.4 GHz), 12 threads |
+| RAM | 16 GB DDR4 |
+| GPU | None (integrated Intel Iris Xe only, not used for inference) |
+| Power Profile | Performance mode (plugged in) |
+
+Both devices represent common mid-range consumer laptops (2024–2025), making results directly applicable to a broad user base. Device 2 enables cross-generational validation (Section 4.5).
 
 ### 4.2 Software Configuration
 
@@ -287,6 +299,16 @@ All models are instruction-tuned variants selected for their chat/instruction-fo
 - Memory: `psutil.Process().memory_info().rss` sampled at 100ms intervals via background thread
 - CPU: `psutil.cpu_percent(interval=0.1)` per-core logging
 - All raw data logged to CSV per condition
+
+### 4.5 Cross-Device Validation Design
+
+To validate reproducibility and assess inter-generational CPU performance differences, a subset of experiments (E1: Baseline, E4: Cross-Device, E6: Cold vs Warm) are replicated identically on both devices. This two-device design enables:
+
+1. **Reproducibility verification:** Confirming that rank ordering of model-quantization configurations is preserved across hardware variants.
+2. **Generational delta quantification:** Measuring the throughput improvement from 12th → 13th Gen Intel Core processors sharing identical architecture (Alder Lake vs Raptor Lake) and RAM configuration.
+3. **Statistical comparison:** Paired t-tests on identical workloads across devices, providing confidence intervals for hardware-induced performance variance.
+
+All experiments use identical software stacks, model files, prompts, and measurement protocols across both devices.
 
 ---
 
@@ -413,7 +435,7 @@ Compare findings with:
 
 ## 7. Limitations
 
-1. **Single hardware configuration.** All experiments are conducted on one specific CPU (i5-1235U). Results may not generalize to AMD processors, Apple Silicon, or ARM-based systems, which have fundamentally different memory architectures and SIMD capabilities.
+1. **Limited hardware diversity.** While experiments are validated across two Intel Core i5 processors (12th and 13th Gen), results may not generalize to AMD processors, Apple Silicon, or ARM-based systems, which have fundamentally different memory architectures and SIMD capabilities.
 
 2. **No GPU baseline.** The absence of a local GPU comparison means we cannot quantify the GPU → CPU performance gap on identical hardware. Published GPU benchmarks serve as approximate baselines but introduce cross-study confounds.
 
