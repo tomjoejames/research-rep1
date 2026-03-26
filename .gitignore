@@ -32,3 +32,9 @@ results/figures/
 models/
 *.gguf
 Modelfile*
+
+
+## add this from 2 experiment's push
+insights/
+run.sh
+analyze.sh
