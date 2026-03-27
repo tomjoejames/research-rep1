@@ -1,0 +1,194 @@
+{
+  "tinyllama": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1474.7,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1474.7,
+        "cpu_pct": 3.2
+      }
+    ]
+  },
+  "tinyllama-q5": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1478.9,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1478.9,
+        "cpu_pct": 4.1
+      }
+    ]
+  },
+  "tinyllama-q8": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.6,
+        "cpu_pct": 15.7
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1481.9,
+        "cpu_pct": 8.9
+      }
+    ]
+  },
+  "phi3:mini": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1481.3,
+        "cpu_pct": 1.7
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1481.2,
+        "cpu_pct": 1.7
+      }
+    ]
+  },
+  "phi3-q5": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1483.8,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1483.8,
+        "cpu_pct": 1.7
+      }
+    ]
+  },
+  "phi3-q8": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1483.4,
+        "cpu_pct": 0.8
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1483.4,
+        "cpu_pct": 0.8
+      }
+    ]
+  },
+  "qwen2.5:3b": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.5,
+        "cpu_pct": 0.8
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.5,
+        "cpu_pct": 0.0
+      }
+    ]
+  },
+  "qwen-q5": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.7,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.7,
+        "cpu_pct": 0.8
+      }
+    ]
+  },
+  "qwen-q8": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1479.6,
+        "cpu_pct": 1.6
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1479.6,
+        "cpu_pct": 1.7
+      }
+    ]
+  },
+  "mistral:7b": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.3,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1482.3,
+        "cpu_pct": 1.7
+      }
+    ]
+  },
+  "mistral-q5": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1477.1,
+        "cpu_pct": 1.6
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1477.1,
+        "cpu_pct": 2.5
+      }
+    ]
+  },
+  "mistral-q8": {
+    "load_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1480.5,
+        "cpu_pct": 0.0
+      }
+    ],
+    "inference_phase": [
+      {
+        "t_s": 0.0,
+        "ram_mb": 1480.5,
+        "cpu_pct": 6.8
+      }
+    ]
+  }
+}
