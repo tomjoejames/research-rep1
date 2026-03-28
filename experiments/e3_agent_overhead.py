@@ -101,6 +101,10 @@ def main():
 
             # Check if all steps produced output
             chain_ok = all(s["response"] for s in [step1, step2, step3])
+            
+            # Evaluate answer correctness (Math: 5 * 350 = 1750, 18% GST = 315, Total = 2065)
+            final_output = step3["response"].strip().replace("\n", " ") if step3["response"] else ""
+            answer_correct = "2065" in final_output and chain_ok
 
             rows.append({
                 "experiment": "E3",
@@ -118,11 +122,13 @@ def main():
                 "linear_expected_s": round(linear_expected, 4),
                 "overhead_ratio": round(overhead_ratio, 4),
                 "chain_completed": chain_ok,
+                "answer_correct": answer_correct,
+                "final_output": final_output[:100],
                 "single_ram_mb": s1["peak_ram_mb"],
                 "agent_ram_mb": s2["peak_ram_mb"],
             })
             print(f"  Run {i+1:02d}: single={single['total_time_s']:.2f}s | "
-                  f"agent={chain_total:.2f}s | ratio={overhead_ratio:.2f}x | ok={chain_ok}")
+                  f"agent={chain_total:.2f}s | ratio={overhead_ratio:.2f}x | ok={chain_ok} | correct={answer_correct}")
 
         unload_model(model)
         time.sleep(15)
