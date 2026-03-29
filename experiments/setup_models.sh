@@ -27,7 +27,8 @@ fi
 # ── Step 2: Check Python deps ────────────────────────────────
 echo ""
 echo "[2/4] Checking Python dependencies..."
-pip install --quiet psutil requests pandas matplotlib seaborn numpy huggingface_hub
+# pip install --quiet psutil requests pandas matplotlib seaborn numpy huggingface_hub
+python3 -m pip install --quiet psutil requests pandas matplotlib seaborn numpy huggingface_hub
 echo "  Dependencies OK"
 
 # ── Step 3: Pull Q4 models (Ollama native) ───────────────────

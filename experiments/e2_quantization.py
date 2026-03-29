@@ -17,11 +17,17 @@ from lib import *
 
 FIXED_PROMPT = "Explain in 3 sentences why artificial intelligence is important for healthcare."
 
+# DEFAULT_MODELS = [
+#    "tinyllama", "tinyllama-q5", "tinyllama-q8",
+#    "phi3:mini",  "phi3-q5",      "phi3-q8",
+#    "qwen2.5:3b", "qwen-q5",      "qwen-q8",
+#    "mistral:7b",  "mistral-q5",   "mistral-q8",
+# ]
 DEFAULT_MODELS = [
-    "tinyllama", "tinyllama-q5", "tinyllama-q8",
-    "phi3:mini",  "phi3-q5",      "phi3-q8",
-    "qwen2.5:3b", "qwen-q5",      "qwen-q8",
-    "mistral:7b",  "mistral-q5",   "mistral-q8",
+    "tinyllama",
+    "phi3:mini",
+    "qwen2.5:3b",
+    "mistral:7b",
 ]
 THROUGHPUT_RUNS = 20
 
