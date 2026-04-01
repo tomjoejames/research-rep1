@@ -1,0 +1,5 @@
+experiment,device,model,baseline_ram_mb,post_load_ram_mb,model_ram_delta_mb,peak_inference_ram_mb,avg_inference_ram_mb,peak_inference_cpu_pct,avg_inference_cpu_pct,baseline_swap_mb,peak_swap_mb,swap_active,load_time_s,avg_inference_s,post_unload_ram_mb,ram_leaked_mb,system_total_ram_mb,ram_utilization_pct
+E5,device3,tinyllama,515.7,809.5,293.9,897.1,781.5,12.7,7.7,0.0,0.0,False,2.98,1.1394,534.4,18.7,7793.0,11.5
+E5,device3,phi3:mini,535.0,1162.8,627.8,1273.5,838.8,11.4,7.7,0.0,0.0,False,4.51,2.7188,550.3,15.3,7793.0,16.3
+E5,device3,qwen2.5:3b,550.7,952.0,401.2,1064.2,955.4,12.2,4.6,0.0,0.0,False,4.68,4.5339,710.4,159.7,7793.0,13.7
+E5,device3,mistral:7b,710.7,686.1,-24.6,966.7,911.9,11.5,0.9,0.0,1.8,False,11.32,10.0529,717.2,6.5,7793.0,12.4

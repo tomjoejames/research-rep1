@@ -1,0 +1,121 @@
+experiment,device,model,run,single_time_s,single_tokens,single_toks,single_ttft_ms,agent_chain_s,step1_s,step2_s,step3_s,linear_expected_s,overhead_ratio,chain_completed,answer_correct,final_output,single_ram_mb,agent_ram_mb
+E3,device3,tinyllama,1,2.5769,50,19.4,2229.7,0.937,0.3046,0.2519,0.3804,7.7307,0.1212,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",928.6,831.8
+E3,device3,tinyllama,2,0.399,50,125.3,75.2,0.8763,0.247,0.2456,0.3835,1.197,0.7321,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",832.6,832.6
+E3,device3,tinyllama,3,0.4006,50,124.82,74.63,0.8819,0.2467,0.2493,0.3856,1.2018,0.7338,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",833.6,837.5
+E3,device3,tinyllama,4,0.3847,50,129.97,56.18,0.8958,0.2725,0.2426,0.3805,1.1541,0.7762,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",835.6,837.0
+E3,device3,tinyllama,5,0.3766,50,132.76,50.95,0.8845,0.2518,0.2432,0.3893,1.1298,0.7828,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",836.8,836.5
+E3,device3,tinyllama,6,0.3871,50,129.17,59.09,0.8921,0.2587,0.254,0.3792,1.1613,0.7682,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",836.8,836.8
+E3,device3,tinyllama,7,0.3883,50,128.75,58.1,0.8797,0.2499,0.2471,0.3826,1.1649,0.7552,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",836.5,837.8
+E3,device3,tinyllama,8,0.3847,50,129.97,56.66,0.8802,0.2526,0.246,0.3815,1.1541,0.7627,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",837.8,841.2
+E3,device3,tinyllama,9,0.3765,50,132.8,52.7,0.8866,0.2542,0.2512,0.381,1.1295,0.7849,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",837.7,842.0
+E3,device3,tinyllama,10,0.3819,50,130.91,53.97,0.8839,0.2572,0.2456,0.381,1.1457,0.7715,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",841.4,839.9
+E3,device3,tinyllama,11,0.3871,50,129.18,58.92,0.8837,0.254,0.2496,0.3799,1.1613,0.761,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",842.7,844.6
+E3,device3,tinyllama,12,0.388,50,128.87,57.06,0.8785,0.2522,0.2453,0.3808,1.164,0.7547,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",844.6,844.6
+E3,device3,tinyllama,13,0.3942,50,126.84,62.6,0.8945,0.2552,0.2514,0.3879,1.1826,0.7564,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",846.1,846.3
+E3,device3,tinyllama,14,0.3841,50,130.17,52.47,0.8804,0.2506,0.2465,0.3831,1.1523,0.764,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",847.1,847.1
+E3,device3,tinyllama,15,0.387,50,129.21,59.29,0.886,0.2489,0.2472,0.3897,1.161,0.7631,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",843.9,842.1
+E3,device3,tinyllama,16,0.3896,50,128.33,59.37,0.8864,0.2474,0.2538,0.3851,1.1688,0.7584,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",843.6,845.3
+E3,device3,tinyllama,17,0.3974,50,125.81,72.82,0.8779,0.2457,0.2501,0.382,1.1922,0.7363,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",847.3,847.3
+E3,device3,tinyllama,18,0.3906,50,128.01,63.97,0.897,0.2607,0.2526,0.3836,1.1718,0.7654,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",845.9,846.6
+E3,device3,tinyllama,19,0.3822,50,130.84,54.19,0.8863,0.2591,0.2469,0.3802,1.1466,0.773,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",844.8,845.5
+E3,device3,tinyllama,20,0.3875,50,129.04,54.21,0.9063,0.2749,0.2477,0.3835,1.1625,0.7796,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",847.5,850.2
+E3,device3,tinyllama,21,0.3865,50,129.38,53.96,0.8928,0.2521,0.2564,0.3841,1.1595,0.77,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",850.2,849.8
+E3,device3,tinyllama,22,0.3903,50,128.1,57.81,0.8847,0.2539,0.2475,0.3831,1.1709,0.7555,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",848.8,850.3
+E3,device3,tinyllama,23,0.3992,50,125.26,70.0,0.8864,0.2507,0.2551,0.3805,1.1976,0.7402,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",850.0,852.4
+E3,device3,tinyllama,24,0.3914,50,127.74,63.57,0.8826,0.2469,0.2545,0.3811,1.1742,0.7517,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",852.4,850.6
+E3,device3,tinyllama,25,0.3992,50,125.26,65.74,0.8861,0.2497,0.2539,0.3824,1.1976,0.7399,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",850.0,852.4
+E3,device3,tinyllama,26,0.391,50,127.87,64.19,0.9268,0.2546,0.2902,0.3817,1.173,0.7901,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",850.4,854.2
+E3,device3,tinyllama,27,0.3844,50,130.07,64.15,0.8918,0.2555,0.2544,0.3817,1.1532,0.7733,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",852.9,854.4
+E3,device3,tinyllama,28,0.3872,50,129.12,55.51,0.9097,0.2541,0.2547,0.4007,1.1616,0.7831,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",856.1,856.3
+E3,device3,tinyllama,29,0.3944,50,126.78,69.93,0.9035,0.2716,0.2471,0.3847,1.1832,0.7636,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",855.9,856.5
+E3,device3,tinyllama,30,0.3933,50,127.13,65.85,0.8896,0.249,0.2518,0.3886,1.1799,0.754,True,False,"I am not capable of formatting text or generating specific invoca lines for your products. However, ",857.5,857.6
+E3,device3,phi3:mini,1,2.98,24,8.05,2469.76,2.1034,0.4773,0.5294,1.0965,8.94,0.2353,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",1269.0,854.0
+E3,device3,phi3:mini,2,0.5737,24,41.83,65.3,2.1169,0.4882,0.5311,1.0974,1.7211,1.23,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",854.8,856.2
+E3,device3,phi3:mini,3,0.5997,24,40.02,90.4,2.0956,0.4674,0.5315,1.0966,1.7991,1.1648,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",856.5,858.9
+E3,device3,phi3:mini,4,0.5973,24,40.18,88.78,2.1021,0.4703,0.5309,1.1008,1.7919,1.1731,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",859.4,861.8
+E3,device3,phi3:mini,5,0.5725,24,41.92,65.42,2.1152,0.4781,0.5339,1.1031,1.7175,1.2316,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",862.1,864.3
+E3,device3,phi3:mini,6,0.5966,24,40.23,88.3,2.1122,0.4757,0.5342,1.1021,1.7898,1.1801,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",864.1,866.3
+E3,device3,phi3:mini,7,0.5774,24,41.56,68.67,2.1094,0.4813,0.5297,1.0982,1.7322,1.2177,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",866.5,866.8
+E3,device3,phi3:mini,8,0.5892,24,40.73,80.34,2.0981,0.4704,0.5273,1.1003,1.7676,1.187,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",867.3,870.0
+E3,device3,phi3:mini,9,0.5771,24,41.59,68.25,2.116,0.4835,0.5312,1.1011,1.7313,1.2222,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",871.5,872.3
+E3,device3,phi3:mini,10,0.5856,24,40.99,78.83,2.1048,0.4761,0.5332,1.0953,1.7568,1.1981,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",871.9,871.7
+E3,device3,phi3:mini,11,0.5786,24,41.48,68.73,2.1031,0.4693,0.5332,1.1004,1.7358,1.2116,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",871.4,871.9
+E3,device3,phi3:mini,12,0.5804,24,41.35,67.94,2.1055,0.4694,0.5352,1.1007,1.7412,1.2092,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",871.4,872.2
+E3,device3,phi3:mini,13,0.5762,24,41.65,66.17,2.1112,0.4772,0.533,1.1008,1.7286,1.2213,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",872.2,872.6
+E3,device3,phi3:mini,14,0.5963,24,40.25,85.72,2.12,0.4772,0.5338,1.1089,1.7889,1.1851,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",872.2,873.4
+E3,device3,phi3:mini,15,0.5851,24,41.02,77.17,2.1147,0.4789,0.5327,1.103,1.7553,1.2048,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",873.4,874.8
+E3,device3,phi3:mini,16,0.581,24,41.31,71.98,2.1041,0.4688,0.5347,1.1005,1.743,1.2072,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",875.3,877.3
+E3,device3,phi3:mini,17,0.5765,24,41.63,67.48,2.1281,0.4834,0.5334,1.1112,1.7295,1.2305,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",875.0,875.9
+E3,device3,phi3:mini,18,0.5881,24,40.81,76.51,2.113,0.4747,0.5335,1.1047,1.7643,1.1977,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",876.4,879.6
+E3,device3,phi3:mini,19,0.5816,24,41.26,71.71,2.1093,0.4718,0.5349,1.1024,1.7448,1.2089,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",879.6,880.0
+E3,device3,phi3:mini,20,0.5852,24,41.01,75.17,2.1103,0.4704,0.5357,1.104,1.7556,1.2021,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",880.0,879.8
+E3,device3,phi3:mini,21,0.6023,24,39.85,92.69,2.108,0.4696,0.5335,1.1048,1.8069,1.1667,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",879.8,880.7
+E3,device3,phi3:mini,22,0.5927,24,40.49,84.24,2.111,0.4685,0.5346,1.1077,1.7781,1.1872,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",880.7,881.1
+E3,device3,phi3:mini,23,0.5915,24,40.58,80.55,2.1151,0.4745,0.5364,1.104,1.7745,1.1919,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",881.0,881.5
+E3,device3,phi3:mini,24,0.5974,24,40.18,88.01,2.1088,0.4668,0.5329,1.109,1.7922,1.1766,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",881.2,883.2
+E3,device3,phi3:mini,25,0.5852,24,41.01,73.94,2.1257,0.4757,0.5421,1.1078,1.7556,1.2108,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",883.2,883.9
+E3,device3,phi3:mini,26,0.6153,24,39.01,101.9,2.1198,0.4787,0.5378,1.103,1.8459,1.1484,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",884.2,885.1
+E3,device3,phi3:mini,27,0.6106,24,39.31,98.9,2.1303,0.4826,0.5404,1.107,1.8318,1.1629,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",885.1,886.6
+E3,device3,phi3:mini,28,0.5898,24,40.69,77.13,2.135,0.4833,0.5403,1.1112,1.7694,1.2066,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",887.1,887.8
+E3,device3,phi3:mini,29,0.5919,24,40.55,81.94,2.1284,0.4762,0.5365,1.1155,1.7757,1.1986,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",888.3,889.8
+E3,device3,phi3:mini,30,0.596,24,40.27,83.01,2.1495,0.4872,0.5442,1.118,1.788,1.2022,True,False,"Subtotal (excluding GST): $8,750   Goods and Services Tax (GST) @ 10%: $1,562.50    Total Amount Due",889.8,890.1
+E3,device3,qwen2.5:3b,1,3.1572,27,8.55,2627.31,1.5147,0.4761,0.4434,0.595,9.4716,0.1599,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1059.4,971.0
+E3,device3,qwen2.5:3b,2,0.6811,27,39.64,151.07,1.4972,0.4576,0.4482,0.5911,2.0433,0.7327,True,False,"Subtotal: 1750, GST: 295; Total: 2045",973.4,982.7
+E3,device3,qwen2.5:3b,3,0.6886,27,39.21,157.19,1.5108,0.4747,0.443,0.5929,2.0658,0.7313,True,False,"Subtotal: 1750, GST: 295; Total: 2045",982.7,990.6
+E3,device3,qwen2.5:3b,4,0.6863,27,39.34,159.16,1.501,0.4654,0.4438,0.5917,2.0589,0.729,True,False,"Subtotal: 1750, GST: 295; Total: 2045",990.5,1002.4
+E3,device3,qwen2.5:3b,5,0.6752,27,39.99,147.28,1.5245,0.4664,0.4525,0.6055,2.0256,0.7526,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1005.0,1007.6
+E3,device3,qwen2.5:3b,6,0.686,27,39.36,159.35,1.5229,0.4672,0.4477,0.6078,2.058,0.74,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1009.4,1013.1
+E3,device3,qwen2.5:3b,7,0.6983,27,38.66,169.44,1.5187,0.4708,0.4446,0.6031,2.0949,0.725,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1014.6,1022.7
+E3,device3,qwen2.5:3b,8,0.6945,27,38.88,165.34,1.5315,0.4807,0.4524,0.5982,2.0835,0.7351,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1027.1,1030.0
+E3,device3,qwen2.5:3b,9,0.715,27,37.76,183.41,1.563,0.5198,0.4398,0.6033,2.145,0.7287,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1030.7,1034.1
+E3,device3,qwen2.5:3b,10,0.689,27,39.19,157.02,1.5235,0.47,0.46,0.5934,2.067,0.7371,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1036.6,1040.5
+E3,device3,qwen2.5:3b,11,0.7053,27,38.28,172.24,1.6559,0.4885,0.4877,0.6795,2.1159,0.7826,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1040.0,1043.8
+E3,device3,qwen2.5:3b,12,0.7774,27,34.73,241.88,1.5592,0.4777,0.4554,0.626,2.3322,0.6686,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1043.7,1046.6
+E3,device3,qwen2.5:3b,13,0.6843,27,39.45,158.13,1.5544,0.4904,0.4577,0.6062,2.0529,0.7572,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1045.1,1045.8
+E3,device3,qwen2.5:3b,14,0.6963,27,38.78,166.15,1.5303,0.472,0.4534,0.6047,2.0889,0.7326,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1041.4,1041.0
+E3,device3,qwen2.5:3b,15,0.6956,27,38.82,164.21,1.5226,0.465,0.4562,0.6012,2.0868,0.7296,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1042.8,1044.2
+E3,device3,qwen2.5:3b,16,0.6951,27,38.84,167.03,1.5313,0.4753,0.4523,0.6036,2.0853,0.7343,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1036.9,1036.5
+E3,device3,qwen2.5:3b,17,0.6951,27,38.84,165.15,1.5463,0.4654,0.463,0.6178,2.0853,0.7415,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1035.0,1036.9
+E3,device3,qwen2.5:3b,18,0.7013,27,38.5,172.57,1.5534,0.483,0.4533,0.6169,2.1039,0.7383,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1038.8,1041.8
+E3,device3,qwen2.5:3b,19,0.7009,27,38.52,170.83,1.5584,0.4828,0.4534,0.6221,2.1027,0.7411,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1044.5,1047.4
+E3,device3,qwen2.5:3b,20,0.6972,27,38.73,167.56,1.5408,0.4677,0.4662,0.6067,2.0916,0.7367,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1048.7,1048.8
+E3,device3,qwen2.5:3b,21,0.7101,27,38.02,176.16,1.5538,0.4935,0.4509,0.6093,2.1303,0.7294,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1049.4,1053.3
+E3,device3,qwen2.5:3b,22,0.7009,27,38.52,173.06,1.5543,0.4788,0.4558,0.6196,2.1027,0.7392,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1056.9,1055.5
+E3,device3,qwen2.5:3b,23,0.7209,27,37.45,192.26,1.5757,0.489,0.4731,0.6135,2.1627,0.7286,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1053.7,1052.8
+E3,device3,qwen2.5:3b,24,0.6916,27,39.04,161.55,1.5871,0.4888,0.4834,0.6148,2.0748,0.7649,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1056.4,1055.8
+E3,device3,qwen2.5:3b,25,0.7036,27,38.37,174.0,1.5781,0.4851,0.4733,0.6196,2.1108,0.7476,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1055.3,1059.7
+E3,device3,qwen2.5:3b,26,0.7019,27,38.47,168.26,1.5751,0.485,0.4685,0.6214,2.1057,0.748,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1060.3,1060.8
+E3,device3,qwen2.5:3b,27,0.6993,27,38.61,165.45,1.5595,0.486,0.4528,0.6206,2.0979,0.7433,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1061.3,1064.8
+E3,device3,qwen2.5:3b,28,0.7216,27,37.42,186.18,1.7469,0.5038,0.451,0.7919,2.1648,0.8069,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1066.6,1068.0
+E3,device3,qwen2.5:3b,29,0.6989,27,38.63,168.87,1.5718,0.4821,0.4718,0.6178,2.0967,0.7497,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1071.2,1071.2
+E3,device3,qwen2.5:3b,30,0.6985,27,38.65,163.99,1.5825,0.4834,0.4732,0.6258,2.0955,0.7552,True,False,"Subtotal: 1750, GST: 295; Total: 2045",1072.8,1075.7
+E3,device3,mistral:7b,1,11.0019,0,0.0,11001.88,27.3515,8.8315,9.1637,9.3551,33.0057,0.8287,False,False,,846.1,873.3
+E3,device3,mistral:7b,2,11.2213,0,0.0,11221.27,29.8038,9.3315,10.4357,10.0357,33.6639,0.8853,False,False,,866.8,879.5
+E3,device3,mistral:7b,3,11.1966,0,0.0,11196.58,29.8076,9.3172,9.4824,11.0074,33.5898,0.8874,False,False,,879.7,893.2
+E3,device3,mistral:7b,4,11.0443,0,0.0,11044.25,30.4319,9.456,11.9627,9.0122,33.1329,0.9185,False,False,,884.5,885.5
+E3,device3,mistral:7b,5,9.4698,0,0.0,9469.84,33.3626,11.2541,12.1541,9.9534,28.4094,1.1743,False,False,,883.6,895.5
+E3,device3,mistral:7b,6,9.3286,0,0.0,9328.61,29.0038,9.4706,10.1205,9.4117,27.9858,1.0364,False,False,,894.2,895.7
+E3,device3,mistral:7b,7,10.3404,0,0.0,10340.37,28.1472,9.3498,9.3542,9.4424,31.0212,0.9074,False,False,,892.1,893.2
+E3,device3,mistral:7b,8,9.4259,0,0.0,9425.9,31.8342,9.5398,12.1526,10.1407,28.2777,1.1258,False,False,,891.7,893.6
+E3,device3,mistral:7b,9,9.2965,0,0.0,9296.47,32.2768,11.2487,12.1581,8.8693,27.8895,1.1573,False,False,,889.7,895.0
+E3,device3,mistral:7b,10,10.8862,0,0.0,10886.23,34.3075,12.7144,9.42,12.1724,32.6586,1.0505,False,False,,890.6,895.7
+E3,device3,mistral:7b,11,9.3901,0,0.0,9390.08,32.3974,11.1702,11.0952,10.1312,28.1703,1.1501,False,False,,900.4,897.2
+E3,device3,mistral:7b,12,8.6817,0,0.0,8681.71,29.5376,11.0472,9.1896,9.2995,26.0451,1.1341,False,False,,894.9,895.6
+E3,device3,mistral:7b,13,9.0754,0,0.0,9075.38,29.3592,10.6436,9.3809,9.3336,27.2262,1.0783,False,False,,893.3,893.2
+E3,device3,mistral:7b,14,8.9106,0,0.0,8910.63,36.9886,32.267,2.4709,2.2505,26.7318,1.3837,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1015.1,1176.0
+E3,device3,mistral:7b,15,3.9277,50,12.73,301.72,6.9955,2.3625,2.3468,2.2861,11.7831,0.5937,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1073.8,1077.5
+E3,device3,mistral:7b,16,3.5783,50,13.97,337.61,6.4697,2.1964,2.1764,2.0968,10.7349,0.6027,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1074.7,1080.7
+E3,device3,mistral:7b,17,3.4507,50,14.49,278.95,6.3226,2.1354,2.1235,2.0635,10.3521,0.6108,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1080.5,1079.3
+E3,device3,mistral:7b,18,3.4261,50,14.59,261.4,6.3026,2.1214,2.1301,2.0509,10.2783,0.6132,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1078.5,1083.2
+E3,device3,mistral:7b,19,3.4245,50,14.6,271.13,6.3058,2.1395,2.1122,2.0539,10.2735,0.6138,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1082.8,1086.5
+E3,device3,mistral:7b,20,3.4603,50,14.45,287.73,6.279,2.123,2.1139,2.0419,10.3809,0.6049,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1086.0,1085.0
+E3,device3,mistral:7b,21,3.4154,50,14.64,278.1,6.2875,2.1211,2.1129,2.0535,10.2462,0.6136,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1084.6,1089.5
+E3,device3,mistral:7b,22,3.405,50,14.68,266.4,6.3354,2.1252,2.1416,2.0684,10.215,0.6202,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1089.3,1086.7
+E3,device3,mistral:7b,23,3.4293,50,14.58,279.8,6.291,2.1266,2.1132,2.0511,10.2879,0.6115,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1089.2,1093.0
+E3,device3,mistral:7b,24,3.4138,50,14.65,274.38,6.2919,2.1228,2.1141,2.0549,10.2414,0.6144,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1092.6,1092.0
+E3,device3,mistral:7b,25,3.4161,50,14.64,273.42,6.2994,2.128,2.1238,2.0474,10.2483,0.6147,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1092.4,1091.6
+E3,device3,mistral:7b,26,3.421,50,14.62,267.75,6.3459,2.138,2.1461,2.0616,10.263,0.6183,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1092.5,1093.0
+E3,device3,mistral:7b,27,3.4297,50,14.58,275.62,6.3397,2.1389,2.1292,2.0715,10.2891,0.6162,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1091.7,1096.0
+E3,device3,mistral:7b,28,3.4347,50,14.56,277.98,6.3443,2.1476,2.1334,2.0631,10.3041,0.6157,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1093.7,1094.9
+E3,device3,mistral:7b,29,3.4711,50,14.4,294.95,6.3853,2.1501,2.1562,2.0787,10.4133,0.6132,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1094.0,1096.5
+E3,device3,mistral:7b,30,3.47,50,14.41,274.5,6.3848,2.1656,2.1518,2.0672,10.41,0.6133,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",1096.9,1097.2
