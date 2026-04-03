@@ -27,10 +27,10 @@
 # # results/figures/
 
 # # Downloaded GGUF models (large files)
-# models/
+models/
 # *.gguf
 # Modelfile*
-
+commands.sh
 
 # ## add this from 2 experiment's push
 # # insights/
