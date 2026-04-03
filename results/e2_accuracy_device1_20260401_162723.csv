@@ -1,0 +1,1601 @@
+experiment,device,model,sample_id,expected,predicted,correct,tokens_per_sec,ttft_ms
+E2-accuracy,device1,tinyllama,1,inquiry,"response:
+hi i am unable to provide",False,1.51,6204.86
+E2-accuracy,device1,tinyllama,2,inquiry,"response:
+sure! the email is a",False,3.33,2436.31
+E2-accuracy,device1,tinyllama,3,inquiry,"response:
+return policy: this email falls under",False,2.94,2479.87
+E2-accuracy,device1,tinyllama,4,inquiry,"response:
+based on the provided email",False,3.28,2633.74
+E2-accuracy,device1,tinyllama,5,inquiry,"response:
+the email is classified as a",False,3.85,2184.44
+E2-accuracy,device1,tinyllama,6,inquiry,"response:
+yes your payment of rs",False,4.14,2001.82
+E2-accuracy,device1,tinyllama,7,inquiry,"response:
+category: inquiry
+
+thank",True,4.37,1860.57
+E2-accuracy,device1,tinyllama,8,inquiry,"response:
+the email is classified as a",False,4.32,1899.83
+E2-accuracy,device1,tinyllama,9,inquiry,"response:
+yes we do offer bulk disc",False,4.23,1940.53
+E2-accuracy,device1,tinyllama,10,inquiry,"response:
+yes the new 20",False,3.36,2567.53
+E2-accuracy,device1,tinyllama,11,complaint,"response:
+category: complaint
+
+thank",True,3.79,2220.92
+E2-accuracy,device1,tinyllama,12,complaint,"response:
+category: complaint
+
+thank",True,3.8,2215.71
+E2-accuracy,device1,tinyllama,13,complaint,"response:
+category: complaint
+
+thank",True,3.45,2462.29
+E2-accuracy,device1,tinyllama,14,complaint,"response:
+the email is classified as an",False,3.39,2513.48
+E2-accuracy,device1,tinyllama,15,complaint,"response:
+the email is classified as an",False,3.89,2138.1
+E2-accuracy,device1,tinyllama,16,complaint,"response:
+category: complaint
+
+i",True,3.5,2434.89
+E2-accuracy,device1,tinyllama,17,complaint,"response:
+catgoer: (sent",False,3.25,2650.72
+E2-accuracy,device1,tinyllama,18,complaint,"response:
+category: complaint",True,2.55,2423.35
+E2-accuracy,device1,tinyllama,19,complaint,"response:
+category: complaint
+
+thank",True,3.24,2673.38
+E2-accuracy,device1,tinyllama,20,complaint,"response:
+the email has been classified as",False,3.31,2592.42
+E2-accuracy,device1,tinyllama,21,feedback,"response:
+thank you for your feedback! we",True,3.68,2307.63
+E2-accuracy,device1,tinyllama,22,feedback,"response:
+thank you for sharing your feedback!",True,3.9,2126.01
+E2-accuracy,device1,tinyllama,23,feedback,"response:
+catgoer: thank you for",False,3.72,2264.5
+E2-accuracy,device1,tinyllama,24,feedback,"response:
+thank you for your email we",False,3.65,2315.3
+E2-accuracy,device1,tinyllama,25,feedback,"response:
+sure! here's how",False,3.73,2259.38
+E2-accuracy,device1,tinyllama,26,feedback,"response:
+thank you for your feedback! we",True,3.46,2464.46
+E2-accuracy,device1,tinyllama,27,feedback,"response:
+catgoeries: inquiry",False,3.48,2436.34
+E2-accuracy,device1,tinyllama,28,feedback,"response:
+the email is classified as an",False,3.81,2195.53
+E2-accuracy,device1,tinyllama,29,feedback,"response:
+thank you for your feedback! we",True,3.67,2283.53
+E2-accuracy,device1,tinyllama,30,feedback,"response:
+category: complaint
+
+thank",False,4.04,2049.32
+E2-accuracy,device1,tinyllama,31,spam,response: congratulations! you have won a,False,3.09,2804.36
+E2-accuracy,device1,tinyllama,32,spam,"response:
+catgoer: thank you for",False,3.38,2522.96
+E2-accuracy,device1,tinyllama,33,spam,"response:
+category: inquiry
+
+thank",False,3.56,2386.57
+E2-accuracy,device1,tinyllama,34,spam,"response:
+dear valued customer",False,3.13,2719.15
+E2-accuracy,device1,tinyllama,35,spam,"response:
+the email is classified as """,False,3.55,2371.92
+E2-accuracy,device1,tinyllama,36,spam,"response:
+categoary: inquiry",False,3.0,2913.95
+E2-accuracy,device1,tinyllama,37,spam,"response:
+category: complaint
+
+thank",False,3.22,2668.09
+E2-accuracy,device1,tinyllama,38,spam,"response:
+catgoer: ""sure",False,3.27,2637.32
+E2-accuracy,device1,tinyllama,39,spam,"response:
+categoory: complaint",False,2.98,2928.09
+E2-accuracy,device1,tinyllama,40,spam,"response:
+categoary: investment",False,2.91,3009.68
+E2-accuracy,device1,tinyllama,41,urgent,"response:
+catgo: urgent: server",True,3.47,2453.67
+E2-accuracy,device1,tinyllama,42,urgent,"response:
+category: urgent
+
+i",True,3.23,2434.46
+E2-accuracy,device1,tinyllama,43,urgent,"response:
+category: complaint
+
+thank",False,3.27,2589.16
+E2-accuracy,device1,tinyllama,44,urgent,"response:
+categoory: complaint",False,2.83,2664.74
+E2-accuracy,device1,tinyllama,45,urgent,"response:
+catgoer: ""sure",False,2.66,2959.58
+E2-accuracy,device1,tinyllama,46,urgent,"response:
+categoory: complaint",False,2.99,2621.53
+E2-accuracy,device1,tinyllama,47,urgent,"response:
+categoary: inquiry",False,3.35,2390.85
+E2-accuracy,device1,tinyllama,48,urgent,"response:
+category: urgent
+
+b",True,3.83,2154.9
+E2-accuracy,device1,tinyllama,49,urgent,"response:
+category: complaint
+
+thank",False,3.08,2643.34
+E2-accuracy,device1,tinyllama,50,urgent,"response:
+categoory: critical bug",False,3.21,2578.74
+E2-accuracy,device1,tinyllama,51,inquiry,"response:
+category: inquiry
+
+thank",True,3.54,2377.65
+E2-accuracy,device1,tinyllama,52,inquiry,"response:
+yes you can upgrade your current",False,4.56,1753.07
+E2-accuracy,device1,tinyllama,53,complaint,"response:
+the email has been classified as",False,3.25,2338.39
+E2-accuracy,device1,tinyllama,54,complaint,"response:
+the email has been classified as",False,4.07,1982.16
+E2-accuracy,device1,tinyllama,55,feedback,"response:
+the email is classified as """,False,3.63,2274.63
+E2-accuracy,device1,tinyllama,56,feedback,"response:
+thank you for your feedback! your",True,2.17,3853.98
+E2-accuracy,device1,tinyllama,57,spam,"response:
+category: complaint
+
+thank",False,2.59,3172.79
+E2-accuracy,device1,tinyllama,58,spam,response: congratulations! your email has been,False,2.58,3277.71
+E2-accuracy,device1,tinyllama,59,urgent,"response:
+catgoeries: urgent",True,3.24,2548.6
+E2-accuracy,device1,tinyllama,60,urgent,"response:
+categoory: complaint",False,2.68,3174.42
+E2-accuracy,device1,tinyllama,61,inquiry,"response:
+category: complaint
+
+thank",False,3.34,2458.22
+E2-accuracy,device1,tinyllama,62,inquiry,"response:
+the email is classified as a",False,3.72,2126.08
+E2-accuracy,device1,tinyllama,63,complaint,"response:
+the email is a complaint",True,2.72,2971.08
+E2-accuracy,device1,tinyllama,64,complaint,"response:
+category: complaint
+
+thank",True,3.18,2586.21
+E2-accuracy,device1,tinyllama,65,feedback,"response:
+thank you for your feedback we",True,2.92,2847.39
+E2-accuracy,device1,tinyllama,66,feedback,"response:
+the email has been classified as",False,3.61,2265.12
+E2-accuracy,device1,tinyllama,67,spam,"response:
+the email has been classified as",False,2.45,3342.01
+E2-accuracy,device1,tinyllama,68,spam,response: thank you for your email the information,False,3.01,2757.31
+E2-accuracy,device1,tinyllama,69,urgent,"response:
+catgoer: urgent!",True,3.38,2467.89
+E2-accuracy,device1,tinyllama,70,urgent,"response:
+catgoer: ""thank you",False,3.4,2486.79
+E2-accuracy,device1,tinyllama,71,inquiry,"response:
+yes we accept both contactless",False,3.47,2265.79
+E2-accuracy,device1,tinyllama,72,inquiry,"response:
+based on the provided email",False,3.8,2176.18
+E2-accuracy,device1,tinyllama,73,complaint,"response:
+the email has been classified as",False,3.71,2265.51
+E2-accuracy,device1,tinyllama,74,complaint,"response:
+the email is classified as an",False,3.5,2394.17
+E2-accuracy,device1,tinyllama,75,feedback,"response:
+category: complaint
+
+thank",False,3.58,2352.09
+E2-accuracy,device1,tinyllama,76,feedback,"response:
+thank you for bringing this to our",False,3.25,2619.36
+E2-accuracy,device1,tinyllama,77,spam,"response:
+categoory: complaint",False,2.99,2902.48
+E2-accuracy,device1,tinyllama,78,spam,"response:
+the email has been classified as",False,3.23,2621.38
+E2-accuracy,device1,tinyllama,79,urgent,"response:
+catgoeries: inquiry",False,3.32,2531.28
+E2-accuracy,device1,tinyllama,80,urgent,"response:
+categoary: inquiry",False,1.94,3398.09
+E2-accuracy,device1,tinyllama,81,inquiry,"response:
+yes our restaurant caters for",False,3.0,2730.51
+E2-accuracy,device1,tinyllama,82,inquiry,"response:
+category: complaint
+
+thank",False,3.48,2442.41
+E2-accuracy,device1,tinyllama,83,complaint,"response:
+category: complaint
+
+thank",True,3.57,2307.3
+E2-accuracy,device1,tinyllama,84,complaint,"response:
+category: complaint
+
+thank",True,3.75,2159.84
+E2-accuracy,device1,tinyllama,85,feedback,"response:
+thank you for your feedback! we",True,3.78,2107.56
+E2-accuracy,device1,tinyllama,86,feedback,"response:
+the email you sent contains information about",False,3.14,2431.3
+E2-accuracy,device1,tinyllama,87,spam,"response:
+categoary: ""inqu",False,2.96,2565.32
+E2-accuracy,device1,tinyllama,88,spam,"response:
+category: complaint
+
+b",False,3.06,2787.11
+E2-accuracy,device1,tinyllama,89,urgent,"response:
+catgoer: urgent:",True,2.92,2871.21
+E2-accuracy,device1,tinyllama,90,urgent,"response:
+categoary: inquiry",False,3.17,2622.05
+E2-accuracy,device1,tinyllama,91,inquiry,"response:
+thank you for your email which",False,2.21,3753.34
+E2-accuracy,device1,tinyllama,92,inquiry,"response:
+yes we do have a student",False,2.85,2789.54
+E2-accuracy,device1,tinyllama,93,complaint,"response:
+the email has been classified as",False,3.31,2414.38
+E2-accuracy,device1,tinyllama,94,complaint,"response:
+category: complaint
+
+thank",True,2.88,2682.8
+E2-accuracy,device1,tinyllama,95,feedback,"response:
+thank you for your email! the",False,3.08,2516.44
+E2-accuracy,device1,tinyllama,96,feedback,"response: ""inquiry""",False,2.24,2766.44
+E2-accuracy,device1,tinyllama,97,spam,"response:
+categoary: inquiry",False,2.97,2749.47
+E2-accuracy,device1,tinyllama,98,spam,"response:
+category: inquiry",False,3.21,2693.0
+E2-accuracy,device1,tinyllama,99,urgent,"response:
+catgoeries: inquiry",False,3.05,2719.56
+E2-accuracy,device1,tinyllama,100,urgent,"response:
+category: urgent
+
+lock",True,3.33,2569.99
+E2-accuracy,device1,tinyllama-q5,1,inquiry,"response:
+categoory: complaint",False,1.8,5017.24
+E2-accuracy,device1,tinyllama-q5,2,inquiry,"response:
+sure! based on the provided",False,4.17,1860.74
+E2-accuracy,device1,tinyllama-q5,3,inquiry,"response: ""return policy""
+
+this email",False,4.36,1771.86
+E2-accuracy,device1,tinyllama-q5,4,inquiry,"response:
+the email is a complaint and",False,4.63,1625.69
+E2-accuracy,device1,tinyllama-q5,5,inquiry,response: the email is a complaint and should,False,4.39,1728.59
+E2-accuracy,device1,tinyllama-q5,6,inquiry,response: yes your payment of rs,False,4.55,1664.36
+E2-accuracy,device1,tinyllama-q5,7,inquiry,"response:
+according to the provided email",False,4.51,1659.41
+E2-accuracy,device1,tinyllama-q5,8,inquiry,"response:
+the email is classified as a",False,4.42,1694.56
+E2-accuracy,device1,tinyllama-q5,9,inquiry,"response:
+bulk discounts for orders",False,4.43,1674.62
+E2-accuracy,device1,tinyllama-q5,10,inquiry,response: the email is classified as an inqu,False,3.43,2183.08
+E2-accuracy,device1,tinyllama-q5,11,complaint,"response:
+the email is classified as a",False,3.73,2079.4
+E2-accuracy,device1,tinyllama-q5,12,complaint,"response: ""this email falls into the 'comp",False,3.98,1943.95
+E2-accuracy,device1,tinyllama-q5,13,complaint,"response:
+the email is classified as a",False,4.13,1884.5
+E2-accuracy,device1,tinyllama-q5,14,complaint,"response: ""inquiry""
+
+this",False,4.41,1710.12
+E2-accuracy,device1,tinyllama-q5,15,complaint,"response:
+this email is classified as an",False,4.16,1741.72
+E2-accuracy,device1,tinyllama-q5,16,complaint,"response:
+according to the provided email",False,3.75,2039.37
+E2-accuracy,device1,tinyllama-q5,17,complaint,"response:
+according to the provided email",False,3.66,2099.67
+E2-accuracy,device1,tinyllama-q5,18,complaint,"response: ""inquiry""
+
+this",False,3.88,1927.38
+E2-accuracy,device1,tinyllama-q5,19,complaint,"response:
+this email falls into the ""comp",False,3.73,2086.56
+E2-accuracy,device1,tinyllama-q5,20,complaint,"response:
+this email falls into the ""comp",False,3.69,2110.59
+E2-accuracy,device1,tinyllama-q5,21,feedback,"response:
+category: feedback
+
+thank you",True,4.13,1800.2
+E2-accuracy,device1,tinyllama-q5,22,feedback,"response:
+
+category: inquiry",False,4.31,1731.98
+E2-accuracy,device1,tinyllama-q5,23,feedback,"response:
+the email is classified as an",False,3.95,1947.22
+E2-accuracy,device1,tinyllama-q5,24,feedback,"response:
+this email falls into the ""comp",False,4.3,1760.57
+E2-accuracy,device1,tinyllama-q5,25,feedback,response: please add more payment options as suggested in,False,3.61,1960.9
+E2-accuracy,device1,tinyllama-q5,26,feedback,"response:
+based on the provided email",False,2.71,2566.92
+E2-accuracy,device1,tinyllama-q5,27,feedback,"response:
+categoory: inquiry",False,2.87,2743.56
+E2-accuracy,device1,tinyllama-q5,28,feedback,"response:
+sure! here's how",False,3.1,2284.31
+E2-accuracy,device1,tinyllama-q5,29,feedback,"response:
+the email is classified as a",False,3.5,2226.33
+E2-accuracy,device1,tinyllama-q5,30,feedback,"response:
+based on the provided email",False,4.53,1665.06
+E2-accuracy,device1,tinyllama-q5,31,spam,"response: category: complaint
+
+based",False,3.8,2001.25
+E2-accuracy,device1,tinyllama-q5,32,spam,response: urgent: your bank account,False,2.99,2753.29
+E2-accuracy,device1,tinyllama-q5,33,spam,"response: ""inquiry""
+
+this",False,4.38,1761.64
+E2-accuracy,device1,tinyllama-q5,34,spam,"response:
+classification: inquiry",False,3.84,2055.01
+E2-accuracy,device1,tinyllama-q5,35,spam,"response:
+this email falls into the ""comp",False,4.2,1795.92
+E2-accuracy,device1,tinyllama-q5,36,spam,the email i received is an inquiry and not,False,3.73,2099.82
+E2-accuracy,device1,tinyllama-q5,37,spam,"response:
+the email is classified as a",False,3.81,2068.95
+E2-accuracy,device1,tinyllama-q5,38,spam,"response:
+the email is a complaint",False,3.13,2252.35
+E2-accuracy,device1,tinyllama-q5,39,spam,"response:
+category: urgent
+
+b",False,3.53,2296.98
+E2-accuracy,device1,tinyllama-q5,40,spam,"response:
+invest in crypto and double",False,3.27,2551.86
+E2-accuracy,device1,tinyllama-q5,41,urgent,response: urgent: server room temperature,True,4.41,1720.77
+E2-accuracy,device1,tinyllama-q5,42,urgent,"response:
+category: urgent
+
+b",True,4.79,1559.96
+E2-accuracy,device1,tinyllama-q5,43,urgent,"response: ""inquiry""
+
+ex",False,4.68,1628.93
+E2-accuracy,device1,tinyllama-q5,44,urgent,"response:
+category: urgent
+
+this",True,4.25,1858.26
+E2-accuracy,device1,tinyllama-q5,45,urgent,"response: ""inquiry""
+
+this",False,5.03,1484.35
+E2-accuracy,device1,tinyllama-q5,46,urgent,"response with ""inquiry"" as the category",False,4.75,1602.95
+E2-accuracy,device1,tinyllama-q5,47,urgent,"response: ""inquiry""
+
+this",False,4.38,1750.83
+E2-accuracy,device1,tinyllama-q5,48,urgent,"response:
+
+category: urgent",True,4.57,1634.39
+E2-accuracy,device1,tinyllama-q5,49,urgent,"response:
+category: urgent
+
+note",True,4.31,1784.56
+E2-accuracy,device1,tinyllama-q5,50,urgent,"response:
+
+category: urgent",True,4.63,1607.68
+E2-accuracy,device1,tinyllama-q5,51,inquiry,"response:
+category: inquiry
+
+b",True,3.64,2028.87
+E2-accuracy,device1,tinyllama-q5,52,inquiry,"response: ""inquiry""
+
+this",True,5.0,1477.23
+E2-accuracy,device1,tinyllama-q5,53,complaint,"response:
+the email is classified as an",False,4.15,1843.12
+E2-accuracy,device1,tinyllama-q5,54,complaint,"response:
+this email falls into the ""comp",False,3.65,2078.93
+E2-accuracy,device1,tinyllama-q5,55,feedback,"response:
+the email is classified as an",False,4.48,1697.99
+E2-accuracy,device1,tinyllama-q5,56,feedback,"response:
+the email is classified as an",False,3.94,1796.22
+E2-accuracy,device1,tinyllama-q5,57,spam,"response:
+this email falls into the ""comp",False,2.61,3113.99
+E2-accuracy,device1,tinyllama-q5,58,spam,response: congratulations! your mobile number has,False,3.27,2385.08
+E2-accuracy,device1,tinyllama-q5,59,urgent,response: urgent: chemical spill in,True,4.16,1896.08
+E2-accuracy,device1,tinyllama-q5,60,urgent,"response:
+categoory: complaint",False,3.75,2099.0
+E2-accuracy,device1,tinyllama-q5,61,inquiry,"response:
+the email is a complaint and",False,4.22,1766.88
+E2-accuracy,device1,tinyllama-q5,62,inquiry,"response:
+the email is a complaint and",False,4.46,1584.15
+E2-accuracy,device1,tinyllama-q5,63,complaint,"response:
+the email is classified as a",False,3.51,2330.09
+E2-accuracy,device1,tinyllama-q5,64,complaint,"response:
+this email is classified as an",False,4.58,1682.21
+E2-accuracy,device1,tinyllama-q5,65,feedback,"response:
+according to the provided email",False,4.21,1857.53
+E2-accuracy,device1,tinyllama-q5,66,feedback,"response:
+the email is classified as a",False,5.04,1456.65
+E2-accuracy,device1,tinyllama-q5,67,spam,"response:
+the email is classified as an",False,3.75,2130.75
+E2-accuracy,device1,tinyllama-q5,68,spam,response: please find the category label for this email,False,4.07,1919.44
+E2-accuracy,device1,tinyllama-q5,69,urgent,response: urgent: ran somware attack detected,True,4.32,1771.82
+E2-accuracy,device1,tinyllama-q5,70,urgent,"response:
+categoary: urgent",True,4.11,1864.91
+E2-accuracy,device1,tinyllama-q5,71,inquiry,"response:
+the email is a complaint about",False,4.21,1752.18
+E2-accuracy,device1,tinyllama-q5,72,inquiry,"response:
+bulk stationery purchase discount",False,3.14,2163.78
+E2-accuracy,device1,tinyllama-q5,73,complaint,"response:
+the email has been classified as",False,4.4,1749.43
+E2-accuracy,device1,tinyllama-q5,74,complaint,"response: ""inquiry""
+
+this",False,4.42,1633.22
+E2-accuracy,device1,tinyllama-q5,75,feedback,"response:
+the email is classified as """,False,4.33,1707.79
+E2-accuracy,device1,tinyllama-q5,76,feedback,"response:
+the email is a complaint",False,4.41,1767.26
+E2-accuracy,device1,tinyllama-q5,77,spam,"response:
+categoory: complaint",False,3.88,2076.68
+E2-accuracy,device1,tinyllama-q5,78,spam,"response: ""inquiry""
+
+this",False,4.32,1771.85
+E2-accuracy,device1,tinyllama-q5,79,urgent,"response:
+categoary: urgent",True,4.0,1989.91
+E2-accuracy,device1,tinyllama-q5,80,urgent,"response:
+category: urgent
+
+b",True,4.54,1707.97
+E2-accuracy,device1,tinyllama-q5,81,inquiry,"response:
+the email is classified as an",False,5.0,1490.28
+E2-accuracy,device1,tinyllama-q5,82,inquiry,"response: ""inquiry""
+
+no",True,4.6,1649.76
+E2-accuracy,device1,tinyllama-q5,83,complaint,"response:
+the email is classified as an",False,4.69,1606.99
+E2-accuracy,device1,tinyllama-q5,84,complaint,"response:
+the furniture you received is a",False,4.87,1539.6
+E2-accuracy,device1,tinyllama-q5,85,feedback,"response:
+this email falls into the ""comp",False,5.04,1486.19
+E2-accuracy,device1,tinyllama-q5,86,feedback,"response:
+the email you provided falls into the",False,5.02,1495.26
+E2-accuracy,device1,tinyllama-q5,87,spam,"response: ""inquiry""
+
+this",False,4.33,1802.36
+E2-accuracy,device1,tinyllama-q5,88,spam,"response: ""warning: your inst",False,4.13,1903.86
+E2-accuracy,device1,tinyllama-q5,89,urgent,response: urgent: two delivery trucks,True,4.52,1699.19
+E2-accuracy,device1,tinyllama-q5,90,urgent,"response:
+according to the provided email",False,4.6,1667.57
+E2-accuracy,device1,tinyllama-q5,91,inquiry,"response:
+the email is classified as an",False,4.04,1968.21
+E2-accuracy,device1,tinyllama-q5,92,inquiry,"response:
+the email is classified as an",False,4.98,1516.16
+E2-accuracy,device1,tinyllama-q5,93,complaint,"response:
+this email falls into the ""comp",False,4.67,1629.62
+E2-accuracy,device1,tinyllama-q5,94,complaint,"response:
+categoary: complaint",True,4.55,1679.41
+E2-accuracy,device1,tinyllama-q5,95,feedback,"response:
+the email is classified into the",False,4.73,1598.99
+E2-accuracy,device1,tinyllama-q5,96,feedback,"response with ""inquiry"" category label only",False,4.19,1867.98
+E2-accuracy,device1,tinyllama-q5,97,spam,"response:
+categoary: inquiry",False,4.46,1757.59
+E2-accuracy,device1,tinyllama-q5,98,spam,"response:
+this email is classified as an",False,4.57,1704.22
+E2-accuracy,device1,tinyllama-q5,99,urgent,response: urgent: production line 3 has,True,4.41,1766.11
+E2-accuracy,device1,tinyllama-q5,100,urgent,"response:
+category: urgent
+
+b",True,4.27,1834.8
+E2-accuracy,device1,tinyllama-q8,1,inquiry,"response:
+categoory: complaint",False,1.77,5090.11
+E2-accuracy,device1,tinyllama-q8,2,inquiry,"response:
+sure! the email is a",False,3.91,2017.69
+E2-accuracy,device1,tinyllama-q8,3,inquiry,"response: ""return policy""
+
+category:",False,3.67,2062.68
+E2-accuracy,device1,tinyllama-q8,4,inquiry,"response:
+based on the provided email",False,4.52,1685.75
+E2-accuracy,device1,tinyllama-q8,5,inquiry,response: the email is a complaint and should,False,3.67,2023.68
+E2-accuracy,device1,tinyllama-q8,6,inquiry,response: yes your payment of rs,False,3.8,2070.4
+E2-accuracy,device1,tinyllama-q8,7,inquiry,"response:
+according to the provided email",False,4.2,1756.68
+E2-accuracy,device1,tinyllama-q8,8,inquiry,"response: ""international shipping takes approximately",False,3.75,1930.93
+E2-accuracy,device1,tinyllama-q8,9,inquiry,"response:
+bulk discounts for orders",False,3.93,1961.4
+E2-accuracy,device1,tinyllama-q8,10,inquiry,response: the email is classified as an inqu,False,3.47,2292.49
+E2-accuracy,device1,tinyllama-q8,11,complaint,"response:
+this email falls into the ""comp",False,4.1,1901.28
+E2-accuracy,device1,tinyllama-q8,12,complaint,"response: ""this email falls into the 'comp",False,3.87,1992.46
+E2-accuracy,device1,tinyllama-q8,13,complaint,"response:
+this email falls into the ""comp",False,3.54,2130.94
+E2-accuracy,device1,tinyllama-q8,14,complaint,"response: ""inquiry""
+
+b",False,3.27,2076.61
+E2-accuracy,device1,tinyllama-q8,15,complaint,"response:
+this email is classified as an",False,3.45,2261.21
+E2-accuracy,device1,tinyllama-q8,16,complaint,"response:
+category: complaint
+
+b",True,3.87,2071.0
+E2-accuracy,device1,tinyllama-q8,17,complaint,"response:
+the email has been classified as",False,3.73,2173.69
+E2-accuracy,device1,tinyllama-q8,18,complaint,"response: ""this email is classified as an",False,4.15,1894.47
+E2-accuracy,device1,tinyllama-q8,19,complaint,"response:
+this email falls under the ""comp",False,3.8,2099.49
+E2-accuracy,device1,tinyllama-q8,20,complaint,"response:
+this email falls into the ""comp",False,3.62,2223.38
+E2-accuracy,device1,tinyllama-q8,21,feedback,"response:
+category: feedback",True,3.91,2029.98
+E2-accuracy,device1,tinyllama-q8,22,feedback,"response:
+category: inquiry",False,4.29,1794.5
+E2-accuracy,device1,tinyllama-q8,23,feedback,"response:
+category: complaint
+
+thank",False,4.25,1856.6
+E2-accuracy,device1,tinyllama-q8,24,feedback,"response:
+this email falls into the ""in",False,3.84,1999.13
+E2-accuracy,device1,tinyllama-q8,25,feedback,response: please add more payment options as suggested in,False,4.19,1875.43
+E2-accuracy,device1,tinyllama-q8,26,feedback,"response:
+this email falls into the ""comp",False,3.41,2288.53
+E2-accuracy,device1,tinyllama-q8,27,feedback,"response:
+categoory: inquiry",False,3.73,2167.35
+E2-accuracy,device1,tinyllama-q8,28,feedback,"response:
+the email is classified as an",False,4.24,1863.49
+E2-accuracy,device1,tinyllama-q8,29,feedback,"response:
+categoory: complaint",False,3.91,1999.54
+E2-accuracy,device1,tinyllama-q8,30,feedback,"response:
+the email is classified as an",False,4.43,1746.16
+E2-accuracy,device1,tinyllama-q8,31,spam,"response: category: complaint
+
+based",False,3.38,2467.88
+E2-accuracy,device1,tinyllama-q8,32,spam,response: urgent: your bank account,False,3.63,2227.93
+E2-accuracy,device1,tinyllama-q8,33,spam,"response: ""no experience needed!""
+
+this",False,3.99,1990.56
+E2-accuracy,device1,tinyllama-q8,34,spam,"response:
+category: inquiry",False,3.37,2460.37
+E2-accuracy,device1,tinyllama-q8,35,spam,"response:
+this email falls into the ""in",False,3.84,2106.04
+E2-accuracy,device1,tinyllama-q8,36,spam,"response: ""act now!""
+
+this",False,3.31,2518.89
+E2-accuracy,device1,tinyllama-q8,37,spam,"response:
+category: complaint
+
+thank",False,3.45,2305.83
+E2-accuracy,device1,tinyllama-q8,38,spam,"response:
+categoory: complaint",False,3.54,2337.67
+E2-accuracy,device1,tinyllama-q8,39,spam,"response:
+category: inquiry",False,3.36,2462.18
+E2-accuracy,device1,tinyllama-q8,40,spam,"response:
+categoory: complaint",False,3.26,2566.52
+E2-accuracy,device1,tinyllama-q8,41,urgent,response: urgent: server room temperature,True,3.82,2125.6
+E2-accuracy,device1,tinyllama-q8,42,urgent,"response:
+category: urgent
+
+b",True,4.11,1900.87
+E2-accuracy,device1,tinyllama-q8,43,urgent,"response:
+category: urgent
+
+thank",True,3.97,2037.93
+E2-accuracy,device1,tinyllama-q8,44,urgent,"response:
+category: urgent
+
+this",True,3.48,2399.43
+E2-accuracy,device1,tinyllama-q8,45,urgent,"response:
+categoary: urgent",True,4.09,1958.71
+E2-accuracy,device1,tinyllama-q8,46,urgent,"response:
+legal notice received from regulatory",False,3.84,2124.46
+E2-accuracy,device1,tinyllama-q8,47,urgent,"response:
+categoary: urgent",True,3.84,2125.16
+E2-accuracy,device1,tinyllama-q8,48,urgent,"response:
+category: urgent
+
+b",True,4.08,1971.48
+E2-accuracy,device1,tinyllama-q8,49,urgent,"response:
+category: urgent
+
+thank",True,3.64,2199.87
+E2-accuracy,device1,tinyllama-q8,50,urgent,"response:
+category: urgent
+
+this",True,3.99,2007.15
+E2-accuracy,device1,tinyllama-q8,51,inquiry,"response:
+category: inquiry
+
+thank",True,3.81,2136.17
+E2-accuracy,device1,tinyllama-q8,52,inquiry,"response: ""yes you can upgrade your current",False,4.53,1696.48
+E2-accuracy,device1,tinyllama-q8,53,complaint,"response:
+the email has been classified as",False,3.77,2169.03
+E2-accuracy,device1,tinyllama-q8,54,complaint,"response:
+this email falls into the ""comp",False,4.22,1876.4
+E2-accuracy,device1,tinyllama-q8,55,feedback,"response:
+the email is classified as """,False,3.98,1995.84
+E2-accuracy,device1,tinyllama-q8,56,feedback,"response: category: inquiry
+
+b",False,3.86,2106.04
+E2-accuracy,device1,tinyllama-q8,57,spam,"response:
+this email falls into the ""comp",False,3.25,2595.85
+E2-accuracy,device1,tinyllama-q8,58,spam,response: congratulations! your mobile number has,False,3.24,2602.33
+E2-accuracy,device1,tinyllama-q8,59,urgent,response: urgent: chemical spill in,True,3.67,2225.6
+E2-accuracy,device1,tinyllama-q8,60,urgent,"response:
+categoory: complaint",False,3.23,2597.61
+E2-accuracy,device1,tinyllama-q8,61,inquiry,"response:
+category: inquiry
+
+b",True,3.83,2127.76
+E2-accuracy,device1,tinyllama-q8,62,inquiry,"response:
+the email is a complaint and",False,4.31,1833.31
+E2-accuracy,device1,tinyllama-q8,63,complaint,"response:
+this email is a complaint",True,3.28,2565.56
+E2-accuracy,device1,tinyllama-q8,64,complaint,"response:
+this email is classified as an",False,3.69,2219.86
+E2-accuracy,device1,tinyllama-q8,65,feedback,"response:
+thank you for your email which",False,3.52,2338.55
+E2-accuracy,device1,tinyllama-q8,66,feedback,"response:
+this email falls into the ""in",False,4.19,1889.66
+E2-accuracy,device1,tinyllama-q8,67,spam,"response:
+this email is categorized as """,False,3.16,2585.31
+E2-accuracy,device1,tinyllama-q8,68,spam,response: please find the correct category label for this,False,3.57,2299.0
+E2-accuracy,device1,tinyllama-q8,69,urgent,response: urgent: ran somware attack,True,3.77,2173.33
+E2-accuracy,device1,tinyllama-q8,70,urgent,"response:
+this email is a complaint",False,3.51,2362.89
+E2-accuracy,device1,tinyllama-q8,71,inquiry,"response:
+the email is a complaint about",False,4.04,1984.42
+E2-accuracy,device1,tinyllama-q8,72,inquiry,"response:
+bulk stationery purchase discount",False,4.07,1969.54
+E2-accuracy,device1,tinyllama-q8,73,complaint,"response:
+the email has been classified as",False,4.05,1976.48
+E2-accuracy,device1,tinyllama-q8,74,complaint,"response:
+the email is classified as an",False,3.89,2079.17
+E2-accuracy,device1,tinyllama-q8,75,feedback,"response:
+category: complaint
+
+thank",False,3.53,2113.66
+E2-accuracy,device1,tinyllama-q8,76,feedback,"response:
+the email is a complaint",False,3.18,2470.01
+E2-accuracy,device1,tinyllama-q8,77,spam,"response:
+categoory: complaint",False,4.12,1839.7
+E2-accuracy,device1,tinyllama-q8,78,spam,"response: ""your electricity bill is overdue",False,2.76,2234.85
+E2-accuracy,device1,tinyllama-q8,79,urgent,"response:
+category: urgent
+
+thank",True,6.77,1000.34
+E2-accuracy,device1,tinyllama-q8,80,urgent,"response:
+category: urgent
+
+b",True,8.63,778.17
+E2-accuracy,device1,tinyllama-q8,81,inquiry,"response:
+yes our restaurant caters for",False,9.7,675.34
+E2-accuracy,device1,tinyllama-q8,82,inquiry,response: please provide me with the email subject line,False,10.63,582.55
+E2-accuracy,device1,tinyllama-q8,83,complaint,"response:
+category: complaint
+
+thank",True,9.9,652.75
+E2-accuracy,device1,tinyllama-q8,84,complaint,"response:
+this email falls under the ""comp",False,10.7,577.78
+E2-accuracy,device1,tinyllama-q8,85,feedback,"response:
+categoory: inquiry",False,9.23,744.99
+E2-accuracy,device1,tinyllama-q8,86,feedback,"response:
+the email you provided falls under the",False,7.34,993.12
+E2-accuracy,device1,tinyllama-q8,87,spam,"response:
+category: complaint
+
+b",False,4.72,1608.33
+E2-accuracy,device1,tinyllama-q8,88,spam,"response: ""warning: your inst",False,3.3,2496.63
+E2-accuracy,device1,tinyllama-q8,89,urgent,response: urgent: two delivery trucks,True,3.32,2338.19
+E2-accuracy,device1,tinyllama-q8,90,urgent,"response:
+categoary: urgent",True,3.32,2451.19
+E2-accuracy,device1,tinyllama-q8,91,inquiry,"response:
+the email has been classified as",False,3.0,2672.17
+E2-accuracy,device1,tinyllama-q8,92,inquiry,"response:
+the email is classified as an",False,3.69,2130.85
+E2-accuracy,device1,tinyllama-q8,93,complaint,"response:
+this email falls into the ""comp",False,3.74,2140.13
+E2-accuracy,device1,tinyllama-q8,94,complaint,"response:
+category: complaint
+
+b",True,3.33,2331.05
+E2-accuracy,device1,tinyllama-q8,95,feedback,"response:
+bronze member
+the new",False,3.69,2186.17
+E2-accuracy,device1,tinyllama-q8,96,feedback,"response: ""the live chat feature has improved dram",False,3.3,2513.09
+E2-accuracy,device1,tinyllama-q8,97,spam,"response:
+category: inquiry
+
+b",False,3.24,2565.91
+E2-accuracy,device1,tinyllama-q8,98,spam,"response:
+this email is classified as an",False,3.32,2515.43
+E2-accuracy,device1,tinyllama-q8,99,urgent,response: urgent: production line,True,3.45,2280.95
+E2-accuracy,device1,tinyllama-q8,100,urgent,"response:
+category: urgent
+
+b",True,3.28,2216.72
+E2-accuracy,device1,phi3:mini,1,inquiry,inquiry,True,0.12,24142.02
+E2-accuracy,device1,phi3:mini,2,inquiry,inquiry,True,0.51,5422.79
+E2-accuracy,device1,phi3:mini,3,inquiry,inquiry,True,0.76,3612.86
+E2-accuracy,device1,phi3:mini,4,inquiry,inquiry,True,1.06,2523.84
+E2-accuracy,device1,phi3:mini,5,inquiry,inquiry,True,0.38,7064.36
+E2-accuracy,device1,phi3:mini,6,inquiry,inquiry,True,0.44,6113.3
+E2-accuracy,device1,phi3:mini,7,inquiry,inquiry,True,0.37,7047.73
+E2-accuracy,device1,phi3:mini,8,inquiry,urgent,False,0.31,5997.64
+E2-accuracy,device1,phi3:mini,9,inquiry,inquiry,True,0.47,5389.16
+E2-accuracy,device1,phi3:mini,10,inquiry,inquiry,True,0.42,6647.88
+E2-accuracy,device1,phi3:mini,11,complaint,complaint,True,0.49,5483.84
+E2-accuracy,device1,phi3:mini,12,complaint,complaint,True,0.48,5658.47
+E2-accuracy,device1,phi3:mini,13,complaint,complaint,True,0.41,6627.81
+E2-accuracy,device1,phi3:mini,14,complaint,complaint,True,0.39,7119.1
+E2-accuracy,device1,phi3:mini,15,complaint,complaint,True,0.51,5390.83
+E2-accuracy,device1,phi3:mini,16,complaint,complaint,True,0.48,5732.02
+E2-accuracy,device1,phi3:mini,17,complaint,complaint,True,0.38,7203.37
+E2-accuracy,device1,phi3:mini,18,complaint,complaint,True,0.42,6559.66
+E2-accuracy,device1,phi3:mini,19,complaint,complaint,True,0.41,6776.98
+E2-accuracy,device1,phi3:mini,20,complaint,complaint,True,0.49,5711.89
+E2-accuracy,device1,phi3:mini,21,feedback,feedback,True,0.31,6021.41
+E2-accuracy,device1,phi3:mini,22,feedback,feedback,True,0.33,5834.9
+E2-accuracy,device1,phi3:mini,23,feedback,feedback,True,0.34,5611.79
+E2-accuracy,device1,phi3:mini,24,feedback,feedback,True,0.31,6038.42
+E2-accuracy,device1,phi3:mini,25,feedback,feedback,True,0.34,5565.4
+E2-accuracy,device1,phi3:mini,26,feedback,complaint,False,0.45,6219.11
+E2-accuracy,device1,phi3:mini,27,feedback,feedback,True,0.32,5972.43
+E2-accuracy,device1,phi3:mini,28,feedback,complaint,False,0.5,5538.98
+E2-accuracy,device1,phi3:mini,29,feedback,feedback,True,0.32,5867.2
+E2-accuracy,device1,phi3:mini,30,feedback,complaint,False,0.55,5015.86
+E2-accuracy,device1,phi3:mini,31,spam,spam,True,0.33,5879.67
+E2-accuracy,device1,phi3:mini,32,spam,urgent,False,0.29,6702.19
+E2-accuracy,device1,phi3:mini,33,spam,spam,True,0.31,5977.02
+E2-accuracy,device1,phi3:mini,34,spam,spam,True,0.27,7100.08
+E2-accuracy,device1,phi3:mini,35,spam,spam,True,0.33,5633.94
+E2-accuracy,device1,phi3:mini,36,spam,spam,True,0.28,6717.63
+E2-accuracy,device1,phi3:mini,37,spam,spam,True,0.28,6955.1
+E2-accuracy,device1,phi3:mini,38,spam,spam,True,0.3,6198.57
+E2-accuracy,device1,phi3:mini,39,spam,spam,True,0.27,7001.08
+E2-accuracy,device1,phi3:mini,40,spam,spam,True,0.25,7742.84
+E2-accuracy,device1,phi3:mini,41,urgent,urgent,True,0.29,6454.45
+E2-accuracy,device1,phi3:mini,42,urgent,urgent,True,0.32,5947.13
+E2-accuracy,device1,phi3:mini,43,urgent,urgent,True,0.44,4292.06
+E2-accuracy,device1,phi3:mini,44,urgent,urgent,True,0.33,5601.02
+E2-accuracy,device1,phi3:mini,45,urgent,urgent,True,0.37,5052.34
+E2-accuracy,device1,phi3:mini,46,urgent,urgent,True,0.4,4698.55
+E2-accuracy,device1,phi3:mini,47,urgent,complaint,False,0.96,2863.55
+E2-accuracy,device1,phi3:mini,48,urgent,urgent,True,0.72,2585.73
+E2-accuracy,device1,phi3:mini,49,urgent,urgent,True,0.31,6179.5
+E2-accuracy,device1,phi3:mini,50,urgent,urgent,True,0.26,6316.13
+E2-accuracy,device1,phi3:mini,51,inquiry,inquiry,True,0.39,7109.14
+E2-accuracy,device1,phi3:mini,52,inquiry,inquiry,True,0.55,4952.38
+E2-accuracy,device1,phi3:mini,53,complaint,complaint,True,0.47,5931.11
+E2-accuracy,device1,phi3:mini,54,complaint,complaint,True,0.53,5252.83
+E2-accuracy,device1,phi3:mini,55,feedback,inquiry,False,0.44,6353.64
+E2-accuracy,device1,phi3:mini,56,feedback,feedback,True,0.29,6559.12
+E2-accuracy,device1,phi3:mini,57,spam,spam,True,0.27,7037.64
+E2-accuracy,device1,phi3:mini,58,spam,spam,True,0.29,6540.37
+E2-accuracy,device1,phi3:mini,59,urgent,urgent,True,0.3,6304.55
+E2-accuracy,device1,phi3:mini,60,urgent,urgent,True,0.26,7282.12
+E2-accuracy,device1,phi3:mini,61,inquiry,inquiry,True,0.48,5757.01
+E2-accuracy,device1,phi3:mini,62,inquiry,inquiry,True,0.5,5410.72
+E2-accuracy,device1,phi3:mini,63,complaint,complaint,True,0.38,7012.15
+E2-accuracy,device1,phi3:mini,64,complaint,complaint,True,0.47,5970.48
+E2-accuracy,device1,phi3:mini,65,feedback,feedback,True,0.29,6619.5
+E2-accuracy,device1,phi3:mini,66,feedback,feedback,True,0.34,5601.64
+E2-accuracy,device1,phi3:mini,67,spam,spam,True,0.26,7477.86
+E2-accuracy,device1,phi3:mini,68,spam,spam,True,0.33,5875.68
+E2-accuracy,device1,phi3:mini,69,urgent,urgent,True,0.33,5750.33
+E2-accuracy,device1,phi3:mini,70,urgent,urgent,True,0.28,6765.35
+E2-accuracy,device1,phi3:mini,71,inquiry,inquiry,True,0.49,5582.16
+E2-accuracy,device1,phi3:mini,72,inquiry,inquiry,True,0.41,5499.3
+E2-accuracy,device1,phi3:mini,73,complaint,complaint,True,0.48,5741.19
+E2-accuracy,device1,phi3:mini,74,complaint,complaint,True,0.44,6287.09
+E2-accuracy,device1,phi3:mini,75,feedback,feedback,True,0.3,6236.99
+E2-accuracy,device1,phi3:mini,76,feedback,complaint,False,0.44,6429.22
+E2-accuracy,device1,phi3:mini,77,spam,spam,True,0.27,6971.29
+E2-accuracy,device1,phi3:mini,78,spam,urgent,False,0.28,6805.1
+E2-accuracy,device1,phi3:mini,79,urgent,urgent,True,0.27,7074.19
+E2-accuracy,device1,phi3:mini,80,urgent,urgent,True,0.3,6322.41
+E2-accuracy,device1,phi3:mini,81,inquiry,inquiry,True,0.44,6186.06
+E2-accuracy,device1,phi3:mini,82,inquiry,inquiry,True,0.51,5312.89
+E2-accuracy,device1,phi3:mini,83,complaint,complaint,True,0.7,3832.45
+E2-accuracy,device1,phi3:mini,84,complaint,complaint,True,0.67,4003.66
+E2-accuracy,device1,phi3:mini,85,feedback,feedback,True,0.4,4740.93
+E2-accuracy,device1,phi3:mini,86,feedback,feedback,True,0.62,3037.3
+E2-accuracy,device1,phi3:mini,87,spam,spam,True,0.5,3642.55
+E2-accuracy,device1,phi3:mini,88,spam,spam,True,0.28,6768.02
+E2-accuracy,device1,phi3:mini,89,urgent,urgent,True,0.27,7161.77
+E2-accuracy,device1,phi3:mini,90,urgent,urgent,True,0.32,5954.34
+E2-accuracy,device1,phi3:mini,91,inquiry,complaint,False,0.36,7797.55
+E2-accuracy,device1,phi3:mini,92,inquiry,inquiry,True,0.49,5545.93
+E2-accuracy,device1,phi3:mini,93,complaint,complaint,True,0.49,5696.09
+E2-accuracy,device1,phi3:mini,94,complaint,complaint,True,0.47,5920.59
+E2-accuracy,device1,phi3:mini,95,feedback,complaint,False,0.44,6281.5
+E2-accuracy,device1,phi3:mini,96,feedback,feedback,True,0.3,6314.37
+E2-accuracy,device1,phi3:mini,97,spam,spam,True,0.29,6578.7
+E2-accuracy,device1,phi3:mini,98,spam,spam,True,0.31,6100.33
+E2-accuracy,device1,phi3:mini,99,urgent,urgent,True,0.26,7270.28
+E2-accuracy,device1,phi3:mini,100,urgent,urgent,True,0.3,6258.93
+E2-accuracy,device1,phi3-q5,1,inquiry,inquiry,True,0.07,29129.24
+E2-accuracy,device1,phi3-q5,2,inquiry,inquiry,True,0.4,4576.56
+E2-accuracy,device1,phi3-q5,3,inquiry,inquiry,True,0.38,4838.08
+E2-accuracy,device1,phi3-q5,4,inquiry,inquiry,True,0.33,4421.44
+E2-accuracy,device1,phi3-q5,5,inquiry,inquiry,True,0.33,5791.59
+E2-accuracy,device1,phi3-q5,6,inquiry,inquiry,True,0.4,4499.57
+E2-accuracy,device1,phi3-q5,7,inquiry,inquiry,True,0.41,4451.24
+E2-accuracy,device1,phi3-q5,8,inquiry,inquiry,True,0.45,4094.27
+E2-accuracy,device1,phi3-q5,9,inquiry,inquiry,True,0.41,4516.04
+E2-accuracy,device1,phi3-q5,10,inquiry,inquiry,True,0.37,5038.56
+E2-accuracy,device1,phi3-q5,11,complaint,complaint,True,0.42,4438.96
+E2-accuracy,device1,phi3-q5,12,complaint,complaint,True,0.42,4340.36
+E2-accuracy,device1,phi3-q5,13,complaint,complaint,True,0.26,7132.78
+E2-accuracy,device1,phi3-q5,14,complaint,complaint,True,0.39,4760.55
+E2-accuracy,device1,phi3-q5,15,complaint,complaint,True,0.45,4081.75
+E2-accuracy,device1,phi3-q5,16,complaint,complaint,True,0.38,4901.51
+E2-accuracy,device1,phi3-q5,17,complaint,complaint,True,0.36,5168.41
+E2-accuracy,device1,phi3-q5,18,complaint,complaint,True,0.4,4687.47
+E2-accuracy,device1,phi3-q5,19,complaint,complaint,True,0.33,5574.66
+E2-accuracy,device1,phi3-q5,20,complaint,complaint,True,0.33,5653.42
+E2-accuracy,device1,phi3-q5,21,feedback,feedback,True,0.21,4476.76
+E2-accuracy,device1,phi3-q5,22,feedback,feedback,True,0.25,3753.37
+E2-accuracy,device1,phi3-q5,23,feedback,feedback,True,0.22,4397.17
+E2-accuracy,device1,phi3-q5,24,feedback,feedback,True,0.22,4296.03
+E2-accuracy,device1,phi3-q5,25,feedback,feedback,True,0.19,5111.81
+E2-accuracy,device1,phi3-q5,26,feedback,complaint,False,0.38,4872.44
+E2-accuracy,device1,phi3-q5,27,feedback,feedback,True,0.2,4807.97
+E2-accuracy,device1,phi3-q5,28,feedback,feedback,True,0.16,5858.5
+E2-accuracy,device1,phi3-q5,29,feedback,feedback,True,0.15,6469.0
+E2-accuracy,device1,phi3-q5,30,feedback,feedback,True,0.19,5098.32
+E2-accuracy,device1,phi3-q5,31,spam,spam,True,0.27,6892.35
+E2-accuracy,device1,phi3-q5,32,spam,spam,True,0.28,6703.61
+E2-accuracy,device1,phi3-q5,33,spam,spam,True,0.25,7366.66
+E2-accuracy,device1,phi3-q5,34,spam,spam,True,0.18,10748.14
+E2-accuracy,device1,phi3-q5,35,spam,spam,True,0.25,7442.28
+E2-accuracy,device1,phi3-q5,36,spam,spam,True,0.25,7652.44
+E2-accuracy,device1,phi3-q5,37,spam,spam,True,0.28,6669.86
+E2-accuracy,device1,phi3-q5,38,spam,spam,True,0.38,4842.66
+E2-accuracy,device1,phi3-q5,39,spam,spam,True,0.26,7174.95
+E2-accuracy,device1,phi3-q5,40,spam,spam,True,0.29,6656.48
+E2-accuracy,device1,phi3-q5,41,urgent,urgent,True,0.39,4806.76
+E2-accuracy,device1,phi3-q5,42,urgent,urgent,True,0.48,3831.63
+E2-accuracy,device1,phi3-q5,43,urgent,urgent,True,0.38,4789.67
+E2-accuracy,device1,phi3-q5,44,urgent,urgent,True,0.27,6794.37
+E2-accuracy,device1,phi3-q5,45,urgent,urgent,True,0.3,5744.2
+E2-accuracy,device1,phi3-q5,46,urgent,urgent,True,0.26,6965.14
+E2-accuracy,device1,phi3-q5,47,urgent,complaint,False,0.21,9004.27
+E2-accuracy,device1,phi3-q5,48,urgent,urgent,True,0.41,4490.88
+E2-accuracy,device1,phi3-q5,49,urgent,complaint,False,0.29,6505.08
+E2-accuracy,device1,phi3-q5,50,urgent,urgent,True,0.3,6088.67
+E2-accuracy,device1,phi3-q5,51,inquiry,inquiry,True,0.31,5874.95
+E2-accuracy,device1,phi3-q5,52,inquiry,inquiry,True,0.38,4626.06
+E2-accuracy,device1,phi3-q5,53,complaint,complaint,True,0.29,6424.96
+E2-accuracy,device1,phi3-q5,54,complaint,complaint,True,0.37,4886.08
+E2-accuracy,device1,phi3-q5,55,feedback,feedback,True,0.16,6049.68
+E2-accuracy,device1,phi3-q5,56,feedback,feedback,True,0.17,5733.75
+E2-accuracy,device1,phi3-q5,57,spam,spam,True,0.21,8575.89
+E2-accuracy,device1,phi3-q5,58,spam,spam,True,0.21,8948.73
+E2-accuracy,device1,phi3-q5,59,urgent,urgent,True,0.3,6250.54
+E2-accuracy,device1,phi3-q5,60,urgent,urgent,True,0.26,7220.59
+E2-accuracy,device1,phi3-q5,61,inquiry,inquiry,True,0.37,5053.93
+E2-accuracy,device1,phi3-q5,62,inquiry,inquiry,True,0.45,4080.17
+E2-accuracy,device1,phi3-q5,63,complaint,complaint,True,0.25,7383.3
+E2-accuracy,device1,phi3-q5,64,complaint,complaint,True,0.25,7282.03
+E2-accuracy,device1,phi3-q5,65,feedback,feedback,True,0.14,6859.46
+E2-accuracy,device1,phi3-q5,66,feedback,feedback,True,0.17,5764.6
+E2-accuracy,device1,phi3-q5,67,spam,spam,True,0.27,6882.79
+E2-accuracy,device1,phi3-q5,68,spam,spam,True,0.18,10179.55
+E2-accuracy,device1,phi3-q5,69,urgent,urgent,True,0.26,7015.11
+E2-accuracy,device1,phi3-q5,70,urgent,complaint,False,0.22,8635.43
+E2-accuracy,device1,phi3-q5,71,inquiry,inquiry,True,0.33,5589.02
+E2-accuracy,device1,phi3-q5,72,inquiry,inquiry,True,0.33,5541.24
+E2-accuracy,device1,phi3-q5,73,complaint,complaint,True,0.34,5306.97
+E2-accuracy,device1,phi3-q5,74,complaint,complaint,True,0.34,5515.32
+E2-accuracy,device1,phi3-q5,75,feedback,feedback,True,0.15,6297.95
+E2-accuracy,device1,phi3-q5,76,feedback,feedback,True,0.12,7757.89
+E2-accuracy,device1,phi3-q5,77,spam,spam,True,0.21,8947.61
+E2-accuracy,device1,phi3-q5,78,spam,spam,True,0.29,6270.65
+E2-accuracy,device1,phi3-q5,79,urgent,urgent,True,0.22,8623.25
+E2-accuracy,device1,phi3-q5,80,urgent,urgent,True,0.22,8643.75
+E2-accuracy,device1,phi3-q5,81,inquiry,inquiry,True,0.33,5621.83
+E2-accuracy,device1,phi3-q5,82,inquiry,inquiry,True,0.3,6060.8
+E2-accuracy,device1,phi3-q5,83,complaint,complaint,True,0.34,5456.38
+E2-accuracy,device1,phi3-q5,84,complaint,complaint,True,0.3,6037.96
+E2-accuracy,device1,phi3-q5,85,feedback,feedback,True,0.19,5113.03
+E2-accuracy,device1,phi3-q5,86,feedback,feedback,True,0.22,4341.19
+E2-accuracy,device1,phi3-q5,87,spam,spam,True,0.29,6416.24
+E2-accuracy,device1,phi3-q5,88,spam,spam,True,0.3,6250.27
+E2-accuracy,device1,phi3-q5,89,urgent,urgent,True,0.29,6438.04
+E2-accuracy,device1,phi3-q5,90,urgent,urgent,True,0.31,6108.87
+E2-accuracy,device1,phi3-q5,91,inquiry,inquiry,True,0.26,7305.37
+E2-accuracy,device1,phi3-q5,92,inquiry,inquiry,True,0.34,5391.77
+E2-accuracy,device1,phi3-q5,93,complaint,complaint,True,0.37,5006.98
+E2-accuracy,device1,phi3-q5,94,complaint,complaint,True,0.33,5664.66
+E2-accuracy,device1,phi3-q5,95,feedback,feedback,True,0.19,5009.66
+E2-accuracy,device1,phi3-q5,96,feedback,feedback,True,0.17,5829.38
+E2-accuracy,device1,phi3-q5,97,spam,spam,True,0.3,6215.15
+E2-accuracy,device1,phi3-q5,98,spam,spam,True,0.31,6012.72
+E2-accuracy,device1,phi3-q5,99,urgent,urgent,True,0.3,6290.53
+E2-accuracy,device1,phi3-q5,100,urgent,urgent,True,0.34,5524.21
+E2-accuracy,device1,phi3-q8,1,inquiry,inquiry,True,0.03,65797.39
+E2-accuracy,device1,phi3-q8,2,inquiry,inquiry,True,0.38,4802.49
+E2-accuracy,device1,phi3-q8,3,inquiry,inquiry,True,0.35,5287.32
+E2-accuracy,device1,phi3-q8,4,inquiry,inquiry,True,0.43,4248.86
+E2-accuracy,device1,phi3-q8,5,inquiry,inquiry,True,0.4,4703.52
+E2-accuracy,device1,phi3-q8,6,inquiry,inquiry,True,0.43,4275.15
+E2-accuracy,device1,phi3-q8,7,inquiry,inquiry,True,0.43,4124.56
+E2-accuracy,device1,phi3-q8,8,inquiry,inquiry,True,0.42,4330.03
+E2-accuracy,device1,phi3-q8,9,inquiry,inquiry,True,0.45,4122.21
+E2-accuracy,device1,phi3-q8,10,inquiry,inquiry,True,0.37,5006.58
+E2-accuracy,device1,phi3-q8,11,complaint,complaint,True,0.42,4360.75
+E2-accuracy,device1,phi3-q8,12,complaint,complaint,True,0.41,4521.33
+E2-accuracy,device1,phi3-q8,13,complaint,complaint,True,0.36,5182.17
+E2-accuracy,device1,phi3-q8,14,complaint,complaint,True,0.37,5022.54
+E2-accuracy,device1,phi3-q8,15,complaint,complaint,True,0.44,4122.95
+E2-accuracy,device1,phi3-q8,16,complaint,complaint,True,0.4,4661.68
+E2-accuracy,device1,phi3-q8,17,complaint,complaint,True,0.38,4859.95
+E2-accuracy,device1,phi3-q8,18,complaint,complaint,True,0.4,4620.18
+E2-accuracy,device1,phi3-q8,19,complaint,complaint,True,0.35,5427.33
+E2-accuracy,device1,phi3-q8,20,complaint,complaint,True,0.27,6068.51
+E2-accuracy,device1,phi3-q8,21,feedback,feedback,True,0.17,5673.51
+E2-accuracy,device1,phi3-q8,22,feedback,feedback,True,0.17,5784.12
+E2-accuracy,device1,phi3-q8,23,feedback,feedback,True,0.18,5326.82
+E2-accuracy,device1,phi3-q8,24,feedback,feedback,True,0.21,4506.01
+E2-accuracy,device1,phi3-q8,25,feedback,feedback,True,0.22,4276.9
+E2-accuracy,device1,phi3-q8,26,feedback,feedback,True,0.2,4823.87
+E2-accuracy,device1,phi3-q8,27,feedback,feedback,True,0.17,5752.64
+E2-accuracy,device1,phi3-q8,28,feedback,feedback,True,0.23,4184.06
+E2-accuracy,device1,phi3-q8,29,feedback,feedback,True,0.2,4749.75
+E2-accuracy,device1,phi3-q8,30,feedback,feedback,True,0.23,4093.4
+E2-accuracy,device1,phi3-q8,31,spam,spam,True,0.33,5461.16
+E2-accuracy,device1,phi3-q8,32,spam,spam,True,0.37,5025.86
+E2-accuracy,device1,phi3-q8,33,spam,spam,True,0.39,4683.73
+E2-accuracy,device1,phi3-q8,34,spam,spam,True,0.32,5738.32
+E2-accuracy,device1,phi3-q8,35,spam,spam,True,0.37,5034.46
+E2-accuracy,device1,phi3-q8,36,spam,spam,True,0.32,5926.06
+E2-accuracy,device1,phi3-q8,37,spam,spam,True,0.31,5698.61
+E2-accuracy,device1,phi3-q8,38,spam,spam,True,0.35,5306.6
+E2-accuracy,device1,phi3-q8,39,spam,spam,True,0.33,5703.05
+E2-accuracy,device1,phi3-q8,40,spam,spam,True,0.28,6682.13
+E2-accuracy,device1,phi3-q8,41,urgent,urgent,True,0.25,7691.32
+E2-accuracy,device1,phi3-q8,42,urgent,urgent,True,0.44,4068.15
+E2-accuracy,device1,phi3-q8,43,urgent,urgent,True,0.4,4594.21
+E2-accuracy,device1,phi3-q8,44,urgent,urgent,True,0.34,5572.92
+E2-accuracy,device1,phi3-q8,45,urgent,urgent,True,0.43,4312.95
+E2-accuracy,device1,phi3-q8,46,urgent,urgent,True,0.35,4970.23
+E2-accuracy,device1,phi3-q8,47,urgent,complaint,False,0.33,5389.53
+E2-accuracy,device1,phi3-q8,48,urgent,urgent,True,0.38,4871.9
+E2-accuracy,device1,phi3-q8,49,urgent,complaint,False,0.37,5101.45
+E2-accuracy,device1,phi3-q8,50,urgent,urgent,True,0.4,4350.56
+E2-accuracy,device1,phi3-q8,51,inquiry,inquiry,True,0.42,4417.18
+E2-accuracy,device1,phi3-q8,52,inquiry,inquiry,True,0.44,4058.41
+E2-accuracy,device1,phi3-q8,53,complaint,complaint,True,0.35,5260.75
+E2-accuracy,device1,phi3-q8,54,complaint,complaint,True,0.44,4227.14
+E2-accuracy,device1,phi3-q8,55,feedback,feedback,True,0.2,4950.34
+E2-accuracy,device1,phi3-q8,56,feedback,feedback,True,0.19,5045.69
+E2-accuracy,device1,phi3-q8,57,spam,spam,True,0.33,5702.37
+E2-accuracy,device1,phi3-q8,58,spam,spam,True,0.31,5967.57
+E2-accuracy,device1,phi3-q8,59,urgent,urgent,True,0.36,5113.29
+E2-accuracy,device1,phi3-q8,60,urgent,urgent,True,0.28,6466.65
+E2-accuracy,device1,phi3-q8,61,inquiry,inquiry,True,0.38,4871.42
+E2-accuracy,device1,phi3-q8,62,inquiry,inquiry,True,0.44,4220.31
+E2-accuracy,device1,phi3-q8,63,complaint,complaint,True,0.32,5835.9
+E2-accuracy,device1,phi3-q8,64,complaint,complaint,True,0.37,5061.22
+E2-accuracy,device1,phi3-q8,65,feedback,feedback,True,0.15,6196.29
+E2-accuracy,device1,phi3-q8,66,feedback,feedback,True,0.19,4984.67
+E2-accuracy,device1,phi3-q8,67,spam,spam,True,0.33,5701.91
+E2-accuracy,device1,phi3-q8,68,spam,spam,True,0.33,5617.09
+E2-accuracy,device1,phi3-q8,69,urgent,urgent,True,0.35,5191.23
+E2-accuracy,device1,phi3-q8,70,urgent,complaint,False,0.33,5568.29
+E2-accuracy,device1,phi3-q8,71,inquiry,inquiry,True,0.34,5342.5
+E2-accuracy,device1,phi3-q8,72,inquiry,inquiry,True,0.39,4730.18
+E2-accuracy,device1,phi3-q8,73,complaint,complaint,True,0.44,4193.17
+E2-accuracy,device1,phi3-q8,74,complaint,complaint,True,0.42,4465.58
+E2-accuracy,device1,phi3-q8,75,feedback,feedback,True,0.2,4705.18
+E2-accuracy,device1,phi3-q8,76,feedback,feedback,True,0.21,4596.38
+E2-accuracy,device1,phi3-q8,77,spam,spam,True,0.26,7115.85
+E2-accuracy,device1,phi3-q8,78,spam,spam,True,0.34,5507.32
+E2-accuracy,device1,phi3-q8,79,urgent,urgent,True,0.31,6064.91
+E2-accuracy,device1,phi3-q8,80,urgent,urgent,True,0.29,6504.33
+E2-accuracy,device1,phi3-q8,81,inquiry,inquiry,True,0.42,4295.54
+E2-accuracy,device1,phi3-q8,82,inquiry,inquiry,True,0.28,6647.12
+E2-accuracy,device1,phi3-q8,83,complaint,complaint,True,0.33,5516.61
+E2-accuracy,device1,phi3-q8,84,complaint,complaint,True,0.36,4981.37
+E2-accuracy,device1,phi3-q8,85,feedback,feedback,True,0.14,6290.53
+E2-accuracy,device1,phi3-q8,86,feedback,feedback,True,0.15,6241.71
+E2-accuracy,device1,phi3-q8,87,spam,spam,True,0.32,5747.19
+E2-accuracy,device1,phi3-q8,88,spam,spam,True,0.31,5847.81
+E2-accuracy,device1,phi3-q8,89,urgent,urgent,True,0.24,7503.35
+E2-accuracy,device1,phi3-q8,90,urgent,urgent,True,0.18,9596.59
+E2-accuracy,device1,phi3-q8,91,inquiry,inquiry,True,0.24,7360.62
+E2-accuracy,device1,phi3-q8,92,inquiry,inquiry,True,0.22,7687.82
+E2-accuracy,device1,phi3-q8,93,complaint,complaint,True,0.16,11048.54
+E2-accuracy,device1,phi3-q8,94,complaint,complaint,True,0.18,10284.26
+E2-accuracy,device1,phi3-q8,95,feedback,feedback,True,0.18,5365.54
+E2-accuracy,device1,phi3-q8,96,feedback,feedback,True,0.18,5346.71
+E2-accuracy,device1,phi3-q8,97,spam,spam,True,0.27,6880.89
+E2-accuracy,device1,phi3-q8,98,spam,spam,True,0.34,5477.73
+E2-accuracy,device1,phi3-q8,99,urgent,urgent,True,0.26,7368.51
+E2-accuracy,device1,phi3-q8,100,urgent,urgent,True,0.38,4886.52
+E2-accuracy,device1,qwen2.5:3b,1,inquiry,inquiry,True,0.17,11418.94
+E2-accuracy,device1,qwen2.5:3b,2,inquiry,inquiry,True,0.64,2840.17
+E2-accuracy,device1,qwen2.5:3b,3,inquiry,feedback,False,0.31,3106.95
+E2-accuracy,device1,qwen2.5:3b,4,inquiry,inquiry,True,0.8,2231.77
+E2-accuracy,device1,qwen2.5:3b,5,inquiry,inquiry,True,0.73,2477.77
+E2-accuracy,device1,qwen2.5:3b,6,inquiry,inquiry,True,0.71,2556.94
+E2-accuracy,device1,qwen2.5:3b,7,inquiry,inquiry,True,0.33,3094.17
+E2-accuracy,device1,qwen2.5:3b,8,inquiry,complaint,False,0.37,5034.93
+E2-accuracy,device1,qwen2.5:3b,9,inquiry,inquiry,True,0.49,3653.69
+E2-accuracy,device1,qwen2.5:3b,10,inquiry,inquiry,True,0.49,3737.61
+E2-accuracy,device1,qwen2.5:3b,11,complaint,complaint,True,0.6,2988.07
+E2-accuracy,device1,qwen2.5:3b,12,complaint,complaint,True,0.6,2980.85
+E2-accuracy,device1,qwen2.5:3b,13,complaint,complaint,True,0.48,3815.38
+E2-accuracy,device1,qwen2.5:3b,14,complaint,complaint,True,0.57,3239.37
+E2-accuracy,device1,qwen2.5:3b,15,complaint,complaint,True,0.8,2259.61
+E2-accuracy,device1,qwen2.5:3b,16,complaint,complaint,True,0.67,2680.42
+E2-accuracy,device1,qwen2.5:3b,17,complaint,complaint,True,0.59,3097.65
+E2-accuracy,device1,qwen2.5:3b,18,complaint,complaint,True,0.68,2657.75
+E2-accuracy,device1,qwen2.5:3b,19,complaint,complaint,True,0.6,3070.31
+E2-accuracy,device1,qwen2.5:3b,20,complaint,complaint,True,0.66,2798.65
+E2-accuracy,device1,qwen2.5:3b,21,feedback,feedback,True,0.35,2699.78
+E2-accuracy,device1,qwen2.5:3b,22,feedback,feedback,True,0.4,2375.53
+E2-accuracy,device1,qwen2.5:3b,23,feedback,feedback,True,0.37,2557.28
+E2-accuracy,device1,qwen2.5:3b,24,feedback,feedback,True,0.36,2679.3
+E2-accuracy,device1,qwen2.5:3b,25,feedback,feedback,True,0.38,2502.85
+E2-accuracy,device1,qwen2.5:3b,26,feedback,complaint,False,0.73,2504.43
+E2-accuracy,device1,qwen2.5:3b,27,feedback,feedback,True,0.39,2439.36
+E2-accuracy,device1,qwen2.5:3b,28,feedback,complaint,False,0.63,2901.42
+E2-accuracy,device1,qwen2.5:3b,29,feedback,feedback,True,0.38,2501.19
+E2-accuracy,device1,qwen2.5:3b,30,feedback,feedback,True,0.45,2102.5
+E2-accuracy,device1,qwen2.5:3b,31,spam,spam,True,0.33,2844.65
+E2-accuracy,device1,qwen2.5:3b,32,spam,urgent,False,0.93,2841.11
+E2-accuracy,device1,qwen2.5:3b,33,spam,spam,True,0.34,2800.26
+E2-accuracy,device1,qwen2.5:3b,34,spam,spam,True,0.32,3000.45
+E2-accuracy,device1,qwen2.5:3b,35,spam,spam,True,0.36,2686.69
+E2-accuracy,device1,qwen2.5:3b,36,spam,spam,True,0.32,3042.51
+E2-accuracy,device1,qwen2.5:3b,37,spam,inquiry,False,0.71,2577.96
+E2-accuracy,device1,qwen2.5:3b,38,spam,spam,True,0.35,2704.76
+E2-accuracy,device1,qwen2.5:3b,39,spam,complaint,False,0.54,3440.57
+E2-accuracy,device1,qwen2.5:3b,40,spam,spam,True,0.32,2976.88
+E2-accuracy,device1,qwen2.5:3b,41,urgent,urgent,True,0.36,2622.78
+E2-accuracy,device1,qwen2.5:3b,42,urgent,complaint,False,0.82,2189.69
+E2-accuracy,device1,qwen2.5:3b,43,urgent,urgent,True,0.4,2346.0
+E2-accuracy,device1,qwen2.5:3b,44,urgent,urgent,True,0.31,3125.0
+E2-accuracy,device1,qwen2.5:3b,45,urgent,complaint,False,0.69,2617.85
+E2-accuracy,device1,qwen2.5:3b,46,urgent,urgent,True,0.39,2459.11
+E2-accuracy,device1,qwen2.5:3b,47,urgent,complaint,False,0.72,2498.67
+E2-accuracy,device1,qwen2.5:3b,48,urgent,complaint,False,0.73,2458.44
+E2-accuracy,device1,qwen2.5:3b,49,urgent,urgent,True,0.36,2625.61
+E2-accuracy,device1,qwen2.5:3b,50,urgent,urgent,True,0.44,2160.19
+E2-accuracy,device1,qwen2.5:3b,51,inquiry,inquiry,True,0.71,2578.28
+E2-accuracy,device1,qwen2.5:3b,52,inquiry,feedback,False,0.51,1850.66
+E2-accuracy,device1,qwen2.5:3b,53,complaint,complaint,True,0.62,2950.02
+E2-accuracy,device1,qwen2.5:3b,54,complaint,complaint,True,0.78,2306.2
+E2-accuracy,device1,qwen2.5:3b,55,feedback,feedback,True,0.37,2563.36
+E2-accuracy,device1,qwen2.5:3b,56,feedback,feedback,True,0.39,2414.98
+E2-accuracy,device1,qwen2.5:3b,57,spam,spam,True,0.31,3133.86
+E2-accuracy,device1,qwen2.5:3b,58,spam,spam,True,0.31,3059.63
+E2-accuracy,device1,qwen2.5:3b,59,urgent,urgent,True,0.37,2567.99
+E2-accuracy,device1,qwen2.5:3b,60,urgent,complaint,False,0.63,2934.29
+E2-accuracy,device1,qwen2.5:3b,61,inquiry,inquiry,True,0.69,2657.99
+E2-accuracy,device1,qwen2.5:3b,62,inquiry,inquiry,True,0.8,2228.79
+E2-accuracy,device1,qwen2.5:3b,63,complaint,complaint,True,0.6,3076.82
+E2-accuracy,device1,qwen2.5:3b,64,complaint,complaint,True,0.67,2697.44
+E2-accuracy,device1,qwen2.5:3b,65,feedback,feedback,True,0.35,2738.19
+E2-accuracy,device1,qwen2.5:3b,66,feedback,complaint,False,0.83,2160.13
+E2-accuracy,device1,qwen2.5:3b,67,spam,spam,True,0.31,3111.98
+E2-accuracy,device1,qwen2.5:3b,68,spam,spam,True,0.33,2938.89
+E2-accuracy,device1,qwen2.5:3b,69,urgent,urgent,True,0.37,2543.93
+E2-accuracy,device1,qwen2.5:3b,70,urgent,urgent,True,0.36,2671.3
+E2-accuracy,device1,qwen2.5:3b,71,inquiry,inquiry,True,0.8,2267.12
+E2-accuracy,device1,qwen2.5:3b,72,inquiry,feedback,False,0.41,2335.01
+E2-accuracy,device1,qwen2.5:3b,73,complaint,complaint,True,0.76,2354.9
+E2-accuracy,device1,qwen2.5:3b,74,complaint,complaint,True,0.71,2568.59
+E2-accuracy,device1,qwen2.5:3b,75,feedback,feedback,True,0.42,2266.93
+E2-accuracy,device1,qwen2.5:3b,76,feedback,complaint,False,0.67,2724.43
+E2-accuracy,device1,qwen2.5:3b,77,spam,spam,True,0.31,3107.71
+E2-accuracy,device1,qwen2.5:3b,78,spam,complaint,False,0.66,2750.15
+E2-accuracy,device1,qwen2.5:3b,79,urgent,urgent,True,0.34,2824.55
+E2-accuracy,device1,qwen2.5:3b,80,urgent,complaint,False,0.63,2933.77
+E2-accuracy,device1,qwen2.5:3b,81,inquiry,inquiry,True,0.67,2615.64
+E2-accuracy,device1,qwen2.5:3b,82,inquiry,inquiry,True,0.57,3140.02
+E2-accuracy,device1,qwen2.5:3b,83,complaint,complaint,True,0.69,2579.75
+E2-accuracy,device1,qwen2.5:3b,84,complaint,complaint,True,0.63,2767.52
+E2-accuracy,device1,qwen2.5:3b,85,feedback,feedback,True,0.43,2229.43
+E2-accuracy,device1,qwen2.5:3b,86,feedback,feedback,True,0.38,2498.41
+E2-accuracy,device1,qwen2.5:3b,87,spam,spam,True,0.37,2586.15
+E2-accuracy,device1,qwen2.5:3b,88,spam,spam,True,0.36,2676.42
+E2-accuracy,device1,qwen2.5:3b,89,urgent,urgent,True,0.38,2484.41
+E2-accuracy,device1,qwen2.5:3b,90,urgent,urgent,True,0.35,2745.36
+E2-accuracy,device1,qwen2.5:3b,91,inquiry,complaint,False,0.58,3222.13
+E2-accuracy,device1,qwen2.5:3b,92,inquiry,inquiry,True,0.71,2572.98
+E2-accuracy,device1,qwen2.5:3b,93,complaint,complaint,True,0.7,2591.4
+E2-accuracy,device1,qwen2.5:3b,94,complaint,complaint,True,0.76,2394.64
+E2-accuracy,device1,qwen2.5:3b,95,feedback,complaint,False,0.74,2479.93
+E2-accuracy,device1,qwen2.5:3b,96,feedback,feedback,True,0.34,2839.04
+E2-accuracy,device1,qwen2.5:3b,97,spam,spam,True,0.32,2959.15
+E2-accuracy,device1,qwen2.5:3b,98,spam,spam,True,0.32,2998.51
+E2-accuracy,device1,qwen2.5:3b,99,urgent,urgent,True,0.32,2993.28
+E2-accuracy,device1,qwen2.5:3b,100,urgent,urgent,True,0.37,2609.56
+E2-accuracy,device1,qwen-q5,1,inquiry,inquiry,True,0.09,10611.17
+E2-accuracy,device1,qwen-q5,2,inquiry,inquiry,True,0.32,2941.57
+E2-accuracy,device1,qwen-q5,3,inquiry,inquiry,True,0.29,3267.91
+E2-accuracy,device1,qwen-q5,4,inquiry,inquiry,True,0.45,2076.55
+E2-accuracy,device1,qwen-q5,5,inquiry,inquiry,True,0.34,2751.61
+E2-accuracy,device1,qwen-q5,6,inquiry,inquiry,True,0.32,2933.57
+E2-accuracy,device1,qwen-q5,7,inquiry,inquiry,True,0.39,2393.85
+E2-accuracy,device1,qwen-q5,8,inquiry,urgent,False,0.33,2831.07
+E2-accuracy,device1,qwen-q5,9,inquiry,inquiry,True,0.38,2514.04
+E2-accuracy,device1,qwen-q5,10,inquiry,inquiry,True,0.3,3195.11
+E2-accuracy,device1,qwen-q5,11,complaint,complaint,True,0.36,2635.32
+E2-accuracy,device1,qwen-q5,12,complaint,complaint,True,0.39,2399.41
+E2-accuracy,device1,qwen-q5,13,complaint,complaint,True,0.3,3208.65
+E2-accuracy,device1,qwen-q5,14,complaint,complaint,True,0.3,3172.77
+E2-accuracy,device1,qwen-q5,15,complaint,complaint,True,0.4,2332.72
+E2-accuracy,device1,qwen-q5,16,complaint,complaint,True,0.35,2694.25
+E2-accuracy,device1,qwen-q5,17,complaint,complaint,True,0.29,3259.76
+E2-accuracy,device1,qwen-q5,18,complaint,complaint,True,0.36,2603.26
+E2-accuracy,device1,qwen-q5,19,complaint,complaint,True,0.3,3218.56
+E2-accuracy,device1,qwen-q5,20,complaint,complaint,True,0.29,3305.47
+E2-accuracy,device1,qwen-q5,21,feedback,feedback,True,0.33,2846.8
+E2-accuracy,device1,qwen-q5,22,feedback,feedback,True,0.35,2679.78
+E2-accuracy,device1,qwen-q5,23,feedback,feedback,True,0.35,2702.23
+E2-accuracy,device1,qwen-q5,24,feedback,feedback,True,0.32,2965.39
+E2-accuracy,device1,qwen-q5,25,feedback,feedback,True,0.36,2672.19
+E2-accuracy,device1,qwen-q5,26,feedback,complaint,False,0.33,2876.59
+E2-accuracy,device1,qwen-q5,27,feedback,feedback,True,0.34,2807.37
+E2-accuracy,device1,qwen-q5,28,feedback,complaint,False,0.37,2579.57
+E2-accuracy,device1,qwen-q5,29,feedback,feedback,True,0.36,2670.06
+E2-accuracy,device1,qwen-q5,30,feedback,feedback,True,0.4,2354.37
+E2-accuracy,device1,qwen-q5,31,spam,spam,True,0.31,3129.28
+E2-accuracy,device1,qwen-q5,32,spam,urgent,False,0.3,3231.95
+E2-accuracy,device1,qwen-q5,33,spam,spam,True,0.32,3009.29
+E2-accuracy,device1,qwen-q5,34,spam,spam,True,0.28,3447.43
+E2-accuracy,device1,qwen-q5,35,spam,spam,True,0.33,2878.63
+E2-accuracy,device1,qwen-q5,36,spam,spam,True,0.28,3390.81
+E2-accuracy,device1,qwen-q5,37,spam,spam,True,0.31,3113.02
+E2-accuracy,device1,qwen-q5,38,spam,spam,True,0.3,3199.2
+E2-accuracy,device1,qwen-q5,39,spam,spam,True,0.25,3839.94
+E2-accuracy,device1,qwen-q5,40,spam,spam,True,0.27,3549.62
+E2-accuracy,device1,qwen-q5,41,urgent,urgent,True,0.32,2931.91
+E2-accuracy,device1,qwen-q5,42,urgent,complaint,False,0.41,2311.14
+E2-accuracy,device1,qwen-q5,43,urgent,complaint,False,0.36,2652.2
+E2-accuracy,device1,qwen-q5,44,urgent,urgent,True,0.29,3268.95
+E2-accuracy,device1,qwen-q5,45,urgent,"complaint
+the email describes an emergency situation where fire",False,2.54,2537.91
+E2-accuracy,device1,qwen-q5,46,urgent,urgent,True,0.35,2715.35
+E2-accuracy,device1,qwen-q5,47,urgent,complaint,False,0.35,2682.5
+E2-accuracy,device1,qwen-q5,48,urgent,complaint,False,0.37,2532.89
+E2-accuracy,device1,qwen-q5,49,urgent,complaint,False,0.35,2756.22
+E2-accuracy,device1,qwen-q5,50,urgent,complaint,False,0.39,2406.02
+E2-accuracy,device1,qwen-q5,51,inquiry,inquiry,True,0.33,2860.87
+E2-accuracy,device1,qwen-q5,52,inquiry,inquiry,True,0.45,2053.44
+E2-accuracy,device1,qwen-q5,53,complaint,complaint,True,0.33,2930.05
+E2-accuracy,device1,qwen-q5,54,complaint,"complaint
+you are an email classifier your task",True,2.58,2486.44
+E2-accuracy,device1,qwen-q5,55,feedback,feedback,True,0.32,3010.29
+E2-accuracy,device1,qwen-q5,56,feedback,feedback,True,0.35,2700.14
+E2-accuracy,device1,qwen-q5,57,spam,spam,True,0.26,3643.83
+E2-accuracy,device1,qwen-q5,58,spam,spam,True,0.27,3539.94
+E2-accuracy,device1,qwen-q5,59,urgent,urgent,True,0.34,2792.35
+E2-accuracy,device1,qwen-q5,60,urgent,"complaint
+the email describes a system outage impacting many",False,2.07,3432.2
+E2-accuracy,device1,qwen-q5,61,inquiry,inquiry,True,0.32,2967.18
+E2-accuracy,device1,qwen-q5,62,inquiry,inquiry,True,0.4,2377.42
+E2-accuracy,device1,qwen-q5,63,complaint,complaint,True,0.27,3572.17
+E2-accuracy,device1,qwen-q5,64,complaint,complaint,True,0.31,3044.32
+E2-accuracy,device1,qwen-q5,65,feedback,feedback,True,0.31,3074.33
+E2-accuracy,device1,qwen-q5,66,feedback,complaint,False,0.36,2590.07
+E2-accuracy,device1,qwen-q5,67,spam,spam,True,0.27,3498.57
+E2-accuracy,device1,qwen-q5,68,spam,spam,True,0.28,3433.83
+E2-accuracy,device1,qwen-q5,69,urgent,urgent,True,0.34,2836.49
+E2-accuracy,device1,qwen-q5,70,urgent,urgent,True,0.33,2847.12
+E2-accuracy,device1,qwen-q5,71,inquiry,inquiry,True,0.4,2366.47
+E2-accuracy,device1,qwen-q5,72,inquiry,inquiry,True,0.38,2473.5
+E2-accuracy,device1,qwen-q5,73,complaint,complaint,True,0.34,2751.57
+E2-accuracy,device1,qwen-q5,74,complaint,complaint,True,0.33,2855.27
+E2-accuracy,device1,qwen-q5,75,feedback,feedback,True,0.35,2694.43
+E2-accuracy,device1,qwen-q5,76,feedback,complaint,False,0.34,2822.35
+E2-accuracy,device1,qwen-q5,77,spam,spam,True,0.22,4416.49
+E2-accuracy,device1,qwen-q5,78,spam,complaint,False,0.29,3333.21
+E2-accuracy,device1,qwen-q5,79,urgent,urgent,True,0.28,3361.4
+E2-accuracy,device1,qwen-q5,80,urgent,"complaint
+the email expresses frustration and urgency due to",False,2.04,3433.71
+E2-accuracy,device1,qwen-q5,81,inquiry,inquiry,True,0.35,2682.11
+E2-accuracy,device1,qwen-q5,82,inquiry,inquiry,True,0.31,3042.92
+E2-accuracy,device1,qwen-q5,83,complaint,complaint,True,0.37,2544.79
+E2-accuracy,device1,qwen-q5,84,complaint,complaint,True,0.36,2609.85
+E2-accuracy,device1,qwen-q5,85,feedback,feedback,True,0.39,2423.85
+E2-accuracy,device1,qwen-q5,86,feedback,feedback,True,0.33,2892.45
+E2-accuracy,device1,qwen-q5,87,spam,spam,True,0.32,2956.07
+E2-accuracy,device1,qwen-q5,88,spam,spam,True,0.29,3243.9
+E2-accuracy,device1,qwen-q5,89,urgent,urgent,True,0.35,2713.2
+E2-accuracy,device1,qwen-q5,90,urgent,urgent,True,0.33,2903.97
+E2-accuracy,device1,qwen-q5,91,inquiry,"complaint
+the email expresses dissatisfaction about not receiving a",False,1.91,3649.34
+E2-accuracy,device1,qwen-q5,92,inquiry,inquiry,True,0.26,3740.86
+E2-accuracy,device1,qwen-q5,93,complaint,complaint,True,0.34,2777.29
+E2-accuracy,device1,qwen-q5,94,complaint,complaint,True,0.34,2785.27
+E2-accuracy,device1,qwen-q5,95,feedback,complaint,False,0.32,2936.87
+E2-accuracy,device1,qwen-q5,96,feedback,feedback,True,0.27,3545.61
+E2-accuracy,device1,qwen-q5,97,spam,spam,True,0.27,3602.93
+E2-accuracy,device1,qwen-q5,98,spam,spam,True,0.28,3412.1
+E2-accuracy,device1,qwen-q5,99,urgent,urgent,True,0.3,3247.97
+E2-accuracy,device1,qwen-q5,100,urgent,urgent,True,0.35,2727.08
+E2-accuracy,device1,qwen-q8,1,inquiry,inquiry,True,0.04,24755.74
+E2-accuracy,device1,qwen-q8,2,inquiry,inquiry,True,0.25,3901.15
+E2-accuracy,device1,qwen-q8,3,inquiry,inquiry,True,0.23,4216.06
+E2-accuracy,device1,qwen-q8,4,inquiry,inquiry,True,0.32,2983.77
+E2-accuracy,device1,qwen-q8,5,inquiry,inquiry,True,0.26,3688.62
+E2-accuracy,device1,qwen-q8,6,inquiry,inquiry,True,0.26,3676.52
+E2-accuracy,device1,qwen-q8,7,inquiry,inquiry,True,0.3,3188.37
+E2-accuracy,device1,qwen-q8,8,inquiry,urgent,False,0.28,3425.0
+E2-accuracy,device1,qwen-q8,9,inquiry,inquiry,True,0.3,3245.22
+E2-accuracy,device1,qwen-q8,10,inquiry,inquiry,True,0.22,4404.12
+E2-accuracy,device1,qwen-q8,11,complaint,complaint,True,0.29,3299.62
+E2-accuracy,device1,qwen-q8,12,complaint,complaint,True,0.3,3213.25
+E2-accuracy,device1,qwen-q8,13,complaint,complaint,True,0.22,4333.67
+E2-accuracy,device1,qwen-q8,14,complaint,complaint,True,0.24,4077.42
+E2-accuracy,device1,qwen-q8,15,complaint,complaint,True,0.3,3153.53
+E2-accuracy,device1,qwen-q8,16,complaint,complaint,True,0.26,3782.07
+E2-accuracy,device1,qwen-q8,17,complaint,complaint,True,0.23,4236.73
+E2-accuracy,device1,qwen-q8,18,complaint,complaint,True,0.27,3520.04
+E2-accuracy,device1,qwen-q8,19,complaint,complaint,True,0.23,4204.25
+E2-accuracy,device1,qwen-q8,20,complaint,complaint,True,0.23,4194.97
+E2-accuracy,device1,qwen-q8,21,feedback,feedback,True,0.25,3853.67
+E2-accuracy,device1,qwen-q8,22,feedback,feedback,True,0.29,3304.07
+E2-accuracy,device1,qwen-q8,23,feedback,feedback,True,0.27,3592.34
+E2-accuracy,device1,qwen-q8,24,feedback,feedback,True,0.25,3840.42
+E2-accuracy,device1,qwen-q8,25,feedback,feedback,True,0.28,3483.48
+E2-accuracy,device1,qwen-q8,26,feedback,complaint,False,0.25,3931.63
+E2-accuracy,device1,qwen-q8,27,feedback,feedback,True,0.25,3823.73
+E2-accuracy,device1,qwen-q8,28,feedback,complaint,False,0.27,3512.97
+E2-accuracy,device1,qwen-q8,29,feedback,feedback,True,0.27,3606.5
+E2-accuracy,device1,qwen-q8,30,feedback,feedback,True,0.31,3133.74
+E2-accuracy,device1,qwen-q8,31,spam,spam,True,0.23,4215.67
+E2-accuracy,device1,qwen-q8,32,spam,urgent,False,0.23,4216.89
+E2-accuracy,device1,qwen-q8,33,spam,spam,True,0.25,3938.07
+E2-accuracy,device1,qwen-q8,34,spam,promotion,False,0.21,4530.17
+E2-accuracy,device1,qwen-q8,35,spam,spam,True,0.25,3833.36
+E2-accuracy,device1,qwen-q8,36,spam,spam,True,0.22,4346.27
+E2-accuracy,device1,qwen-q8,37,spam,"complaint
+the email is classified as a complaint because",False,1.85,3966.81
+E2-accuracy,device1,qwen-q8,38,spam,spam,True,0.23,4177.44
+E2-accuracy,device1,qwen-q8,39,spam,spam,True,0.2,4987.45
+E2-accuracy,device1,qwen-q8,40,spam,spam,True,0.21,4660.1
+E2-accuracy,device1,qwen-q8,41,urgent,urgent,True,0.25,3879.48
+E2-accuracy,device1,qwen-q8,42,urgent,complaint,False,0.31,3139.15
+E2-accuracy,device1,qwen-q8,43,urgent,complaint,False,0.27,3587.89
+E2-accuracy,device1,qwen-q8,44,urgent,urgent,True,0.22,4322.2
+E2-accuracy,device1,qwen-q8,45,urgent,"complaint
+the email describes a situation where an emergency",False,2.06,3407.28
+E2-accuracy,device1,qwen-q8,46,urgent,urgent,True,0.27,3562.96
+E2-accuracy,device1,qwen-q8,47,urgent,complaint,False,0.26,3655.73
+E2-accuracy,device1,qwen-q8,48,urgent,"complaint
+the email appears to be a complaint as",False,2.09,3347.02
+E2-accuracy,device1,qwen-q8,49,urgent,complaint,False,0.24,3954.02
+E2-accuracy,device1,qwen-q8,50,urgent,complaint,False,0.3,3247.7
+E2-accuracy,device1,qwen-q8,51,inquiry,inquiry,True,0.25,3856.35
+E2-accuracy,device1,qwen-q8,52,inquiry,inquiry,True,0.34,2773.74
+E2-accuracy,device1,qwen-q8,53,complaint,complaint,True,0.24,3963.03
+E2-accuracy,device1,qwen-q8,54,complaint,"complaint
+you are an email classifier classify",True,2.08,3367.48
+E2-accuracy,device1,qwen-q8,55,feedback,feedback,True,0.24,4001.7
+E2-accuracy,device1,qwen-q8,56,feedback,feedback,True,0.28,3438.13
+E2-accuracy,device1,qwen-q8,57,spam,spam,True,0.2,4750.19
+E2-accuracy,device1,qwen-q8,58,spam,spam,True,0.21,4714.22
+E2-accuracy,device1,qwen-q8,59,urgent,urgent,True,0.26,3747.39
+E2-accuracy,device1,qwen-q8,60,urgent,"complaint
+the email describes a system outage that is",False,1.64,4617.47
+E2-accuracy,device1,qwen-q8,61,inquiry,inquiry,True,0.23,4133.16
+E2-accuracy,device1,qwen-q8,62,inquiry,inquiry,True,0.3,3240.55
+E2-accuracy,device1,qwen-q8,63,complaint,complaint,True,0.21,4636.27
+E2-accuracy,device1,qwen-q8,64,complaint,complaint,True,0.25,3923.97
+E2-accuracy,device1,qwen-q8,65,feedback,feedback,True,0.24,4105.3
+E2-accuracy,device1,qwen-q8,66,feedback,complaint,False,0.28,3375.46
+E2-accuracy,device1,qwen-q8,67,spam,spam,True,0.21,4533.91
+E2-accuracy,device1,qwen-q8,68,spam,spam,True,0.23,4304.62
+E2-accuracy,device1,qwen-q8,69,urgent,urgent,True,0.26,3678.32
+E2-accuracy,device1,qwen-q8,70,urgent,urgent,True,0.25,3799.69
+E2-accuracy,device1,qwen-q8,71,inquiry,inquiry,True,0.29,3278.33
+E2-accuracy,device1,qwen-q8,72,inquiry,inquiry,True,0.28,3436.16
+E2-accuracy,device1,qwen-q8,73,complaint,complaint,True,0.27,3621.32
+E2-accuracy,device1,qwen-q8,74,complaint,complaint,True,0.25,3897.35
+E2-accuracy,device1,qwen-q8,75,feedback,feedback,True,0.26,3639.16
+E2-accuracy,device1,qwen-q8,76,feedback,complaint,False,0.25,3876.74
+E2-accuracy,device1,qwen-q8,77,spam,promotion,False,0.2,4956.98
+E2-accuracy,device1,qwen-q8,78,spam,complaint,False,0.25,3851.91
+E2-accuracy,device1,qwen-q8,79,urgent,urgent,True,0.25,3878.59
+E2-accuracy,device1,qwen-q8,80,urgent,"complaint
+the email expresses frustration and urgency due to",False,1.69,4380.83
+E2-accuracy,device1,qwen-q8,81,inquiry,inquiry,True,0.28,3448.8
+E2-accuracy,device1,qwen-q8,82,inquiry,inquiry,True,0.24,3959.75
+E2-accuracy,device1,qwen-q8,83,complaint,complaint,True,0.26,3639.88
+E2-accuracy,device1,qwen-q8,84,complaint,complaint,True,0.28,3462.7
+E2-accuracy,device1,qwen-q8,85,feedback,feedback,True,0.31,3087.16
+E2-accuracy,device1,qwen-q8,86,feedback,feedback,True,0.26,3782.99
+E2-accuracy,device1,qwen-q8,87,spam,spam,True,0.26,3744.06
+E2-accuracy,device1,qwen-q8,88,spam,spam,True,0.24,4053.6
+E2-accuracy,device1,qwen-q8,89,urgent,urgent,True,0.26,3728.09
+E2-accuracy,device1,qwen-q8,90,urgent,urgent,True,0.25,3899.26
+E2-accuracy,device1,qwen-q8,91,inquiry,"complaint
+you are an email classifier classify",False,1.61,4786.96
+E2-accuracy,device1,qwen-q8,92,inquiry,inquiry,True,0.26,3721.21
+E2-accuracy,device1,qwen-q8,93,complaint,complaint,True,0.26,3657.42
+E2-accuracy,device1,qwen-q8,94,complaint,complaint,True,0.25,3799.04
+E2-accuracy,device1,qwen-q8,95,feedback,complaint,False,0.25,3890.81
+E2-accuracy,device1,qwen-q8,96,feedback,feedback,True,0.22,4404.97
+E2-accuracy,device1,qwen-q8,97,spam,spam,True,0.21,4587.18
+E2-accuracy,device1,qwen-q8,98,spam,spam,True,0.22,4491.68
+E2-accuracy,device1,qwen-q8,99,urgent,urgent,True,0.22,4363.35
+E2-accuracy,device1,qwen-q8,100,urgent,urgent,True,0.25,3870.23
+E2-accuracy,device1,mistral:7b,1,inquiry,inquiry,True,0.08,23236.23
+E2-accuracy,device1,mistral:7b,2,inquiry,inquiry,True,0.33,5623.18
+E2-accuracy,device1,mistral:7b,3,inquiry,inquiry,True,0.28,6604.15
+E2-accuracy,device1,mistral:7b,4,inquiry,inquiry,True,0.36,4936.06
+E2-accuracy,device1,mistral:7b,5,inquiry,inquiry,True,0.32,5726.59
+E2-accuracy,device1,mistral:7b,6,inquiry,inquiry,True,0.33,5587.77
+E2-accuracy,device1,mistral:7b,7,inquiry,inquiry,True,0.35,5123.96
+E2-accuracy,device1,mistral:7b,8,inquiry,inquiry,True,0.34,5251.5
+E2-accuracy,device1,mistral:7b,9,inquiry,inquiry,True,0.35,5146.07
+E2-accuracy,device1,mistral:7b,10,inquiry,inquiry,True,0.27,6772.58
+E2-accuracy,device1,mistral:7b,11,complaint,complaint,True,0.18,5300.97
+E2-accuracy,device1,mistral:7b,12,complaint,complaint,True,0.18,5144.49
+E2-accuracy,device1,mistral:7b,13,complaint,complaint,True,0.14,6737.25
+E2-accuracy,device1,mistral:7b,14,complaint,complaint,True,0.14,6786.21
+E2-accuracy,device1,mistral:7b,15,complaint,complaint,True,0.19,5067.44
+E2-accuracy,device1,mistral:7b,16,complaint,complaint,True,0.16,6122.68
+E2-accuracy,device1,mistral:7b,17,complaint,complaint,True,0.14,6985.19
+E2-accuracy,device1,mistral:7b,18,complaint,complaint,True,0.16,6106.27
+E2-accuracy,device1,mistral:7b,19,complaint,complaint,True,0.12,7831.91
+E2-accuracy,device1,mistral:7b,20,complaint,complaint,True,0.14,7065.8
+E2-accuracy,device1,mistral:7b,21,feedback,feedback,True,0.41,6337.61
+E2-accuracy,device1,mistral:7b,22,feedback,feedback,True,0.18,5421.86
+E2-accuracy,device1,mistral:7b,23,feedback,feedback,True,0.48,5462.54
+E2-accuracy,device1,mistral:7b,24,feedback,feedback,True,0.43,6146.8
+E2-accuracy,device1,mistral:7b,25,feedback,feedback,True,0.16,5870.58
+E2-accuracy,device1,mistral:7b,26,feedback,complaint,False,0.15,6626.56
+E2-accuracy,device1,mistral:7b,27,feedback,feedback,True,0.45,5799.74
+E2-accuracy,device1,mistral:7b,28,feedback,complaint,False,0.17,5614.15
+E2-accuracy,device1,mistral:7b,29,feedback,feedback,True,0.46,5598.28
+E2-accuracy,device1,mistral:7b,30,feedback,complaint,False,0.2,4762.63
+E2-accuracy,device1,mistral:7b,31,spam,spam,True,0.26,7172.68
+E2-accuracy,device1,mistral:7b,32,spam,spam,True,0.27,6833.72
+E2-accuracy,device1,mistral:7b,33,spam,spam,True,0.32,5800.09
+E2-accuracy,device1,mistral:7b,34,spam,spam,True,0.26,7093.78
+E2-accuracy,device1,mistral:7b,35,spam,spam,True,0.31,6006.79
+E2-accuracy,device1,mistral:7b,36,spam,spam,True,0.25,7548.04
+E2-accuracy,device1,mistral:7b,37,spam,spam,True,0.28,6682.73
+E2-accuracy,device1,mistral:7b,38,spam,spam,True,0.27,6981.73
+E2-accuracy,device1,mistral:7b,39,spam,spam,True,0.22,8460.66
+E2-accuracy,device1,mistral:7b,40,spam,spam,True,0.22,8462.41
+E2-accuracy,device1,mistral:7b,41,urgent,urgent,True,0.14,6823.45
+E2-accuracy,device1,mistral:7b,42,urgent,urgent,True,0.18,5393.19
+E2-accuracy,device1,mistral:7b,43,urgent,urgent,True,0.15,6263.69
+E2-accuracy,device1,mistral:7b,44,urgent,urgent,True,0.13,7326.07
+E2-accuracy,device1,mistral:7b,45,urgent,urgent,True,0.19,5074.54
+E2-accuracy,device1,mistral:7b,46,urgent,urgent,True,0.17,5449.93
+E2-accuracy,device1,mistral:7b,47,urgent,urgent,True,0.17,5608.42
+E2-accuracy,device1,mistral:7b,48,urgent,urgent,True,0.18,5398.6
+E2-accuracy,device1,mistral:7b,49,urgent,urgent,True,0.15,6498.89
+E2-accuracy,device1,mistral:7b,50,urgent,urgent,True,0.16,5955.24
+E2-accuracy,device1,mistral:7b,51,inquiry,inquiry,True,0.3,6042.01
+E2-accuracy,device1,mistral:7b,52,inquiry,inquiry,True,0.42,4245.69
+E2-accuracy,device1,mistral:7b,53,complaint,complaint,True,0.15,6243.68
+E2-accuracy,device1,mistral:7b,54,complaint,complaint,True,0.18,5187.98
+E2-accuracy,device1,mistral:7b,55,feedback,feedback,True,0.16,6173.9
+E2-accuracy,device1,mistral:7b,56,feedback,feedback,True,0.45,5833.35
+E2-accuracy,device1,mistral:7b,57,spam,spam,True,0.25,7459.44
+E2-accuracy,device1,mistral:7b,58,spam,spam,True,0.24,7670.95
+E2-accuracy,device1,mistral:7b,59,urgent,urgent,True,0.16,6165.38
+E2-accuracy,device1,mistral:7b,60,urgent,urgent,True,0.13,7545.46
+E2-accuracy,device1,mistral:7b,61,inquiry,inquiry,True,0.3,6087.02
+E2-accuracy,device1,mistral:7b,62,inquiry,inquiry,True,0.37,4798.96
+E2-accuracy,device1,mistral:7b,63,complaint,complaint,True,0.12,8145.94
+E2-accuracy,device1,mistral:7b,64,complaint,complaint,True,0.14,6670.42
+E2-accuracy,device1,mistral:7b,65,feedback,feedback,True,0.41,6533.11
+E2-accuracy,device1,mistral:7b,66,feedback,complaint,False,0.18,5316.41
+E2-accuracy,device1,mistral:7b,67,spam,spam,True,0.23,8050.52
+E2-accuracy,device1,mistral:7b,68,spam,spam,True,0.27,6979.11
+E2-accuracy,device1,mistral:7b,69,urgent,urgent,True,0.16,6169.01
+E2-accuracy,device1,mistral:7b,70,urgent,urgent,True,0.13,7199.85
+E2-accuracy,device1,mistral:7b,71,inquiry,inquiry,True,0.35,5108.8
+E2-accuracy,device1,mistral:7b,72,inquiry,inquiry,True,0.34,5292.09
+E2-accuracy,device1,mistral:7b,73,complaint,complaint,True,0.17,5636.08
+E2-accuracy,device1,mistral:7b,74,complaint,complaint,True,0.16,6055.24
+E2-accuracy,device1,mistral:7b,75,feedback,feedback,True,0.44,5922.72
+E2-accuracy,device1,mistral:7b,76,feedback,complaint,False,0.16,6098.85
+E2-accuracy,device1,mistral:7b,77,spam,spam,True,0.24,7927.75
+E2-accuracy,device1,mistral:7b,78,spam,spam,True,0.27,6923.66
+E2-accuracy,device1,mistral:7b,79,urgent,urgent,True,0.12,7716.76
+E2-accuracy,device1,mistral:7b,80,urgent,urgent,True,0.13,7137.91
+E2-accuracy,device1,mistral:7b,81,inquiry,inquiry,True,0.33,5421.48
+E2-accuracy,device1,mistral:7b,82,inquiry,inquiry,True,0.3,6132.64
+E2-accuracy,device1,mistral:7b,83,complaint,complaint,True,0.16,5843.32
+E2-accuracy,device1,mistral:7b,84,complaint,complaint,True,0.17,5722.03
+E2-accuracy,device1,mistral:7b,85,feedback,feedback,True,0.17,5518.25
+E2-accuracy,device1,mistral:7b,86,feedback,feedback,True,0.16,5832.26
+E2-accuracy,device1,mistral:7b,87,spam,spam,True,0.29,6270.72
+E2-accuracy,device1,mistral:7b,88,spam,spam,True,0.27,6919.33
+E2-accuracy,device1,mistral:7b,89,urgent,urgent,True,0.15,6216.66
+E2-accuracy,device1,mistral:7b,90,urgent,urgent,True,0.15,6287.8
+E2-accuracy,device1,mistral:7b,91,inquiry,complaint,False,0.12,8039.58
+E2-accuracy,device1,mistral:7b,92,inquiry,inquiry,True,0.32,5657.47
+E2-accuracy,device1,mistral:7b,93,complaint,complaint,True,0.16,6075.26
+E2-accuracy,device1,mistral:7b,94,complaint,complaint,True,0.16,6042.13
+E2-accuracy,device1,mistral:7b,95,feedback,complaint,False,0.15,6206.54
+E2-accuracy,device1,mistral:7b,96,feedback,feedback,True,0.38,7105.63
+E2-accuracy,device1,mistral:7b,97,spam,spam,True,0.24,7672.81
+E2-accuracy,device1,mistral:7b,98,spam,spam,True,0.25,7338.64
+E2-accuracy,device1,mistral:7b,99,urgent,urgent,True,0.13,7477.66
+E2-accuracy,device1,mistral:7b,100,urgent,urgent,True,0.15,6579.22
+E2-accuracy,device1,mistral-q5,1,inquiry,inquiry,True,0.06,35309.78
+E2-accuracy,device1,mistral-q5,2,inquiry,inquiry,True,0.21,8695.11
+E2-accuracy,device1,mistral-q5,3,inquiry,inquiry,True,0.19,9598.37
+E2-accuracy,device1,mistral-q5,4,inquiry,inquiry,True,0.24,7487.24
+E2-accuracy,device1,mistral-q5,5,inquiry,inquiry,True,0.19,9452.53
+E2-accuracy,device1,mistral-q5,6,inquiry,inquiry,True,0.21,8898.54
+E2-accuracy,device1,mistral-q5,7,inquiry,inquiry,True,0.24,7790.8
+E2-accuracy,device1,mistral-q5,8,inquiry,inquiry,True,0.22,8197.87
+E2-accuracy,device1,mistral-q5,9,inquiry,inquiry,True,0.23,7945.37
+E2-accuracy,device1,mistral-q5,10,inquiry,inquiry,True,0.19,10041.49
+E2-accuracy,device1,mistral-q5,11,complaint,complaint,True,0.13,7603.97
+E2-accuracy,device1,mistral-q5,12,complaint,complaint,True,0.12,7706.75
+E2-accuracy,device1,mistral-q5,13,complaint,complaint,True,0.1,9646.63
+E2-accuracy,device1,mistral-q5,14,complaint,complaint,True,0.1,9297.81
+E2-accuracy,device1,mistral-q5,15,complaint,complaint,True,0.13,7190.01
+E2-accuracy,device1,mistral-q5,16,complaint,complaint,True,0.11,8633.5
+E2-accuracy,device1,mistral-q5,17,complaint,complaint,True,0.1,9583.98
+E2-accuracy,device1,mistral-q5,18,complaint,complaint,True,0.11,8390.16
+E2-accuracy,device1,mistral-q5,19,complaint,complaint,True,0.1,10077.62
+E2-accuracy,device1,mistral-q5,20,complaint,complaint,True,0.1,9525.39
+E2-accuracy,device1,mistral-q5,21,feedback,feedback,True,0.11,8611.31
+E2-accuracy,device1,mistral-q5,22,feedback,feedback,True,0.13,7376.69
+E2-accuracy,device1,mistral-q5,23,feedback,feedback,True,0.12,8218.87
+E2-accuracy,device1,mistral-q5,24,feedback,feedback,True,0.11,8607.55
+E2-accuracy,device1,mistral-q5,25,feedback,feedback,True,0.12,8199.05
+E2-accuracy,device1,mistral-q5,26,feedback,complaint,False,0.1,9626.33
+E2-accuracy,device1,mistral-q5,27,feedback,feedback,True,0.1,9211.13
+E2-accuracy,device1,mistral-q5,28,feedback,complaint,False,0.11,8824.79
+E2-accuracy,device1,mistral-q5,29,feedback,feedback,True,0.11,9049.32
+E2-accuracy,device1,mistral-q5,30,feedback,complaint,False,0.12,7682.57
+E2-accuracy,device1,mistral-q5,31,spam,spam,True,0.17,10782.12
+E2-accuracy,device1,mistral-q5,32,spam,urgently this email is a phishing attempt,False,0.76,9865.03
+E2-accuracy,device1,mistral-q5,33,spam,spam,True,0.21,8904.2
+E2-accuracy,device1,mistral-q5,34,spam,spam,True,0.17,10951.73
+E2-accuracy,device1,mistral-q5,35,spam,spam,True,0.2,9257.67
+E2-accuracy,device1,mistral-q5,36,spam,spam,True,0.17,11094.95
+E2-accuracy,device1,mistral-q5,37,spam,spam,True,0.19,9612.31
+E2-accuracy,device1,mistral-q5,38,spam,spam,True,0.19,9963.3
+E2-accuracy,device1,mistral-q5,39,spam,spam,True,0.16,12067.71
+E2-accuracy,device1,mistral-q5,40,spam,spam,True,0.16,12173.1
+E2-accuracy,device1,mistral-q5,41,urgent,urgent,True,0.11,9024.96
+E2-accuracy,device1,mistral-q5,42,urgent,urgent,True,0.13,7326.89
+E2-accuracy,device1,mistral-q5,43,urgent,urgent,True,0.11,9098.97
+E2-accuracy,device1,mistral-q5,44,urgent,urgent,True,0.09,10656.52
+E2-accuracy,device1,mistral-q5,45,urgent,urgent,True,0.12,7745.54
+E2-accuracy,device1,mistral-q5,46,urgent,urgent,True,0.12,8197.28
+E2-accuracy,device1,mistral-q5,47,urgent,"urgent
+
+(note: in this context",True,0.85,8426.03
+E2-accuracy,device1,mistral-q5,48,urgent,urgent,True,0.12,7927.74
+E2-accuracy,device1,mistral-q5,49,urgent,urgent,True,0.1,9568.5
+E2-accuracy,device1,mistral-q5,50,urgent,urgent,True,0.11,8802.27
+E2-accuracy,device1,mistral-q5,51,inquiry,inquiry,True,0.19,9531.04
+E2-accuracy,device1,mistral-q5,52,inquiry,inquiry,True,0.2,9107.69
+E2-accuracy,device1,mistral-q5,53,complaint,complaint,True,0.09,11168.94
+E2-accuracy,device1,mistral-q5,54,complaint,complaint,True,0.11,8823.44
+E2-accuracy,device1,mistral-q5,55,feedback,feedback,True,0.09,10241.41
+E2-accuracy,device1,mistral-q5,56,feedback,feedback,True,0.1,10071.53
+E2-accuracy,device1,mistral-q5,57,spam,spam,True,0.15,11887.78
+E2-accuracy,device1,mistral-q5,58,spam,spam,True,0.12,14925.47
+E2-accuracy,device1,mistral-q5,59,urgent,urgent,True,0.09,10974.7
+E2-accuracy,device1,mistral-q5,60,urgent,urgent,True,0.08,12029.69
+E2-accuracy,device1,mistral-q5,61,inquiry,inquiry,True,0.19,9910.11
+E2-accuracy,device1,mistral-q5,62,inquiry,inquiry,True,0.22,8143.61
+E2-accuracy,device1,mistral-q5,63,complaint,complaint,True,0.07,13839.19
+E2-accuracy,device1,mistral-q5,64,complaint,complaint,True,0.09,10449.65
+E2-accuracy,device1,mistral-q5,65,feedback,feedback,True,0.09,10251.18
+E2-accuracy,device1,mistral-q5,66,feedback,complaint (regarding user experience issue),False,0.7,8169.5
+E2-accuracy,device1,mistral-q5,67,spam,spam,True,0.14,13461.56
+E2-accuracy,device1,mistral-q5,68,spam,spam,True,0.17,10895.13
+E2-accuracy,device1,mistral-q5,69,urgent,urgent,True,0.1,9945.79
+E2-accuracy,device1,mistral-q5,70,urgent,urgent,True,0.09,10929.87
+E2-accuracy,device1,mistral-q5,71,inquiry,inquiry,True,0.22,8061.39
+E2-accuracy,device1,mistral-q5,72,inquiry,inquiry,True,0.17,10742.25
+E2-accuracy,device1,mistral-q5,73,complaint,complaint,True,0.1,9526.1
+E2-accuracy,device1,mistral-q5,74,complaint,complaint,True,0.1,9188.34
+E2-accuracy,device1,mistral-q5,75,feedback,feedback,True,0.1,9251.62
+E2-accuracy,device1,mistral-q5,76,feedback,complaint,False,0.1,9387.33
+E2-accuracy,device1,mistral-q5,77,spam,spam,True,0.16,12013.4
+E2-accuracy,device1,mistral-q5,78,spam,spam,True,0.18,10578.58
+E2-accuracy,device1,mistral-q5,79,urgent,urgent,True,0.09,11123.37
+E2-accuracy,device1,mistral-q5,80,urgent,urgent,True,0.09,10617.53
+E2-accuracy,device1,mistral-q5,81,inquiry,inquiry,True,0.22,8183.25
+E2-accuracy,device1,mistral-q5,82,inquiry,inquiry,True,0.2,9306.29
+E2-accuracy,device1,mistral-q5,83,complaint,complaint,True,0.11,8986.13
+E2-accuracy,device1,mistral-q5,84,complaint,complaint,True,0.11,8381.34
+E2-accuracy,device1,mistral-q5,85,feedback,feedback,True,0.1,9380.52
+E2-accuracy,device1,mistral-q5,86,feedback,feedback,True,0.09,11171.25
+E2-accuracy,device1,mistral-q5,87,spam,spam,True,0.18,10498.07
+E2-accuracy,device1,mistral-q5,88,spam,spam,True,0.17,11216.43
+E2-accuracy,device1,mistral-q5,89,urgent,urgent,True,0.1,10108.75
+E2-accuracy,device1,mistral-q5,90,urgent,urgent,True,0.1,9672.96
+E2-accuracy,device1,mistral-q5,91,inquiry,complaint,False,0.08,12144.25
+E2-accuracy,device1,mistral-q5,92,inquiry,inquiry,True,0.21,8812.15
+E2-accuracy,device1,mistral-q5,93,complaint,complaint,True,0.11,8823.62
+E2-accuracy,device1,mistral-q5,94,complaint,complaint,True,0.1,9257.74
+E2-accuracy,device1,mistral-q5,95,feedback,inquiry,False,0.17,11354.89
+E2-accuracy,device1,mistral-q5,96,feedback,feedback,True,0.08,12755.42
+E2-accuracy,device1,mistral-q5,97,spam,spam,True,0.15,12744.1
+E2-accuracy,device1,mistral-q5,98,spam,spam,True,0.15,12492.27
+E2-accuracy,device1,mistral-q5,99,urgent,urgent,True,0.07,13360.9
+E2-accuracy,device1,mistral-q5,100,urgent,urgent,True,0.08,11367.7
+E2-accuracy,device1,mistral-q8,1,inquiry,inquiry,True,0.02,115430.47
+E2-accuracy,device1,mistral-q8,2,inquiry,inquiry,True,0.2,9372.21
+E2-accuracy,device1,mistral-q8,3,inquiry,inquiry,True,0.2,9228.6
+E2-accuracy,device1,mistral-q8,4,inquiry,inquiry,True,0.24,7438.15
+E2-accuracy,device1,mistral-q8,5,inquiry,inquiry,True,0.22,8280.5
+E2-accuracy,device1,mistral-q8,6,inquiry,inquiry,True,0.22,7948.13
+E2-accuracy,device1,mistral-q8,7,inquiry,inquiry,True,0.22,7990.17
+E2-accuracy,device1,mistral-q8,8,inquiry,inquiry,True,0.22,7735.23
+E2-accuracy,device1,mistral-q8,9,inquiry,inquiry,True,0.17,9597.26
+E2-accuracy,device1,mistral-q8,10,inquiry,inquiry,True,0.14,12770.44
+E2-accuracy,device1,mistral-q8,11,complaint,complaint,True,0.11,8746.97
+E2-accuracy,device1,mistral-q8,12,complaint,complaint,True,0.1,9669.98
+E2-accuracy,device1,mistral-q8,13,complaint,complaint,True,0.06,14651.72
+E2-accuracy,device1,mistral-q8,14,complaint,complaint,True,0.06,15564.51
+E2-accuracy,device1,mistral-q8,15,complaint,complaint,True,0.11,8664.35
+E2-accuracy,device1,mistral-q8,16,complaint,complaint,True,0.08,11591.56
+E2-accuracy,device1,mistral-q8,17,complaint,complaint,True,0.08,11578.66
+E2-accuracy,device1,mistral-q8,18,complaint,complaint,True,0.11,9118.13
+E2-accuracy,device1,mistral-q8,19,complaint,complaint,True,0.1,9960.77
+E2-accuracy,device1,mistral-q8,20,complaint,complaint,True,0.1,8971.06
+E2-accuracy,device1,mistral-q8,21,feedback,feedback,True,0.09,10264.45
+E2-accuracy,device1,mistral-q8,22,feedback,feedback,True,0.13,7494.28
+E2-accuracy,device1,mistral-q8,23,feedback,feedback,True,0.09,10101.18
+E2-accuracy,device1,mistral-q8,24,feedback,feedback,True,0.12,8263.82
+E2-accuracy,device1,mistral-q8,25,feedback,feedback,True,0.12,8254.48
+E2-accuracy,device1,mistral-q8,26,feedback,complaint,False,0.11,8971.12
+E2-accuracy,device1,mistral-q8,27,feedback,feedback,True,0.12,8291.0
+E2-accuracy,device1,mistral-q8,28,feedback,complaint,False,0.12,8205.15
+E2-accuracy,device1,mistral-q8,29,feedback,feedback,True,0.11,8481.03
+E2-accuracy,device1,mistral-q8,30,feedback,complaint,False,0.12,7673.49
+E2-accuracy,device1,mistral-q8,31,spam,spam,True,0.17,10791.04
+E2-accuracy,device1,mistral-q8,32,spam,urgently this email appears to be a ph,False,0.77,8985.31
+E2-accuracy,device1,mistral-q8,33,spam,spam,True,0.2,8454.38
+E2-accuracy,device1,mistral-q8,34,spam,spam,True,0.16,11570.47
+E2-accuracy,device1,mistral-q8,35,spam,spam,True,0.22,8466.98
+E2-accuracy,device1,mistral-q8,36,spam,spam,True,0.17,10870.49
+E2-accuracy,device1,mistral-q8,37,spam,spam,True,0.16,11895.76
+E2-accuracy,device1,mistral-q8,38,spam,spam,True,0.19,9659.09
+E2-accuracy,device1,mistral-q8,39,spam,spam,True,0.17,11075.11
+E2-accuracy,device1,mistral-q8,40,spam,spam,True,0.17,10664.82
+E2-accuracy,device1,mistral-q8,41,urgent,urgent,True,0.11,8764.99
+E2-accuracy,device1,mistral-q8,42,urgent,urgent,True,0.12,7827.07
+E2-accuracy,device1,mistral-q8,43,urgent,urgent,True,0.11,8402.89
+E2-accuracy,device1,mistral-q8,44,urgent,urgent,True,0.1,9480.78
+E2-accuracy,device1,mistral-q8,45,urgent,urgent,True,0.12,8120.48
+E2-accuracy,device1,mistral-q8,46,urgent,urgent,True,0.12,8255.96
+E2-accuracy,device1,mistral-q8,47,urgent,"urgent
+
+(note: in this context",True,0.87,7939.86
+E2-accuracy,device1,mistral-q8,48,urgent,urgent,True,0.12,7752.1
+E2-accuracy,device1,mistral-q8,49,urgent,urgent,True,0.11,8814.4
+E2-accuracy,device1,mistral-q8,50,urgent,urgent,True,0.12,8267.52
+E2-accuracy,device1,mistral-q8,51,inquiry,inquiry,True,0.22,8417.0
+E2-accuracy,device1,mistral-q8,52,inquiry,inquiry,True,0.04,34851.37
+E2-accuracy,device1,mistral-q8,53,complaint,complaint,True,0.1,9727.47
+E2-accuracy,device1,mistral-q8,54,complaint,complaint,True,0.12,7972.31
+E2-accuracy,device1,mistral-q8,55,feedback,feedback,True,0.11,8695.89
+E2-accuracy,device1,mistral-q8,56,feedback,feedback,True,0.11,8426.22
+E2-accuracy,device1,mistral-q8,57,spam,spam,True,0.18,10171.22
+E2-accuracy,device1,mistral-q8,58,spam,spam,True,0.18,10134.19
+E2-accuracy,device1,mistral-q8,59,urgent,urgent,True,0.11,8810.52
+E2-accuracy,device1,mistral-q8,60,urgent,urgent,True,0.1,9786.87
+E2-accuracy,device1,mistral-q8,61,inquiry,inquiry,True,0.21,8802.17
+E2-accuracy,device1,mistral-q8,62,inquiry,inquiry,True,0.23,7904.89
+E2-accuracy,device1,mistral-q8,63,complaint,complaint,True,0.09,11153.32
+E2-accuracy,device1,mistral-q8,64,complaint,complaint,True,0.11,8837.77
+E2-accuracy,device1,mistral-q8,65,feedback,feedback,True,0.11,9048.2
+E2-accuracy,device1,mistral-q8,66,feedback,complaint (regarding user experience),False,0.64,7839.47
+E2-accuracy,device1,mistral-q8,67,spam,spam,True,0.19,9943.46
+E2-accuracy,device1,mistral-q8,68,spam,spam,True,0.2,9175.47
+E2-accuracy,device1,mistral-q8,69,urgent,urgent,True,0.12,8262.55
+E2-accuracy,device1,mistral-q8,70,urgent,urgent,True,0.1,9338.76
+E2-accuracy,device1,mistral-q8,71,inquiry,inquiry,True,0.23,7937.66
+E2-accuracy,device1,mistral-q8,72,inquiry,inquiry,True,0.23,7818.53
+E2-accuracy,device1,mistral-q8,73,complaint,complaint,True,0.12,8216.46
+E2-accuracy,device1,mistral-q8,74,complaint,complaint,True,0.12,8255.51
+E2-accuracy,device1,mistral-q8,75,feedback,feedback,True,0.11,8937.12
+E2-accuracy,device1,mistral-q8,76,feedback,complaint,False,0.11,8738.46
+E2-accuracy,device1,mistral-q8,77,spam,spam,True,0.18,10088.0
+E2-accuracy,device1,mistral-q8,78,spam,spam,True,0.2,9242.34
+E2-accuracy,device1,mistral-q8,79,urgent,urgent,True,0.1,9672.0
+E2-accuracy,device1,mistral-q8,80,urgent,urgent,True,0.1,9207.27
+E2-accuracy,device1,mistral-q8,81,inquiry,inquiry,True,0.22,8172.45
+E2-accuracy,device1,mistral-q8,82,inquiry,inquiry,True,0.22,8318.79
+E2-accuracy,device1,mistral-q8,83,complaint,complaint,True,0.11,8274.64
+E2-accuracy,device1,mistral-q8,84,complaint,complaint,True,0.12,7959.2
+E2-accuracy,device1,mistral-q8,85,feedback,feedback,True,0.12,8070.33
+E2-accuracy,device1,mistral-q8,86,feedback,feedback,True,0.11,8350.51
+E2-accuracy,device1,mistral-q8,87,spam,spam,True,0.21,8689.21
+E2-accuracy,device1,mistral-q8,88,spam,spam,True,0.19,9559.01
+E2-accuracy,device1,mistral-q8,89,urgent,urgent,True,0.11,8654.07
+E2-accuracy,device1,mistral-q8,90,urgent,urgent,True,0.11,8647.89
+E2-accuracy,device1,mistral-q8,91,inquiry,complaint,False,0.09,10995.14
+E2-accuracy,device1,mistral-q8,92,inquiry,inquiry,True,0.22,8131.98
+E2-accuracy,device1,mistral-q8,93,complaint,complaint,True,0.11,8947.59
+E2-accuracy,device1,mistral-q8,94,complaint,complaint,True,0.12,8085.38
+E2-accuracy,device1,mistral-q8,95,feedback,inquiry,False,0.22,8376.28
+E2-accuracy,device1,mistral-q8,96,feedback,feedback,True,0.11,8836.59
+E2-accuracy,device1,mistral-q8,97,spam,spam,True,0.2,9356.54
+E2-accuracy,device1,mistral-q8,98,spam,spam,True,0.21,9015.25
+E2-accuracy,device1,mistral-q8,99,urgent,urgent,True,0.11,9090.77
+E2-accuracy,device1,mistral-q8,100,urgent,urgent,True,0.11,8553.16

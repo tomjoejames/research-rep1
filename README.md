@@ -7,7 +7,7 @@
 
 ## Authors
 
-Sahana, Fazil, Adwaith
+Sahana Srinivasan, Dharakeswar K, Adwaith Balakrishna, Tom Joe James
 
 ## Abstract
 
