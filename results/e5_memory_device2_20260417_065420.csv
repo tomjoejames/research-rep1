@@ -1,0 +1,5 @@
+experiment,device,model,baseline_ram_mb,peak_inference_ram_mb,max_tokens_reached,pressure_status,cache_flushed,peak_swap_mb,swap_active,ram_utilization_pct
+E5,device2,tinyllama,505.8,1262.6,1966,CRITICAL,True,512.5,False,15.9
+E5,device2,phi3:mini,536.1,4153.0,1966,CRITICAL,True,510.5,False,52.3
+E5,device2,qwen2.5:3b,551.6,2713.4,1966,CRITICAL,True,421.0,False,34.2
+E5,device2,mistral:7b,639.2,5261.2,1966,CRITICAL,True,478.4,True,66.2
