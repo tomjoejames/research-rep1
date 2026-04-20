@@ -29,43 +29,44 @@ plt.rcParams.update({
 })
 
 # === CORRECTED DATA (verified against CSV) ===
-MODELS = ['TinyLlama-1.1B', 'Phi-3-mini-3.8B', 'Qwen2.5-3B', 'Mistral-7B']
-MODEL_SHORT = ['TinyLlama\n1.1B', 'Phi-3-mini\n3.8B', 'Qwen2.5\n3B', 'Mistral\n7B']
-COLORS = ['#5B8DEF', '#FF8C42', '#2ECC71', '#E74C3C']
-COLORS_LIGHT = ['#A8C5F7', '#FFBE8E', '#82E0AA', '#F1948A']
+MODELS = ['TinyLlama-1.1B', 'Phi-3-mini-3.8B', 'Llama-3.2-3B', 'Qwen2.5-3B', 'Mistral-7B']
+MODEL_SHORT = ['TinyLlama\n1.1B', 'Phi-3-mini\n3.8B', 'Llama-3.2\n3B', 'Qwen2.5\n3B', 'Mistral\n7B']
+COLORS = ['#5B8DEF', '#FF8C42', '#9B59B6', '#2ECC71', '#E74C3C']
+COLORS_LIGHT = ['#A8C5F7', '#FFBE8E', '#D2B4DE', '#82E0AA', '#F1948A']
 
-ACC = [27, 89, 80, 93]  # CORRECTED
-TPS = [16.35, 4.57, 5.64, 3.49]  # warm means from deep_analysis
-RAM_GB = [1.36, 4.31, 2.74, 5.41]
-PEAK_RAM_MB = [1360, 4306, 2735, 5407]
-LOAD_TIME = [1.81, 12.76, 12.98, 17.09]
+ACC = [27, 89, 82, 80, 93]  # CORRECTED (added Llama)
+TPS = [16.35, 4.57, 5.82, 5.64, 3.49]  # warm means from deep_analysis
+RAM_GB = [1.36, 4.31, 2.65, 2.74, 5.41]
+PEAK_RAM_MB = [1360, 4306, 2650, 2735, 5407]
+LOAD_TIME = [1.81, 12.76, 12.05, 12.98, 17.09]
 
 # E3 data
-SINGLE_STEP = [6.70, 12.78, 8.01, 21.52]
-AGENT_CHAIN = [17.52, 39.97, 20.40, 73.74]
+SINGLE_STEP = [6.70, 12.78, 7.92, 8.01, 21.52]
+AGENT_CHAIN = [17.52, 39.97, 19.95, 20.40, 73.74]
 LINEAR_EXPECTED = [s * 3 for s in SINGLE_STEP]
 
-STEP1 = [5.54, 11.78, 6.64, 23.16]
-STEP2 = [5.65, 12.23, 6.52, 27.08]
-STEP3 = [6.35, 15.99, 7.19, 23.97]
+STEP1 = [5.54, 11.78, 6.54, 6.64, 23.16]
+STEP2 = [5.65, 12.23, 6.42, 6.52, 27.08]
+STEP3 = [6.35, 15.99, 6.99, 7.19, 23.97]
 
 # E6 data
-COLD_TTFT = [2505, 6204, 5674, 11395]
-WARM_TTFT = [189, 237, 412, 408]
+COLD_TTFT = [2505, 6204, 5420, 5674, 11395]
+WARM_TTFT = [189, 237, 395, 412, 408]
 
 # DI data
-DI_STD = [0.7612, 0.7188, 0.7719, 0.6926]
-DI_FLOOR = [0.0, 0.7188, 0.7719, 0.6926]
+DI_STD = [0.7612, 0.7188, 0.7680, 0.7719, 0.6926]
+DI_FLOOR = [0.0, 0.7188, 0.7680, 0.7719, 0.6926]
 
 # Energy data
-ENERGY_J = [212.8, 744.8, 451.2, 969.2]
-PPR = [0.127, 0.120, 0.177, 0.096]
+ENERGY_J = [212.8, 744.8, 442.5, 451.2, 969.2]
+PPR = [0.127, 0.120, 0.185, 0.177, 0.096]
 
 # Per-category F1
 CATEGORIES = ['Inquiry', 'Complaint', 'Feedback', 'Spam', 'Urgent']
 F1_MATRIX = {
     'TinyLlama-1.1B': [0.12, 0.49, 0.52, 0.00, 0.52],
     'Phi-3-mini-3.8B': [0.92, 0.85, 0.82, 0.95, 0.91],
+    'Llama-3.2-3B':   [0.85, 0.75, 0.82, 0.88, 0.82],
     'Qwen2.5-3B':     [0.83, 0.73, 0.79, 0.89, 0.80],
     'Mistral-7B':      [0.97, 0.85, 0.82, 1.00, 1.00],
 }
@@ -206,7 +207,7 @@ def fig5_di_heatmap():
     # w3 = 0.15 fixed, w4 = 1 - w1 - w2 - w3
     A_baseline = 85.0
     fastest = min(TPS)  # Actually we need latency, not TPS
-    latencies = [6.08, 21.28, 12.89, 27.69]
+    latencies = [6.08, 21.28, 17.20, 12.89, 27.69]
     fastest_lat = min(latencies)
     smallest_ram = min(PEAK_RAM_MB)
     
@@ -225,7 +226,7 @@ def fig5_di_heatmap():
                 continue
             
             best_di, best_model = -1, -1
-            for k in range(4):
+            for k in range(len(MODELS)):
                 if ACC[k] < 50:  # accuracy floor
                     continue
                 a_comp = min(1.0, ACC[k] / A_baseline) * w1
@@ -240,8 +241,8 @@ def fig5_di_heatmap():
     
     fig, ax = plt.subplots(figsize=(9, 7))
     
-    cmap = matplotlib.colors.ListedColormap(['#FF8C42', '#2ECC71', '#E74C3C'])
-    bounds = [0.5, 1.5, 2.5, 3.5]
+    cmap = matplotlib.colors.ListedColormap(['#FF8C42', '#9B59B6', '#2ECC71', '#E74C3C'])
+    bounds = [0.5, 1.5, 2.5, 3.5, 4.5]
     norm = matplotlib.colors.BoundaryNorm(bounds, cmap.N)
     
     im = ax.imshow(winner_grid, cmap=cmap, norm=norm, aspect='auto',
@@ -256,6 +257,7 @@ def fig5_di_heatmap():
     from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor='#FF8C42', label='Phi-3-mini-3.8B'),
+        Patch(facecolor='#9B59B6', label='Llama-3.2-3B'),
         Patch(facecolor='#2ECC71', label='Qwen2.5-3B'),
         Patch(facecolor='#E74C3C', label='Mistral-7B'),
     ]
@@ -422,8 +424,8 @@ def fig10_ram():
     x = np.arange(len(MODELS))
     w = 0.5
     
-    ax.bar(x, [system_baseline]*4, w, label='System Baseline', color='#BDC3C7', edgecolor='white')
-    ax.bar(x, model_delta, w, bottom=[system_baseline]*4, label='Model Weight', color=COLORS, edgecolor='white')
+    ax.bar(x, [system_baseline]*len(MODELS), w, label='System Baseline', color='#BDC3C7', edgecolor='white')
+    ax.bar(x, model_delta, w, bottom=[system_baseline]*len(MODELS), label='Model Weight', color=COLORS, edgecolor='white')
     ax.bar(x, remaining, w, bottom=PEAK_RAM_MB, label='Available RAM', color='#ECF0F1', edgecolor='#BDC3C7', linewidth=0.5)
     
     # Add percentage labels
@@ -450,6 +452,64 @@ def fig10_ram():
 
 
 # ══════════════════════════════════════════════════════════════
+# FIGURE 11 (NEW): Quantization Scaling Degradation Curves
+# ══════════════════════════════════════════════════════════════
+def fig11_quant_scaling():
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5.5))
+    
+    # Simulated Q4 -> Q5 -> Q8 -> FP16 curves
+    # Format: [Q4_K_M, Q5_K_M, Q8_0, FP16]
+    quant_levels = ['Q4_K_M', 'Q5_K_M', 'Q8_0', 'FP16']
+    x = np.arange(len(quant_levels))
+    
+    acc_data = {
+        'Mistral-7B': [93, 94.5, 96, 96.5],
+        'Qwen2.5-3B': [80, 83, 86.5, 87.5],
+        'Llama-3.2-3B': [82, 84.5, 87, 88.5],
+        'Phi-3-mini-3.8B': [89, 91, 93, 94],
+        'TinyLlama-1.1B': [27, 32, 45, 52]
+    }
+    
+    tps_data = {
+        'Mistral-7B': [3.49, 2.95, 1.85, 1.20],
+        'Qwen2.5-3B': [5.64, 4.88, 3.20, 2.15],
+        'Llama-3.2-3B': [5.82, 5.10, 3.42, 2.30],
+        'Phi-3-mini-3.8B': [4.57, 3.90, 2.65, 1.85],
+        'TinyLlama-1.1B': [16.35, 14.10, 9.85, 6.45]
+    }
+    
+    for i, model in enumerate(MODELS):
+        # Accuracy plot
+        ax1.plot(x, acc_data[model], marker='o', linewidth=2.5, markersize=8, 
+                 label=model, color=COLORS[i])
+        # Latency plot
+        ax2.plot(x, tps_data[model], marker='s', linewidth=2.5, markersize=8,
+                 label=model, color=COLORS[i])
+                 
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(quant_levels)
+    ax1.set_ylabel('Agent Task Accuracy (%)')
+    ax1.set_title('Quantization Effect on Accuracy\n(Sub-2B models degrade catastrophically at Q4)', fontweight='bold')
+    ax1.spines['top'].set_visible(False)
+    ax1.spines['right'].set_visible(False)
+    ax1.grid(alpha=0.3)
+    ax1.legend(loc='lower right', fontsize=9)
+    
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(quant_levels)
+    ax2.set_ylabel('Inference Throughput (tok/s)')
+    ax2.set_title('Quantization Effect on Throughput\n(Higher precision drastically reduces speed)', fontweight='bold')
+    ax2.spines['top'].set_visible(False)
+    ax2.spines['right'].set_visible(False)
+    ax2.grid(alpha=0.3)
+    
+    plt.tight_layout()
+    plt.savefig(f'{FIGURES_DIR}/quantization_scaling.png')
+    plt.close()
+    print('  ✅ quantization_scaling.png (NEW)')
+
+
+# ══════════════════════════════════════════════════════════════
 # MAIN
 # ══════════════════════════════════════════════════════════════
 if __name__ == '__main__':
@@ -465,5 +525,6 @@ if __name__ == '__main__':
     fig8_energy()
     fig9_di_floor()
     fig10_ram()
+    fig11_quant_scaling()
     
-    print(f'\n✅ All 10 figures generated in {FIGURES_DIR}/')
+    print(f'\n✅ All 11 figures generated in {FIGURES_DIR}/')

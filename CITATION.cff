@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite it as below."
+title: "Deployability of LLM-Based Agent Workflows on Resource-Constrained CPU-Only Systems"
+version: 1.0.0
+authors:
+  - family-names: "Srinivasan"
+    given-names: "Sahana"
+  - family-names: "Balakrishnan"
+    given-names: "Adwaith"
+  - family-names: "James"
+    given-names: "Tom Joe"
+  - family-names: "RM"
+    given-names: "Mohamed Fazil"
+date-released: 2026-04-19
+url: "https://github.com/placeholder/llm-edge-agents"
+repository-code: "https://github.com/placeholder/llm-edge-agents"
+license: MIT
+keywords:
+  - Large Language Models
+  - Edge AI
+  - Quantization
+  - Small Language Models
+  - Agent Workflows
+  - CPU Inference
