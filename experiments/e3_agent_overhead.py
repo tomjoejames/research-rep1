@@ -13,9 +13,28 @@ Usage:
   python experiments/e3_agent_overhead.py --device device2 --models "phi3:mini" --runs 20
 """
 
-import sys, os
+import sys, os, re, math
+import importlib.util
+import time
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 from lib import *
+
+# ── Dynamic Skill Loader ─────────────────────────────────────────
+# Cross-platform absolute path resolution, explicitly avoiding relative imports
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+def load_skill_function(skill_folder_name, function_name):
+    skill_path = os.path.join(REPO_ROOT, ".agents", "skills", skill_folder_name, "skill.py")
+    if not os.path.exists(skill_path):
+        raise FileNotFoundError(f"Missing skill implementation: {skill_path}")
+    spec = importlib.util.spec_from_file_location(function_name, skill_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return getattr(module, function_name)
+
+zero_cost_router = load_skill_function("zero-cost-router", "zero_cost_router")
+
 
 DEFAULT_MODELS = ["tinyllama", "phi3:mini", "qwen2.5:3b", "mistral:7b"]
 DEFAULT_RUNS = 30
@@ -76,41 +95,67 @@ def main():
         warmup(model, n=3)
 
         for i in range(runs):
-            # ── Single-step inference ────────────────────
-            mon1 = ResourceMonitor(); mon1.start()
+            # ── Dynamic Execution Choice ─────────────────────
+            routed_model = zero_cost_router(SINGLE_PROMPT)
+            is_heavy = "mistral" in routed_model.lower()
+            path_chosen = "Multi-Agent" if is_heavy else "Single-Step"
+
+            # ── Single-step inference (Baseline control) ────
+            mon1 = ResourceMonitor()
+            mon1.start()
             single = run_inference(model, SINGLE_PROMPT, max_tokens=50, ctx_size=2048)
-            mon1.stop(); s1 = mon1.get_stats()
+            mon1.stop()
+            s1 = mon1.get_stats()
 
-            # ── 3-step agent chain ───────────────────────
-            mon2 = ResourceMonitor(); mon2.start()
-            chain_start = time.perf_counter()
+            chain_total = 0
+            step1 = step2 = step3 = {"total_time_s": 0, "response": ""}
+            s2 = {"peak_ram_mb": 0}
 
-            step1 = run_inference(model, AGENT_STEP1, max_tokens=30, ctx_size=2048)
-            step2 = run_inference(model,
-                AGENT_STEP2_TEMPLATE.format(step1=step1["response"] or "Widget-X, 350, 5"),
-                max_tokens=30, ctx_size=2048)
-            step3 = run_inference(model,
-                AGENT_STEP3_TEMPLATE.format(step2=step2["response"] or "Subtotal: 1750, GST: 315"),
-                max_tokens=50, ctx_size=2048)
+            # ── Execute Multi-Agent Chain only if Router Escalated ──
+            if path_chosen == "Multi-Agent":
+                mon2 = ResourceMonitor()
+                mon2.start()
+                chain_start = time.perf_counter()
 
-            chain_total = time.perf_counter() - chain_start
-            mon2.stop(); s2 = mon2.get_stats()
+                step1 = run_inference(model, AGENT_STEP1, max_tokens=30, ctx_size=2048)
+                step2 = run_inference(model,
+                    AGENT_STEP2_TEMPLATE.format(step1=step1["response"] or "Widget-X, 350, 5"),
+                    max_tokens=30, ctx_size=2048)
+                step3 = run_inference(model,
+                    AGENT_STEP3_TEMPLATE.format(step2=step2["response"] or "Subtotal: 1750, GST: 315"),
+                    max_tokens=50, ctx_size=2048)
 
-            linear_expected = single["total_time_s"] * 3
-            overhead_ratio = chain_total / linear_expected if linear_expected > 0 else 0
+                chain_total = time.perf_counter() - chain_start
+                mon2.stop()
+                s2 = mon2.get_stats()
+                
+                final_output = step3["response"] or ""
+                chain_ok = all(s["response"] for s in [step1, step2, step3])
+            else:
+                final_output = single["response"] or ""
+                chain_ok = bool(single["response"])
+                chain_total = single["total_time_s"]  # Set to single baseline for fallback ratio math
 
-            # Check if all steps produced output
-            chain_ok = all(s["response"] for s in [step1, step2, step3])
-            
+            # Fix the Math: True end-to-end latency metric overhead ratio
+            overhead_ratio = chain_total / single["total_time_s"] if single.get("total_time_s", 0) > 0 else 0
+
             # Evaluate answer correctness (Math: 5 * 350 = 1750, 18% GST = 315, Total = 2065)
-            final_output = step3["response"].strip().replace("\n", " ") if step3["response"] else ""
-            answer_correct = "2065" in final_output and chain_ok
+            nums = []
+            for n in re.findall(r"[\d,]+(?:\.\d+)?", final_output):
+                try:
+                    nums.append(float(n.replace(',', '')))
+                except ValueError:
+                    continue
+            answer_correct = any(math.isclose(n, 2065.0, abs_tol=0.1) for n in nums) if (nums and chain_ok) else False
 
+            # Update CSV Schema explicitly incorporating Router telemetry
             rows.append({
                 "experiment": "E3",
                 "device": device,
                 "model": model,
                 "run": i + 1,
+                "routed_model": routed_model,
+                "path_executed": path_chosen,
                 "single_time_s": single["total_time_s"],
                 "single_tokens": single["tokens"],
                 "single_toks": single["tokens_per_sec"],
@@ -119,16 +164,15 @@ def main():
                 "step1_s": step1["total_time_s"],
                 "step2_s": step2["total_time_s"],
                 "step3_s": step3["total_time_s"],
-                "linear_expected_s": round(linear_expected, 4),
                 "overhead_ratio": round(overhead_ratio, 4),
                 "chain_completed": chain_ok,
                 "answer_correct": answer_correct,
-                "final_output": final_output[:100],
+                "final_output": final_output[:100].strip().replace("\n", " "),
                 "single_ram_mb": s1["peak_ram_mb"],
                 "agent_ram_mb": s2["peak_ram_mb"],
             })
-            print(f"  Run {i+1:02d}: single={single['total_time_s']:.2f}s | "
-                  f"agent={chain_total:.2f}s | ratio={overhead_ratio:.2f}x | ok={chain_ok} | correct={answer_correct}")
+            print(f"  Run {i+1:02d}: path={path_chosen} | single={single['total_time_s']:.2f}s | "
+                  f"chain={chain_total:.2f}s | ratio={overhead_ratio:.2f}x | correct={answer_correct}")
 
         unload_model(model)
         time.sleep(15)
