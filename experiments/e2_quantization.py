@@ -119,8 +119,8 @@ def main():
 
     # Save results
     ts = get_timestamp()
-    save_csv(throughput_rows, f"{args.output_dir}/e2_throughput_{device}_{ts}.csv")
-    save_csv(accuracy_rows, f"{args.output_dir}/e2_accuracy_{device}_{ts}.csv")
+    save_csv(throughput_rows, f"{args.output_dir}/{device}/e2_throughput_{ts}.csv")
+    save_csv(accuracy_rows, f"{args.output_dir}/{device}/e2_accuracy_{ts}.csv")
     print_header("E2 COMPLETE")
 
 

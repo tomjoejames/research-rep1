@@ -151,8 +151,8 @@ def main():
         time.sleep(10)
 
     ts = get_timestamp()
-    save_csv(summary_rows, f"{args.output_dir}/e5_memory_{device}_{ts}.csv")
-    save_json(all_timeseries, f"{args.output_dir}/e5_timeseries_{device}_{ts}.json")
+    save_csv(summary_rows, f"{args.output_dir}/{device}/e5_memory_{ts}.csv")
+    save_json(all_timeseries, f"{args.output_dir}/{device}/e5_timeseries_{ts}.json")
     print_header("E5 COMPLETE")
 
 if __name__ == "__main__":

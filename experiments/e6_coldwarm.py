@@ -105,7 +105,7 @@ def main():
         unload_model(model)
         time.sleep(10)
 
-    save_csv(rows, f"{args.output_dir}/e6_coldwarm_{device}_{get_timestamp()}.csv")
+    save_csv(rows, f"{args.output_dir}/{device}/e6_coldwarm_{get_timestamp()}.csv")
     print_header("E6 COMPLETE")
 
 

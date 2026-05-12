@@ -72,7 +72,7 @@ def main():
         unload_model(model)
         time.sleep(10)
 
-    outfile = f"{args.output_dir}/e1_baseline_{device}_{get_timestamp()}.csv"
+    outfile = f"{args.output_dir}/{device}/e1_baseline_{get_timestamp()}.csv"
     save_csv(rows, outfile)
     print_header("E1 COMPLETE")
 

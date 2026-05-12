@@ -34,26 +34,26 @@ pkill ollama
 
 
 # Create branch name with timestamp
-BRANCH_NAME="results-device1"
+# BRANCH_NAME="results-device1"
 
-echo "🌿 Creating branch: $BRANCH_NAME"
-git checkout -b $BRANCH_NAME
+# echo "🌿 Creating branch: $BRANCH_NAME"
+# git checkout -b $BRANCH_NAME
 
 # Add results
-git add .
+# git add .
 
 # Commit
-git commit -m "Add experiment results for device1 - $BRANCH_NAME"
+# git commit -m "Add experiment results for device1 - $BRANCH_NAME"
 
 # Push
-git push origin $BRANCH_NAME
+# git push origin $BRANCH_NAME
 
-echo "🚀 Pushed results to branch: $BRANCH_NAME"
+# echo "🚀 Pushed results to branch: $BRANCH_NAME"
 
 current_date=$(date +%F)
 
 # Push to main as well
-git switch main
-git add .
-git commit -am "Device1 results - $current_date"
-git push origin main
+# git switch main
+# git add .
+# git commit -am "Device1 results - $current_date"
+# git push origin main

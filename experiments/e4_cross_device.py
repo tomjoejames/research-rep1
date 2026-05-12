@@ -150,7 +150,7 @@ def main():
         unload_model(model)
         time.sleep(15)
 
-    save_csv(rows, f"{args.output_dir}/e4_resilience_{device}_{get_timestamp()}.csv")
+    save_csv(rows, f"{args.output_dir}/{device}/e4_resilience_{get_timestamp()}.csv")
     print_header("E4 COMPLETE")
 
 

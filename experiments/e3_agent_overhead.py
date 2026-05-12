@@ -177,7 +177,7 @@ def main():
         unload_model(model)
         time.sleep(15)
 
-    save_csv(rows, f"{args.output_dir}/e3_overhead_{device}_{get_timestamp()}.csv")
+    save_csv(rows, f"{args.output_dir}/{device}/e3_overhead_{get_timestamp()}.csv")
     print_header("E3 COMPLETE")
 
 
