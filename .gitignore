@@ -37,3 +37,7 @@
 # # run.sh
 # # analyze.sh
 # # dk_run.sh
+venv/ 
+__pycache__/ 
+models/.cache/huggingface/
+models/*.gguf
