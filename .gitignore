@@ -1,10 +1,14 @@
+# # Python
+# __pycache__/
+# *.py[cod]
+# *.egg-info/
+# dist/
+# build/
+# .eggs/
+# *.egg
+
+# # Virtual environments
 .venv/
-
-models/
-FOR SAHANA AND ADWAITH
-run.sh
-analyse.sh
-
 
 # # IDE
 # .vscode/
@@ -33,7 +37,7 @@ analyse.sh
 # # run.sh
 # # analyze.sh
 # # dk_run.sh
-venv/
-__pycache__/
+venv/ 
+__pycache__/ 
 models/.cache/huggingface/
 models/*.gguf
