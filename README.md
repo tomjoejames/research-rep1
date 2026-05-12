@@ -7,7 +7,7 @@
 
 ## Authors
 
-Sahana, Fazil, Adwaith
+Sahana, Adwaith, Fazil 
 
 ## Abstract
 
