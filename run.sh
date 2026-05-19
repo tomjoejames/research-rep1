@@ -7,7 +7,7 @@ echo "Starting Ollama..."
 ollama serve &
 sleep 5
 
-# Run experiments
+Run experiments
 echo "Running E1..."
 python experiments/e1_baseline.py --device device1
 
@@ -25,7 +25,7 @@ python experiments/e6_coldwarm.py --device device1
 
 echo "✅ Experiments completed"
 
-# Kill Ollama 
+# Kill Ollama
 echo "🛑 Stopping Ollama..."
 kill $OLLAMA_PID
 
