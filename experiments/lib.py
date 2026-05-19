@@ -7,7 +7,6 @@ All experiment scripts import from here to avoid code duplication.
 import json
 import time
 import os
-import sys
 import csv
 import threading
 import argparse
