@@ -8,7 +8,7 @@
 
 ## Authors
 
-Sahana, Adwaith, Fazil 
+Sahana Srinivasan, Adwaith Balakrishnan 
 
 ## Abstract
 
