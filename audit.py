@@ -5,13 +5,15 @@ import ast
 import re
 import sys
 
-base = "c:/Adhi/Startup/Research/research-rep1-v2"
+# Resolve repo root dynamically so the script runs on any machine without modification.
+base = os.path.dirname(os.path.abspath(__file__))
 
 print("==============================")
 print("PASS 1: Data Integrity (CSVs)")
 print("==============================")
 p1_anomalies = []
 res_dir = os.path.join(base, "results")
+# Flat layout: results/e{N}_{name}_{device}_{ts}.csv — no subdirectory nesting.
 csv_files = [f for f in glob.glob(os.path.join(res_dir, "*.csv"))]
 
 exp_headers = {}
@@ -22,7 +24,7 @@ for f in csv_files:
     except Exception as e:
         p1_anomalies.append(f"{filename}: Failed to read ({e})")
         continue
-        
+
     if df.empty:
         p1_anomalies.append(f"{filename}: File is empty.")
     if df.isna().any().any():
@@ -33,7 +35,7 @@ for f in csv_files:
         invalid_devices = df[~df['device'].astype(str).str.match(r'^device\d+$')]['device'].unique()
         if len(invalid_devices) > 0:
             p1_anomalies.append(f"{filename}: Invalid device identifiers found -> {invalid_devices}")
-            
+
     exp_prefix = filename.split('_')[0]
     headers = tuple(df.columns)
     if exp_prefix not in exp_headers:
@@ -63,13 +65,13 @@ class Analyzer(ast.NodeVisitor):
         self.imports = {}
         self.used_names = set()
         self.abs_paths = []
-    
+
     def visit_Import(self, node):
         for n in node.names:
             alias = n.asname if n.asname else n.name.split('.')[0]
             self.imports[alias] = n.name.split('.')[0]
         self.generic_visit(node)
-        
+
     def visit_ImportFrom(self, node):
         if node.module:
             for n in node.names:
@@ -81,7 +83,7 @@ class Analyzer(ast.NodeVisitor):
         if isinstance(node.ctx, ast.Load):
             self.used_names.add(node.id)
         self.generic_visit(node)
-        
+
     def visit_Constant(self, node):
         if isinstance(node.value, str):
             if re.match(r'^[a-zA-Z]:\\', node.value) or node.value.startswith('/Users/') or node.value.startswith('/home/'):
@@ -102,23 +104,23 @@ for py in py_files:
             tree = ast.parse(f.read(), filename=py)
             analyzer = Analyzer()
             analyzer.visit(tree)
-            
+
             # Check unused imports
             unused = set(analyzer.imports.keys()) - analyzer.used_names
             # Exclude wildcard or dynamic imports that might be false positives
             unused = {u for u in unused if u != '*'}
             if unused:
                 p2_anomalies.append(f"{filename}: Unused imports detected -> {unused}")
-                
+
             # Check hardcoded paths
             if analyzer.abs_paths:
                 p2_anomalies.append(f"{filename}: Hardcoded absolute paths found -> {analyzer.abs_paths[:2]}")
-                
+
             # Track external imports
             for alias, pkg in analyzer.imports.items():
                 if pkg.lower() not in standard_libs and pkg != 'lib' and pkg != 'experiments':
                     all_external_imports.add(pkg.lower())
-                    
+
         except Exception as e:
             p2_anomalies.append(f"{filename}: AST parse error ({e})")
 
@@ -146,7 +148,7 @@ tree_lines = re.findall(r'├── (.*?)\s+#', readme_content) + re.findall(r'�
 for t in tree_lines:
     path = t.strip()
     if not path or '*' in path or '<' in path: continue
-    
+
     # Reconstruct relative paths based on indentation
     # For simplicity, just search if the file exists *anywhere* in the repo or exactly at root
     if path.endswith('/'):

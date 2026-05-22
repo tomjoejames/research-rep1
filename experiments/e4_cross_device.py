@@ -47,16 +47,16 @@ def check_success(actual_output):
              clean_output = clean_output.replace("```json", "").replace("```", "").strip()
         elif clean_output.startswith("```"):
              clean_output = clean_output.replace("```", "").strip()
-             
+
         data = json.loads(clean_output)
         sub = float(data.get("subtotal", 0))
         tax = float(data.get("tax_amount", 0))
         coup = float(data.get("coupon", 0))
         fin = float(data.get("final_total", 0))
-        
-        if (math.isclose(sub, 787.5, abs_tol=0.1) and 
-            math.isclose(tax, 49.22, abs_tol=0.1) and 
-            math.isclose(coup, 25.0, abs_tol=0.1) and 
+
+        if (math.isclose(sub, 787.5, abs_tol=0.1) and
+            math.isclose(tax, 49.22, abs_tol=0.1) and
+            math.isclose(coup, 25.0, abs_tol=0.1) and
             math.isclose(fin, 811.72, abs_tol=0.1)):
             return True
     except Exception:
@@ -91,11 +91,11 @@ def main():
         for i in range(runs):
             mon = ResourceMonitor()
             mon.start()
-            
+
             # ── 1. Initial Inference ──
             result = run_inference(model, PROMPT, max_tokens=150, ctx_size=2048)
             actual_output = result["response"]
-            
+
             # ── 2. Evaluation ──
             if check_success(actual_output):
                 initial_error_type = "Success"
@@ -109,15 +109,15 @@ def main():
             if initial_error_type not in ("Success", "SAFE"):
                 recovery_attempted = True
                 reprompt = f"You made a {initial_error_type}. Fix it and output only the correct JSON."
-                
+
                 # Trigger second inference
                 recovery_result = run_inference(model, reprompt, max_tokens=150, ctx_size=2048)
                 reprompted_output = recovery_result["response"]
-                
+
                 # Check recovery success
                 eval_data = evaluate_recovery(initial_error_type, reprompted_output, EXPECTED_OUTPUT)
                 recovery_successful = eval_data.get('recovered', False)
-                
+
                 # Add latency and tokens from recovery step to total resource cost
                 result["total_time_s"] += recovery_result["total_time_s"]
                 result["tokens"] += recovery_result["tokens"]
@@ -144,13 +144,13 @@ def main():
                 "recovery_successful": recovery_successful,
                 "actual_output": actual_output[:500].replace("\n", " "),
             })
-            
+
             print(f"  Run {i+1:02d}: error={initial_error_type} | recovered={recovery_successful} | time={result['total_time_s']:.2f}s")
 
         unload_model(model)
         time.sleep(15)
 
-    save_csv(rows, f"{args.output_dir}/{device}/e4_resilience_{get_timestamp()}.csv")
+    save_csv(rows, f"{args.output_dir}/e4_resilience_{device}_{get_timestamp()}.csv")
     print_header("E4 COMPLETE")
 
 

@@ -128,7 +128,7 @@ def main():
                 chain_total = time.perf_counter() - chain_start
                 mon2.stop()
                 s2 = mon2.get_stats()
-                
+
                 final_output = step3["response"] or ""
                 chain_ok = all(s["response"] for s in [step1, step2, step3])
             else:
@@ -137,7 +137,10 @@ def main():
                 chain_total = single["total_time_s"]  # Set to single baseline for fallback ratio math
 
             # Fix the Math: True end-to-end latency metric overhead ratio
-            overhead_ratio = chain_total / single["total_time_s"] if single.get("total_time_s", 0) > 0 else 0
+            # overhead_ratio = chain_total / single["total_time_s"] if single.get("total_time_s", 0) > 0 else 0
+
+            # Ratio is only meaningful for multi-agent runs; single-step has no chain overhead so ratio is 1.0 by definition.
+            overhead_ratio = (chain_total / single["total_time_s"]) if (path_chosen == "Multi-Agent" and single.get("total_time_s", 0) > 0) else 1.0
 
             # Evaluate answer correctness (Math: 5 * 350 = 1750, 18% GST = 315, Total = 2065)
             nums = []
@@ -177,7 +180,7 @@ def main():
         unload_model(model)
         time.sleep(15)
 
-    save_csv(rows, f"{args.output_dir}/{device}/e3_overhead_{get_timestamp()}.csv")
+    save_csv(rows, f"{args.output_dir}/e3_overhead_{get_timestamp()}.csv")
     print_header("E3 COMPLETE")
 
 

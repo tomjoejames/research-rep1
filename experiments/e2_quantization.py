@@ -96,7 +96,8 @@ def main():
         for j, sample in enumerate(emails):
             result = run_inference(model, classification_prompt(sample["text"]), max_tokens=10)
             predicted = result["response"].strip().lower().replace(".", "").replace(",", "")
-            is_correct = sample["label"].lower() in predicted
+            # Exact match after stripping punctuation to avoid substring false positives (e.g. "not spam" matching "spam").
+            is_correct = predicted.strip() == sample["label"].lower()
             if is_correct:
                 correct_count += 1
             accuracy_rows.append({
@@ -119,8 +120,8 @@ def main():
 
     # Save results
     ts = get_timestamp()
-    save_csv(throughput_rows, f"{args.output_dir}/{device}/e2_throughput_{ts}.csv")
-    save_csv(accuracy_rows, f"{args.output_dir}/{device}/e2_accuracy_{ts}.csv")
+    save_csv(throughput_rows, f"{args.output_dir}/e2_throughput_{device}_{ts}.csv")
+    save_csv(accuracy_rows, f"{args.output_dir}/e2_accuracy_{device}_{ts}.csv")
     print_header("E2 COMPLETE")
 
 
