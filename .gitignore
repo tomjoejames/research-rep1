@@ -37,7 +37,8 @@
 # # run.sh
 # # analyze.sh
 # # dk_run.sh
-venv/ 
-__pycache__/ 
+venv/
+__pycache__/
 models/.cache/huggingface/
 models/*.gguf
+.device_id
