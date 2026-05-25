@@ -95,8 +95,18 @@ def main():
         correct_count = 0
         for j, sample in enumerate(emails):
             result = run_inference(model, classification_prompt(sample["text"]), max_tokens=10)
-            predicted = result["response"].strip().lower().replace(".", "").replace(",", "")
+            # Before -- predicted = result["response"].strip().lower().replace(".", "").replace(",", "")
             # Exact match after stripping punctuation to avoid substring false positives (e.g. "not spam" matching "spam").
+
+            ## After - extract first matching label from response for models that can't follow format instructions
+            response_clean = result["response"].strip().lower()
+            if "not spam" in response_clean:
+                predicted = "not spam"
+            elif "spam" in response_clean:
+                predicted = "spam"
+            else:
+                predicted = response_clean[:20]  # fallback, will likely score incorrect
+
             is_correct = predicted.strip() == sample["label"].lower()
             if is_correct:
                 correct_count += 1
