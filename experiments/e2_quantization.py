@@ -99,13 +99,19 @@ def main():
             # Exact match after stripping punctuation to avoid substring false positives (e.g. "not spam" matching "spam").
 
             ## After - extract first matching label from response for models that can't follow format instructions
+            # response_clean = result["response"].strip().lower()
+            # if "not spam" in response_clean:
+            #     predicted = "not spam"
+            # elif "spam" in response_clean:
+            #     predicted = "spam"
+            # else:
+            #     predicted = response_clean[:20]  # fallback, will likely score incorrect
+
+            ## After after
             response_clean = result["response"].strip().lower()
-            if "not spam" in response_clean:
-                predicted = "not spam"
-            elif "spam" in response_clean:
-                predicted = "spam"
-            else:
-                predicted = response_clean[:20]  # fallback, will likely score incorrect
+            # Extract first matching category label from response for models that ignore format instructions
+            CATEGORIES = ["inquiry", "complaint", "feedback", "urgent", "spam"]
+            predicted = next((cat for cat in CATEGORIES if cat in response_clean), response_clean[:20])
 
             is_correct = predicted.strip() == sample["label"].lower()
             if is_correct:
