@@ -1,1 +1,1 @@
-FROM /mnt/d/FOSAutomations/research-rep1/models/mistral-7b-instruct-v0.2.Q5_K_M.gguf
+FROM /home/sirius/research-rep1/models/mistral-7b-instruct-v0.2.Q5_K_M.gguf

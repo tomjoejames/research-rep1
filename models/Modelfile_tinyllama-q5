@@ -1,1 +1,1 @@
-FROM /mnt/d/FOSAutomations/research-rep1/models/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf
+FROM /home/sirius/research-rep1/models/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf

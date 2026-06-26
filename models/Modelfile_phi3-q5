@@ -1,1 +1,1 @@
-FROM /mnt/d/FOSAutomations/research-rep1/models/Phi-3-mini-4k-instruct-Q5_K_M.gguf
+FROM /home/sirius/research-rep1/models/Phi-3-mini-4k-instruct-Q5_K_M.gguf

@@ -1,0 +1,121 @@
+experiment,device,model,run,routed_model,path_executed,single_time_s,single_tokens,single_toks,single_ttft_ms,agent_chain_s,step1_s,step2_s,step3_s,overhead_ratio,chain_completed,answer_correct,final_output,single_ram_mb,agent_ram_mb
+E3,device3,tinyllama,1,mistral:7b,Multi-Agent,2.4571,50,20.35,1005.26,5.0315,1.5418,1.5257,1.9637,2.0477,True,False,"I am not able to format text or generate visuals, but I can provide you with an example response bas",1219.6,1236.7
+E3,device3,tinyllama,2,mistral:7b,Multi-Agent,1.4073,50,35.53,112.6,3.2595,0.8629,0.9101,1.4862,2.3162,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1237.9,1248.9
+E3,device3,tinyllama,3,mistral:7b,Multi-Agent,1.5823,50,31.6,153.19,3.5255,1.0499,0.9916,1.4837,2.2281,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1250.3,1248.6
+E3,device3,tinyllama,4,mistral:7b,Multi-Agent,1.4523,50,34.43,108.1,3.1632,0.9325,0.8402,1.3902,2.178,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1242.3,1243.0
+E3,device3,tinyllama,5,mistral:7b,Multi-Agent,1.4638,50,34.16,134.09,3.3053,0.9322,0.8685,1.5043,2.258,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1241.2,1234.9
+E3,device3,tinyllama,6,mistral:7b,Multi-Agent,1.4419,50,34.68,118.83,3.3623,1.0713,0.8964,1.3944,2.3318,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1233.5,1234.1
+E3,device3,tinyllama,7,mistral:7b,Multi-Agent,1.5356,50,32.56,170.46,3.3458,0.9386,0.9495,1.4574,2.1788,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1229.8,1242.2
+E3,device3,tinyllama,8,mistral:7b,Multi-Agent,1.483,50,33.72,167.72,3.3342,0.9545,0.9186,1.4609,2.2483,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1238.9,1235.9
+E3,device3,tinyllama,9,mistral:7b,Multi-Agent,1.6664,50,30.0,195.5,3.3752,0.9145,0.9661,1.4944,2.0255,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1230.5,1232.9
+E3,device3,tinyllama,10,mistral:7b,Multi-Agent,1.4775,50,33.84,169.86,3.2776,0.9691,0.9356,1.3726,2.2183,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1233.0,1243.9
+E3,device3,tinyllama,11,mistral:7b,Multi-Agent,1.4468,50,34.56,124.18,3.353,0.9197,1.0252,1.4079,2.3175,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1240.3,1246.4
+E3,device3,tinyllama,12,mistral:7b,Multi-Agent,1.4971,50,33.4,129.48,3.514,0.9831,1.0135,1.5172,2.3472,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1246.4,1239.5
+E3,device3,tinyllama,13,mistral:7b,Multi-Agent,1.552,50,32.22,134.05,3.4593,1.0053,0.9665,1.4874,2.229,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1234.8,1240.4
+E3,device3,tinyllama,14,mistral:7b,Multi-Agent,1.503,50,33.27,149.02,3.344,0.9018,0.9589,1.4831,2.2249,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1237.2,1235.0
+E3,device3,tinyllama,15,mistral:7b,Multi-Agent,1.4479,50,34.53,141.29,3.5006,1.0427,0.9645,1.4932,2.4177,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1227.7,1228.2
+E3,device3,tinyllama,16,mistral:7b,Multi-Agent,1.5341,50,32.59,138.28,3.578,1.0155,1.0352,1.527,2.3323,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1229.6,1236.3
+E3,device3,tinyllama,17,mistral:7b,Multi-Agent,1.5264,50,32.76,155.54,3.406,0.9907,0.9905,1.4245,2.2314,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1234.1,1234.8
+E3,device3,tinyllama,18,mistral:7b,Multi-Agent,1.5277,50,32.73,121.79,3.4228,0.9742,0.933,1.5154,2.2405,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1237.8,1236.8
+E3,device3,tinyllama,19,mistral:7b,Multi-Agent,1.4349,50,34.85,100.48,3.5778,1.0601,0.9976,1.5199,2.4934,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1240.0,1241.9
+E3,device3,tinyllama,20,mistral:7b,Multi-Agent,1.5863,50,31.52,149.56,3.4738,0.9935,0.949,1.5311,2.1899,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1230.2,1242.6
+E3,device3,tinyllama,21,mistral:7b,Multi-Agent,1.6046,50,31.16,142.87,3.3243,0.9648,0.9466,1.4128,2.0718,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1240.8,1239.8
+E3,device3,tinyllama,22,mistral:7b,Multi-Agent,1.4505,50,34.47,120.0,3.2596,1.0038,0.9225,1.333,2.2473,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1238.0,1239.1
+E3,device3,tinyllama,23,mistral:7b,Multi-Agent,1.4335,50,34.88,137.72,3.4841,0.9774,1.0227,1.4837,2.4305,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1227.2,1232.4
+E3,device3,tinyllama,24,mistral:7b,Multi-Agent,1.5126,50,33.06,122.05,3.3021,0.9249,0.9829,1.3941,2.1831,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1227.0,1230.1
+E3,device3,tinyllama,25,mistral:7b,Multi-Agent,1.474,50,33.92,98.64,3.3742,0.9578,0.9994,1.4168,2.2892,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1229.3,1239.1
+E3,device3,tinyllama,26,mistral:7b,Multi-Agent,1.4498,50,34.49,133.82,3.3902,0.9308,1.0075,1.4516,2.3384,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1237.4,1239.4
+E3,device3,tinyllama,27,mistral:7b,Multi-Agent,1.5868,50,31.51,164.72,3.5916,1.0017,0.9315,1.6582,2.2634,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1239.4,1238.2
+E3,device3,tinyllama,28,mistral:7b,Multi-Agent,1.4681,50,34.06,136.48,3.4448,0.9812,0.9268,1.5366,2.3464,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1236.2,1238.0
+E3,device3,tinyllama,29,mistral:7b,Multi-Agent,1.4426,50,34.66,127.55,3.2584,0.9209,0.9249,1.4125,2.2587,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1229.9,1236.6
+E3,device3,tinyllama,30,mistral:7b,Multi-Agent,1.5058,50,33.2,154.67,3.4488,0.9304,0.9713,1.5469,2.2904,True,False,"I am not able to provide a specific response based on customer's query, but I can provide you with a",1232.3,1229.5
+E3,device3,phi3:mini,1,mistral:7b,Multi-Agent,7.6862,24,3.12,5788.02,11.2202,4.0719,3.8435,3.3046,1.4598,True,False,"Subtotal (including GST): $10,312.50",4243.0,3584.0
+E3,device3,phi3:mini,2,mistral:7b,Multi-Agent,2.1273,24,11.28,220.57,5.129,1.7145,1.8845,1.5298,2.4111,True,False,"Subtotal (including GST): $10,312.50",3590.8,3633.0
+E3,device3,phi3:mini,3,mistral:7b,Multi-Agent,2.0347,24,11.8,160.12,5.1475,1.6931,1.886,1.568,2.5298,True,False,"Subtotal (including GST): $10,312.50",3625.9,3638.3
+E3,device3,phi3:mini,4,mistral:7b,Multi-Agent,2.1038,24,11.41,182.42,5.126,1.6511,1.9395,1.5352,2.4365,True,False,"Subtotal (including GST): $10,312.50",3590.6,3639.3
+E3,device3,phi3:mini,5,mistral:7b,Multi-Agent,2.0894,24,11.49,177.73,5.1433,1.6898,1.9237,1.5295,2.4616,True,False,"Subtotal (including GST): $10,312.50",3619.6,3600.8
+E3,device3,phi3:mini,6,mistral:7b,Multi-Agent,2.1234,24,11.3,212.72,5.1247,1.7355,1.894,1.495,2.4134,True,False,"Subtotal (including GST): $10,312.50",3592.3,3639.4
+E3,device3,phi3:mini,7,mistral:7b,Multi-Agent,2.0762,24,11.56,196.67,5.1367,1.7154,1.9004,1.5206,2.4741,True,False,"Subtotal (including GST): $10,312.50",3627.5,3642.8
+E3,device3,phi3:mini,8,mistral:7b,Multi-Agent,2.064,24,11.63,199.24,5.204,1.6846,1.9865,1.5326,2.5213,True,False,"Subtotal (including GST): $10,312.50",3615.8,3617.2
+E3,device3,phi3:mini,9,mistral:7b,Multi-Agent,2.0709,24,11.59,201.24,5.2077,1.7216,1.9246,1.5614,2.5147,True,False,"Subtotal (including GST): $10,312.50",3605.7,3638.6
+E3,device3,phi3:mini,10,mistral:7b,Multi-Agent,2.0999,24,11.43,203.69,5.1258,1.7025,1.8594,1.5637,2.441,True,False,"Subtotal (including GST): $10,312.50",3625.3,3650.0
+E3,device3,phi3:mini,11,mistral:7b,Multi-Agent,2.059,24,11.66,188.1,5.2229,1.755,1.9336,1.5341,2.5366,True,False,"Subtotal (including GST): $10,312.50",3631.3,3642.7
+E3,device3,phi3:mini,12,mistral:7b,Multi-Agent,2.1147,24,11.35,235.56,5.3651,1.7328,2.0377,1.5944,2.537,True,False,"Subtotal (including GST): $10,312.50",3604.3,3625.1
+E3,device3,phi3:mini,13,mistral:7b,Multi-Agent,2.1501,24,11.16,207.84,5.1499,1.6868,1.9106,1.5523,2.3952,True,False,"Subtotal (including GST): $10,312.50",3605.4,3638.8
+E3,device3,phi3:mini,14,mistral:7b,Multi-Agent,2.069,24,11.6,196.57,5.1512,1.71,1.8952,1.5458,2.4897,True,False,"Subtotal (including GST): $10,312.50",3629.0,3625.8
+E3,device3,phi3:mini,15,mistral:7b,Multi-Agent,2.0947,24,11.46,194.63,5.0985,1.6628,1.9205,1.5149,2.434,True,False,"Subtotal (including GST): $10,312.50",3617.6,3640.8
+E3,device3,phi3:mini,16,mistral:7b,Multi-Agent,2.0775,24,11.55,195.42,5.1454,1.6822,1.9603,1.5027,2.4767,True,False,"Subtotal (including GST): $10,312.50",3623.4,3650.6
+E3,device3,phi3:mini,17,mistral:7b,Multi-Agent,2.0835,24,11.52,157.02,5.1731,1.6994,1.9358,1.5376,2.4829,True,False,"Subtotal (including GST): $10,312.50",3624.1,3632.0
+E3,device3,phi3:mini,18,mistral:7b,Multi-Agent,2.1158,24,11.34,216.86,5.1237,1.636,1.9424,1.545,2.4216,True,False,"Subtotal (including GST): $10,312.50",3611.6,3630.9
+E3,device3,phi3:mini,19,mistral:7b,Multi-Agent,2.1559,24,11.13,239.16,5.1384,1.7006,1.9083,1.5292,2.3834,True,False,"Subtotal (including GST): $10,312.50",3616.0,3655.2
+E3,device3,phi3:mini,20,mistral:7b,Multi-Agent,2.0725,24,11.58,165.23,5.2978,1.7384,1.9999,1.5592,2.5562,True,False,"Subtotal (including GST): $10,312.50",3642.7,3624.4
+E3,device3,phi3:mini,21,mistral:7b,Multi-Agent,2.1053,24,11.4,207.33,5.1882,1.6759,1.9398,1.5722,2.4644,True,False,"Subtotal (including GST): $10,312.50",3614.4,3648.9
+E3,device3,phi3:mini,22,mistral:7b,Multi-Agent,2.0859,24,11.51,209.02,5.1831,1.7155,1.9396,1.5278,2.4848,True,False,"Subtotal (including GST): $10,312.50",3625.2,3636.9
+E3,device3,phi3:mini,23,mistral:7b,Multi-Agent,2.1398,24,11.22,174.27,5.1725,1.7079,1.9279,1.5364,2.4173,True,False,"Subtotal (including GST): $10,312.50",3619.7,3657.0
+E3,device3,phi3:mini,24,mistral:7b,Multi-Agent,2.112,24,11.36,228.39,5.1612,1.742,1.9169,1.5019,2.4437,True,False,"Subtotal (including GST): $10,312.50",3639.0,3626.4
+E3,device3,phi3:mini,25,mistral:7b,Multi-Agent,2.0949,24,11.46,218.49,5.1988,1.6984,1.9107,1.5895,2.4817,True,False,"Subtotal (including GST): $10,312.50",3618.3,3601.4
+E3,device3,phi3:mini,26,mistral:7b,Multi-Agent,2.0399,24,11.77,170.1,5.2488,1.7166,1.9562,1.5759,2.5731,True,False,"Subtotal (including GST): $10,312.50",3586.4,3612.9
+E3,device3,phi3:mini,27,mistral:7b,Multi-Agent,2.1427,24,11.2,203.65,5.193,1.6966,1.9327,1.563,2.4236,True,False,"Subtotal (including GST): $10,312.50",3606.0,3648.2
+E3,device3,phi3:mini,28,mistral:7b,Multi-Agent,2.1251,24,11.29,249.73,5.2192,1.7608,1.9453,1.5128,2.456,True,False,"Subtotal (including GST): $10,312.50",3637.0,3609.9
+E3,device3,phi3:mini,29,mistral:7b,Multi-Agent,2.1043,24,11.41,198.22,5.2752,1.6907,1.9784,1.6059,2.5069,True,False,"Subtotal (including GST): $10,312.50",3604.3,3639.2
+E3,device3,phi3:mini,30,mistral:7b,Multi-Agent,2.1344,24,11.24,217.03,5.1966,1.6944,1.9486,1.5534,2.4347,True,False,"Subtotal (including GST): $10,312.50",3628.6,3627.7
+E3,device3,qwen2.5:3b,1,mistral:7b,Multi-Agent,7.3334,27,3.68,5312.95,9.3657,3.0115,2.9541,3.3998,1.2771,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2606.5,2559.9
+E3,device3,qwen2.5:3b,2,mistral:7b,Multi-Agent,2.2848,27,11.82,338.36,5.3483,1.4955,1.5269,2.3257,2.3408,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2545.0,2540.7
+E3,device3,qwen2.5:3b,3,mistral:7b,Multi-Agent,2.3921,27,11.29,315.48,5.4812,1.5354,1.5805,2.3651,2.2914,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2535.6,2538.5
+E3,device3,qwen2.5:3b,4,mistral:7b,Multi-Agent,2.4525,27,11.01,329.78,5.4989,1.5633,1.5974,2.338,2.2422,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.9,2539.2
+E3,device3,qwen2.5:3b,5,mistral:7b,Multi-Agent,2.218,27,12.17,306.25,5.4836,1.5349,1.6037,2.3448,2.4723,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.2,2539.4
+E3,device3,qwen2.5:3b,6,mistral:7b,Multi-Agent,2.3788,27,11.35,305.43,5.757,1.5796,1.6885,2.4888,2.4201,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2535.4,2539.8
+E3,device3,qwen2.5:3b,7,mistral:7b,Multi-Agent,2.3805,27,11.34,342.52,5.4199,1.5102,1.5651,2.3444,2.2768,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.2,2539.6
+E3,device3,qwen2.5:3b,8,mistral:7b,Multi-Agent,2.3636,27,11.42,300.94,5.5006,1.5532,1.693,2.2541,2.3272,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2544.5,2542.5
+E3,device3,qwen2.5:3b,9,mistral:7b,Multi-Agent,2.3212,27,11.63,345.98,5.5195,1.5516,1.5774,2.3902,2.3779,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2540.1,2539.9
+E3,device3,qwen2.5:3b,10,mistral:7b,Multi-Agent,2.3838,27,11.33,315.05,5.441,1.5182,1.586,2.3366,2.2825,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.5,2539.6
+E3,device3,qwen2.5:3b,11,mistral:7b,Multi-Agent,2.3388,27,11.54,309.98,5.3714,1.4642,1.546,2.361,2.2967,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.0,2541.1
+E3,device3,qwen2.5:3b,12,mistral:7b,Multi-Agent,2.352,27,11.48,321.89,5.3625,1.4992,1.5769,2.2862,2.28,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.3,2540.9
+E3,device3,qwen2.5:3b,13,mistral:7b,Multi-Agent,2.3594,27,11.44,347.66,5.4647,1.5681,1.6037,2.2928,2.3162,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.5,2539.6
+E3,device3,qwen2.5:3b,14,mistral:7b,Multi-Agent,2.3756,27,11.37,371.11,5.5006,1.5673,1.639,2.2941,2.3154,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2540.9,2542.0
+E3,device3,qwen2.5:3b,15,mistral:7b,Multi-Agent,2.2898,27,11.79,329.63,5.499,1.5523,1.616,2.3305,2.4015,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.3,2541.9
+E3,device3,qwen2.5:3b,16,mistral:7b,Multi-Agent,2.4042,27,11.23,328.39,5.5747,1.5535,1.6542,2.3668,2.3187,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2541.4,2539.8
+E3,device3,qwen2.5:3b,17,mistral:7b,Multi-Agent,2.3512,27,11.48,312.94,5.356,1.5454,1.5246,2.2857,2.278,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.1,2540.5
+E3,device3,qwen2.5:3b,18,mistral:7b,Multi-Agent,2.274,27,11.87,350.48,5.3164,1.5105,1.529,2.2766,2.3379,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.9,2540.7
+E3,device3,qwen2.5:3b,19,mistral:7b,Multi-Agent,2.3437,27,11.52,374.26,5.4364,1.493,1.6102,2.3329,2.3196,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.5,2546.3
+E3,device3,qwen2.5:3b,20,mistral:7b,Multi-Agent,2.286,27,11.81,306.86,5.5536,1.5947,1.5959,2.3627,2.4294,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.3,2539.9
+E3,device3,qwen2.5:3b,21,mistral:7b,Multi-Agent,2.3366,27,11.56,307.33,5.4874,1.5345,1.5879,2.3648,2.3484,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.8,2541.6
+E3,device3,qwen2.5:3b,22,mistral:7b,Multi-Agent,2.3402,27,11.54,321.32,5.4427,1.4887,1.6334,2.3204,2.3257,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.9,2537.9
+E3,device3,qwen2.5:3b,23,mistral:7b,Multi-Agent,2.2848,27,11.82,313.8,5.4225,1.5465,1.5896,2.2862,2.3733,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2538.0,2539.1
+E3,device3,qwen2.5:3b,24,mistral:7b,Multi-Agent,2.354,27,11.47,372.56,5.6455,1.6021,1.6516,2.3916,2.3983,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2538.4,2538.3
+E3,device3,qwen2.5:3b,25,mistral:7b,Multi-Agent,2.4582,27,10.98,345.01,5.7579,1.6233,1.7186,2.4157,2.3423,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.7,2548.4
+E3,device3,qwen2.5:3b,26,mistral:7b,Multi-Agent,2.4336,27,11.09,345.98,6.2616,1.777,1.8088,2.6756,2.573,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2539.9,2540.3
+E3,device3,qwen2.5:3b,27,mistral:7b,Multi-Agent,2.414,27,11.18,320.3,5.5453,1.5292,1.6184,2.3974,2.2971,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2538.6,2536.9
+E3,device3,qwen2.5:3b,28,mistral:7b,Multi-Agent,2.2991,27,11.74,312.26,5.1976,1.4056,1.5834,2.2083,2.2607,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2537.2,2538.8
+E3,device3,qwen2.5:3b,29,mistral:7b,Multi-Agent,2.1609,27,12.49,288.83,5.36,1.4898,1.4781,2.392,2.4805,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2536.1,2538.3
+E3,device3,qwen2.5:3b,30,mistral:7b,Multi-Agent,2.4433,27,11.05,380.91,5.5625,1.5243,1.6533,2.3846,2.2766,True,False,"Subtotal: 1750, GST: 129.5; Total: 1879.5",2536.0,2539.8
+E3,device3,mistral:7b,1,mistral:7b,Multi-Agent,18.4279,50,2.71,10975.11,27.8784,9.2887,9.3854,9.2041,1.5128,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5221.6,5028.8
+E3,device3,mistral:7b,2,mistral:7b,Multi-Agent,7.8924,50,6.34,244.93,13.9283,4.7991,4.8347,4.2942,1.7648,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5036.6,5041.6
+E3,device3,mistral:7b,3,mistral:7b,Multi-Agent,7.9453,50,6.29,287.92,14.253,4.7944,4.8194,4.639,1.7939,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5040.5,5041.7
+E3,device3,mistral:7b,4,mistral:7b,Multi-Agent,7.7893,50,6.42,257.14,14.1286,4.75,4.7004,4.6779,1.8138,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5043.0,5043.7
+E3,device3,mistral:7b,5,mistral:7b,Multi-Agent,7.9603,50,6.28,273.75,14.0236,4.8762,4.6409,4.5063,1.7617,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.4,5041.7
+E3,device3,mistral:7b,6,mistral:7b,Multi-Agent,7.8922,50,6.34,293.07,14.2388,4.7928,4.8261,4.6196,1.8042,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.2,5043.5
+E3,device3,mistral:7b,7,mistral:7b,Multi-Agent,7.7047,50,6.49,303.26,14.2546,4.8265,4.7671,4.6607,1.8501,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5043.3,5044.6
+E3,device3,mistral:7b,8,mistral:7b,Multi-Agent,7.8935,50,6.33,265.0,13.9564,4.7491,4.5893,4.6175,1.7681,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5044.6,5044.2
+E3,device3,mistral:7b,9,mistral:7b,Multi-Agent,7.8791,50,6.35,283.63,14.1692,4.7345,4.8342,4.6003,1.7983,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5043.0,5042.8
+E3,device3,mistral:7b,10,mistral:7b,Multi-Agent,7.7013,50,6.49,230.25,13.9769,4.6174,4.824,4.5353,1.8149,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.8,5042.9
+E3,device3,mistral:7b,11,mistral:7b,Multi-Agent,7.9387,50,6.3,249.25,13.8706,4.6924,4.6671,4.5109,1.7472,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5041.6,5041.8
+E3,device3,mistral:7b,12,mistral:7b,Multi-Agent,7.9449,50,6.29,252.72,14.2841,4.907,4.8486,4.5284,1.7979,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.8,5043.5
+E3,device3,mistral:7b,13,mistral:7b,Multi-Agent,7.7324,50,6.47,300.64,14.2322,4.8226,4.7909,4.6185,1.8406,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5041.7,5040.9
+E3,device3,mistral:7b,14,mistral:7b,Multi-Agent,8.1422,50,6.14,293.58,13.8074,4.4758,4.6871,4.6443,1.6958,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5043.0,5042.5
+E3,device3,mistral:7b,15,mistral:7b,Multi-Agent,8.0011,50,6.25,284.52,14.4066,4.8673,4.8471,4.692,1.8006,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5043.8,5043.8
+E3,device3,mistral:7b,16,mistral:7b,Multi-Agent,7.976,50,6.27,279.77,14.268,4.8452,4.8192,4.6034,1.7889,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5044.0,5045.1
+E3,device3,mistral:7b,17,mistral:7b,Multi-Agent,8.042,50,6.22,325.11,14.3485,4.7962,4.9051,4.647,1.7842,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5044.2,5043.2
+E3,device3,mistral:7b,18,mistral:7b,Multi-Agent,7.9464,50,6.29,253.44,14.2737,4.8026,4.8471,4.6238,1.7963,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.7,5042.8
+E3,device3,mistral:7b,19,mistral:7b,Multi-Agent,7.9216,50,6.31,272.52,14.3036,4.5552,4.9152,4.8328,1.8056,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5042.0,5043.0
+E3,device3,mistral:7b,20,mistral:7b,Multi-Agent,7.7822,50,6.42,215.24,14.0967,4.7459,4.741,4.6096,1.8114,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5044.3,5042.0
+E3,device3,mistral:7b,21,mistral:7b,Multi-Agent,7.9374,50,6.3,265.45,14.1887,4.8163,4.6375,4.7346,1.7876,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5040.3,5072.9
+E3,device3,mistral:7b,22,mistral:7b,Multi-Agent,7.8594,50,6.36,287.18,14.0645,4.7595,4.7185,4.5863,1.7895,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5039.8,5048.3
+E3,device3,mistral:7b,23,mistral:7b,Multi-Agent,7.7437,50,6.46,312.36,14.1655,4.7623,4.7468,4.6561,1.8293,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5049.3,5050.3
+E3,device3,mistral:7b,24,mistral:7b,Multi-Agent,8.0245,50,6.23,281.05,14.1712,4.7849,4.7412,4.6448,1.766,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5049.6,5049.2
+E3,device3,mistral:7b,25,mistral:7b,Multi-Agent,7.9336,50,6.3,256.99,14.2139,4.7789,4.8031,4.6316,1.7916,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5048.7,5049.4
+E3,device3,mistral:7b,26,mistral:7b,Multi-Agent,7.8488,50,6.37,246.07,14.078,4.7303,4.7544,4.593,1.7936,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5048.1,5049.5
+E3,device3,mistral:7b,27,mistral:7b,Multi-Agent,7.8816,50,6.34,247.45,14.9114,5.5793,4.7081,4.6237,1.8919,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5049.5,5060.5
+E3,device3,mistral:7b,28,mistral:7b,Multi-Agent,7.871,50,6.35,231.95,14.1456,4.7427,4.8525,4.5502,1.7972,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5055.7,5049.5
+E3,device3,mistral:7b,29,mistral:7b,Multi-Agent,7.9224,50,6.31,274.51,14.1717,4.7861,4.7737,4.6117,1.7888,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5048.0,5050.3
+E3,device3,mistral:7b,30,mistral:7b,Multi-Agent,7.8941,50,6.33,277.16,14.129,4.7733,4.7239,4.6317,1.7898,True,False,"""Subtotal: $1,750, GST: $175, Total: $1,925""",5050.1,5049.7

@@ -1,0 +1,1328 @@
+experiment,device,model,sample_id,expected,predicted,correct,tokens_per_sec,ttft_ms
+E2-accuracy,device3,tinyllama,1,inquiry,"response:
+hi, i am u",False,8.03,990.64
+E2-accuracy,device3,tinyllama,2,inquiry,"response:
+sure! the ",False,12.56,521.8
+E2-accuracy,device3,tinyllama,3,inquiry,"response:
+return pol",False,13.71,508.62
+E2-accuracy,device3,tinyllama,4,inquiry,"response:
+based on t",False,14.43,467.62
+E2-accuracy,device3,tinyllama,5,inquiry,complaint,False,15.3,425.93
+E2-accuracy,device3,tinyllama,6,inquiry,"response:
+yes, your ",False,13.6,501.69
+E2-accuracy,device3,tinyllama,7,inquiry,inquiry,True,16.17,385.05
+E2-accuracy,device3,tinyllama,8,inquiry,"response:
+the email ",False,14.43,461.49
+E2-accuracy,device3,tinyllama,9,inquiry,"response:
+yes, we do",False,15.08,438.6
+E2-accuracy,device3,tinyllama,10,inquiry,"response:
+yes, the n",False,13.15,497.75
+E2-accuracy,device3,tinyllama,11,complaint,complaint,True,13.95,477.13
+E2-accuracy,device3,tinyllama,12,complaint,complaint,True,14.07,491.77
+E2-accuracy,device3,tinyllama,13,complaint,"response:
+the email ",False,14.43,476.03
+E2-accuracy,device3,tinyllama,14,complaint,"response:
+the email ",False,13.67,480.58
+E2-accuracy,device3,tinyllama,15,complaint,"response:
+the email ",False,15.03,436.96
+E2-accuracy,device3,tinyllama,16,complaint,complaint,True,12.63,542.98
+E2-accuracy,device3,tinyllama,17,complaint,"response:
+the email ",False,13.24,512.93
+E2-accuracy,device3,tinyllama,18,complaint,"response:
+the email ",False,14.75,442.88
+E2-accuracy,device3,tinyllama,19,complaint,complaint,True,13.06,547.76
+E2-accuracy,device3,tinyllama,20,complaint,"response:
+the email ",False,13.44,517.57
+E2-accuracy,device3,tinyllama,21,feedback,feedback,True,14.46,468.3
+E2-accuracy,device3,tinyllama,22,feedback,feedback,True,15.44,390.43
+E2-accuracy,device3,tinyllama,23,feedback,"response:
+catgoer: t",False,13.26,470.78
+E2-accuracy,device3,tinyllama,24,feedback,"response:
+thank you ",False,12.75,530.24
+E2-accuracy,device3,tinyllama,25,feedback,"response:
+sure! here",False,14.69,458.93
+E2-accuracy,device3,tinyllama,26,feedback,feedback,True,13.24,524.58
+E2-accuracy,device3,tinyllama,27,feedback,"response:
+catgoer: t",False,13.36,527.14
+E2-accuracy,device3,tinyllama,28,feedback,"response:
+the email ",False,15.96,410.29
+E2-accuracy,device3,tinyllama,29,feedback,feedback,True,14.3,477.86
+E2-accuracy,device3,tinyllama,30,feedback,complaint,False,15.13,419.55
+E2-accuracy,device3,tinyllama,31,spam,complaint,False,11.91,598.88
+E2-accuracy,device3,tinyllama,32,spam,"response:
+catgoer: t",False,13.89,501.98
+E2-accuracy,device3,tinyllama,33,spam,inquiry,False,13.94,494.5
+E2-accuracy,device3,tinyllama,34,spam,"response:
+dear value",False,13.05,541.68
+E2-accuracy,device3,tinyllama,35,spam,"response:
+the email ",False,13.39,527.13
+E2-accuracy,device3,tinyllama,36,spam,inquiry,False,12.3,558.74
+E2-accuracy,device3,tinyllama,37,spam,"response:
+catgoer: t",False,13.58,512.25
+E2-accuracy,device3,tinyllama,38,spam,"response:
+catgoer: """,False,12.27,555.74
+E2-accuracy,device3,tinyllama,39,spam,"response:
+catgoer: t",False,11.32,637.79
+E2-accuracy,device3,tinyllama,40,spam,"response:
+categoary:",False,11.59,629.01
+E2-accuracy,device3,tinyllama,41,urgent,urgent,True,12.77,553.46
+E2-accuracy,device3,tinyllama,42,urgent,complaint,False,13.87,482.47
+E2-accuracy,device3,tinyllama,43,urgent,complaint,False,13.78,501.06
+E2-accuracy,device3,tinyllama,44,urgent,complaint,False,11.96,580.15
+E2-accuracy,device3,tinyllama,45,urgent,"response:
+catgoer: """,False,14.15,481.13
+E2-accuracy,device3,tinyllama,46,urgent,complaint,False,13.08,541.78
+E2-accuracy,device3,tinyllama,47,urgent,inquiry,False,13.59,512.78
+E2-accuracy,device3,tinyllama,48,urgent,urgent,True,13.68,508.94
+E2-accuracy,device3,tinyllama,49,urgent,complaint,False,13.75,506.65
+E2-accuracy,device3,tinyllama,50,urgent,urgent,True,13.96,491.31
+E2-accuracy,device3,tinyllama,51,inquiry,inquiry,True,12.74,558.49
+E2-accuracy,device3,tinyllama,52,inquiry,"response:
+yes, you c",False,14.52,449.51
+E2-accuracy,device3,tinyllama,53,complaint,"response:
+the email ",False,12.65,560.18
+E2-accuracy,device3,tinyllama,54,complaint,"response:
+the email ",False,14.9,447.11
+E2-accuracy,device3,tinyllama,55,feedback,"response:
+the email ",False,13.29,525.61
+E2-accuracy,device3,tinyllama,56,feedback,complaint,False,13.24,529.16
+E2-accuracy,device3,tinyllama,57,spam,complaint,False,11.91,613.61
+E2-accuracy,device3,tinyllama,58,spam,response: congratula,False,11.6,609.55
+E2-accuracy,device3,tinyllama,59,urgent,urgent,True,12.79,538.28
+E2-accuracy,device3,tinyllama,60,urgent,inquiry,False,11.71,614.94
+E2-accuracy,device3,tinyllama,61,inquiry,complaint,False,13.05,538.05
+E2-accuracy,device3,tinyllama,62,inquiry,"response:
+the email ",False,14.27,473.94
+E2-accuracy,device3,tinyllama,63,complaint,complaint,True,11.66,623.72
+E2-accuracy,device3,tinyllama,64,complaint,"response:
+the email ",False,13.02,519.89
+E2-accuracy,device3,tinyllama,65,feedback,feedback,True,12.21,556.46
+E2-accuracy,device3,tinyllama,66,feedback,"response:
+the email ",False,14.07,475.6
+E2-accuracy,device3,tinyllama,67,spam,"response:
+the email ",False,11.98,596.3
+E2-accuracy,device3,tinyllama,68,spam,"response:
+thank you ",False,11.81,558.8
+E2-accuracy,device3,tinyllama,69,urgent,urgent,True,14.06,480.79
+E2-accuracy,device3,tinyllama,70,urgent,urgent,True,12.85,543.84
+E2-accuracy,device3,tinyllama,71,inquiry,"response:
+yes, we ac",False,13.49,503.03
+E2-accuracy,device3,tinyllama,72,inquiry,"response:
+bulk stati",False,14.03,482.57
+E2-accuracy,device3,tinyllama,73,complaint,"response:
+the email ",False,12.99,479.29
+E2-accuracy,device3,tinyllama,74,complaint,"response:
+the email ",False,12.54,512.28
+E2-accuracy,device3,tinyllama,75,feedback,complaint,False,13.04,535.44
+E2-accuracy,device3,tinyllama,76,feedback,"response:
+thank you ",False,12.43,558.08
+E2-accuracy,device3,tinyllama,77,spam,complaint,False,10.97,653.79
+E2-accuracy,device3,tinyllama,78,spam,"response:
+the email ",False,13.75,496.64
+E2-accuracy,device3,tinyllama,79,urgent,inquiry,False,12.69,552.18
+E2-accuracy,device3,tinyllama,80,urgent,urgent,True,12.03,540.95
+E2-accuracy,device3,tinyllama,81,inquiry,"response:
+yes, our r",False,14.37,432.99
+E2-accuracy,device3,tinyllama,82,inquiry,complaint,False,14.33,466.32
+E2-accuracy,device3,tinyllama,83,complaint,complaint,True,13.46,504.6
+E2-accuracy,device3,tinyllama,84,complaint,complaint,True,12.73,541.35
+E2-accuracy,device3,tinyllama,85,feedback,inquiry,False,12.89,483.35
+E2-accuracy,device3,tinyllama,86,feedback,"response:
+the email ",False,12.04,530.58
+E2-accuracy,device3,tinyllama,87,spam,"response:
+categoary:",False,13.24,529.47
+E2-accuracy,device3,tinyllama,88,spam,complaint,False,12.85,546.32
+E2-accuracy,device3,tinyllama,89,urgent,urgent,True,12.79,552.82
+E2-accuracy,device3,tinyllama,90,urgent,inquiry,False,13.76,509.25
+E2-accuracy,device3,tinyllama,91,inquiry,"response:
+yes, based",False,11.71,608.98
+E2-accuracy,device3,tinyllama,92,inquiry,"response:
+yes, we do",False,13.71,497.61
+E2-accuracy,device3,tinyllama,93,complaint,complaint,True,13.8,493.24
+E2-accuracy,device3,tinyllama,94,complaint,complaint,True,12.36,545.84
+E2-accuracy,device3,tinyllama,95,feedback,"response:
+thank you ",False,13.39,513.64
+E2-accuracy,device3,tinyllama,96,feedback,inquiry,False,9.53,549.57
+E2-accuracy,device3,tinyllama,97,spam,inquiry,False,11.52,615.18
+E2-accuracy,device3,tinyllama,98,spam,inquiry,False,12.66,521.81
+E2-accuracy,device3,tinyllama,99,urgent,inquiry,False,12.05,594.65
+E2-accuracy,device3,tinyllama,100,urgent,urgent,True,13.37,504.78
+E2-accuracy,device3,tinyllama-q5,1,inquiry,complaint,False,4.19,2094.35
+E2-accuracy,device3,tinyllama-q5,2,inquiry,"response:
+sure! base",False,8.07,927.3
+E2-accuracy,device3,tinyllama-q5,3,inquiry,"response: ""return po",False,8.26,928.64
+E2-accuracy,device3,tinyllama-q5,4,inquiry,complaint,False,8.67,856.72
+E2-accuracy,device3,tinyllama-q5,5,inquiry,complaint,False,8.58,879.82
+E2-accuracy,device3,tinyllama-q5,6,inquiry,"response: yes, your ",False,8.49,888.22
+E2-accuracy,device3,tinyllama-q5,7,inquiry,"response:
+according ",False,8.96,829.89
+E2-accuracy,device3,tinyllama-q5,8,inquiry,"response:
+the email ",False,8.86,859.67
+E2-accuracy,device3,tinyllama-q5,9,inquiry,"response:
+bulk disco",False,8.79,849.92
+E2-accuracy,device3,tinyllama-q5,10,inquiry,response: the email ,False,7.99,971.06
+E2-accuracy,device3,tinyllama-q5,11,complaint,"response:
+the email ",False,8.9,832.75
+E2-accuracy,device3,tinyllama-q5,12,complaint,"response:
+this email",False,8.83,847.2
+E2-accuracy,device3,tinyllama-q5,13,complaint,"response:
+the email ",False,7.85,978.49
+E2-accuracy,device3,tinyllama-q5,14,complaint,inquiry,False,8.17,943.38
+E2-accuracy,device3,tinyllama-q5,15,complaint,"response:
+this email",False,9.39,789.97
+E2-accuracy,device3,tinyllama-q5,16,complaint,"response:
+according ",False,8.27,917.46
+E2-accuracy,device3,tinyllama-q5,17,complaint,inquiry,False,7.68,1019.52
+E2-accuracy,device3,tinyllama-q5,18,complaint,inquiry,False,8.32,924.17
+E2-accuracy,device3,tinyllama-q5,19,complaint,"response:
+this email",False,7.63,1014.55
+E2-accuracy,device3,tinyllama-q5,20,complaint,"response:
+this email",False,8.08,957.91
+E2-accuracy,device3,tinyllama-q5,21,feedback,feedback,True,8.47,896.63
+E2-accuracy,device3,tinyllama-q5,22,feedback,inquiry,False,9.2,805.27
+E2-accuracy,device3,tinyllama-q5,23,feedback,"response:
+the email ",False,8.7,864.82
+E2-accuracy,device3,tinyllama-q5,24,feedback,"response:
+this email",False,8.57,859.11
+E2-accuracy,device3,tinyllama-q5,25,feedback,response: please add,False,8.65,848.44
+E2-accuracy,device3,tinyllama-q5,26,feedback,"response:
+based on t",False,7.67,998.1
+E2-accuracy,device3,tinyllama-q5,27,feedback,inquiry,False,7.65,1018.39
+E2-accuracy,device3,tinyllama-q5,28,feedback,"response:
+sure! here",False,9.21,806.38
+E2-accuracy,device3,tinyllama-q5,29,feedback,"response:
+the email ",False,8.62,873.56
+E2-accuracy,device3,tinyllama-q5,30,feedback,"response:
+based on t",False,9.57,760.41
+E2-accuracy,device3,tinyllama-q5,31,spam,complaint,False,7.25,1095.92
+E2-accuracy,device3,tinyllama-q5,32,spam,urgent,False,7.84,997.22
+E2-accuracy,device3,tinyllama-q5,33,spam,inquiry,False,8.39,890.08
+E2-accuracy,device3,tinyllama-q5,34,spam,inquiry,False,7.25,1096.16
+E2-accuracy,device3,tinyllama-q5,35,spam,"response:
+the email ",False,8.2,934.36
+E2-accuracy,device3,tinyllama-q5,36,spam,"response: ""act now!""",False,7.33,1088.06
+E2-accuracy,device3,tinyllama-q5,37,spam,"response:
+the email ",False,7.65,1016.04
+E2-accuracy,device3,tinyllama-q5,38,spam,complaint,False,7.79,987.42
+E2-accuracy,device3,tinyllama-q5,39,spam,urgent,False,7.26,1097.73
+E2-accuracy,device3,tinyllama-q5,40,spam,complaint,False,7.07,1135.9
+E2-accuracy,device3,tinyllama-q5,41,urgent,urgent,True,7.93,976.1
+E2-accuracy,device3,tinyllama-q5,42,urgent,"response:
+unauthoriz",False,8.95,839.25
+E2-accuracy,device3,tinyllama-q5,43,urgent,inquiry,False,8.62,881.08
+E2-accuracy,device3,tinyllama-q5,44,urgent,urgent,True,7.52,1053.77
+E2-accuracy,device3,tinyllama-q5,45,urgent,inquiry,False,8.64,850.12
+E2-accuracy,device3,tinyllama-q5,46,urgent,inquiry,False,8.35,920.57
+E2-accuracy,device3,tinyllama-q5,47,urgent,"response:
+according ",False,8.35,917.45
+E2-accuracy,device3,tinyllama-q5,48,urgent,urgent,True,8.92,844.59
+E2-accuracy,device3,tinyllama-q5,49,urgent,urgent,True,7.96,978.94
+E2-accuracy,device3,tinyllama-q5,50,urgent,urgent,True,8.68,872.08
+E2-accuracy,device3,tinyllama-q5,51,inquiry,inquiry,True,8.4,917.41
+E2-accuracy,device3,tinyllama-q5,52,inquiry,inquiry,True,9.76,749.37
+E2-accuracy,device3,tinyllama-q5,53,complaint,"response:
+the email ",False,8.26,934.96
+E2-accuracy,device3,tinyllama-q5,54,complaint,"response:
+this email",False,9.17,811.57
+E2-accuracy,device3,tinyllama-q5,55,feedback,"response:
+the email ",False,8.3,928.71
+E2-accuracy,device3,tinyllama-q5,56,feedback,"response:
+the email ",False,8.48,894.39
+E2-accuracy,device3,tinyllama-q5,57,spam,"response:
+this email",False,7.04,1128.62
+E2-accuracy,device3,tinyllama-q5,58,spam,inquiry,False,7.69,1020.93
+E2-accuracy,device3,tinyllama-q5,59,urgent,urgent,True,8.02,951.31
+E2-accuracy,device3,tinyllama-q5,60,urgent,complaint,False,7.23,1099.5
+E2-accuracy,device3,tinyllama-q5,61,inquiry,inquiry,True,8.21,923.21
+E2-accuracy,device3,tinyllama-q5,62,inquiry,complaint,False,9.17,814.86
+E2-accuracy,device3,tinyllama-q5,63,complaint,complaint,True,7.21,1112.57
+E2-accuracy,device3,tinyllama-q5,64,complaint,"response:
+this email",False,8.05,971.69
+E2-accuracy,device3,tinyllama-q5,65,feedback,"response:
+according ",False,7.57,1036.15
+E2-accuracy,device3,tinyllama-q5,66,feedback,"response:
+the email ",False,9.11,806.14
+E2-accuracy,device3,tinyllama-q5,67,spam,"response:
+the email ",False,7.16,1112.08
+E2-accuracy,device3,tinyllama-q5,68,spam,response: please fin,False,8.15,948.01
+E2-accuracy,device3,tinyllama-q5,69,urgent,urgent,True,8.27,931.2
+E2-accuracy,device3,tinyllama-q5,70,urgent,complaint,False,7.61,1034.35
+E2-accuracy,device3,tinyllama-q5,71,inquiry,complaint,False,8.85,854.43
+E2-accuracy,device3,tinyllama-q5,72,inquiry,"response:
+bulk stati",False,8.95,838.67
+E2-accuracy,device3,tinyllama-q5,73,complaint,"response:
+according ",False,8.68,869.12
+E2-accuracy,device3,tinyllama-q5,74,complaint,inquiry,False,8.32,925.78
+E2-accuracy,device3,tinyllama-q5,75,feedback,"response:
+the email ",False,8.5,887.39
+E2-accuracy,device3,tinyllama-q5,76,feedback,complaint,False,7.81,1000.68
+E2-accuracy,device3,tinyllama-q5,77,spam,complaint,False,7.03,1137.04
+E2-accuracy,device3,tinyllama-q5,78,spam,inquiry,False,7.88,991.48
+E2-accuracy,device3,tinyllama-q5,79,urgent,urgent,True,7.71,1022.92
+E2-accuracy,device3,tinyllama-q5,80,urgent,urgent,True,8.0,974.18
+E2-accuracy,device3,tinyllama-q5,81,inquiry,"response:
+yes, our r",False,8.66,860.85
+E2-accuracy,device3,tinyllama-q5,82,inquiry,complaint,False,8.84,859.83
+E2-accuracy,device3,tinyllama-q5,83,complaint,"response:
+the email ",False,8.69,876.7
+E2-accuracy,device3,tinyllama-q5,84,complaint,"response:
+this email",False,8.73,874.68
+E2-accuracy,device3,tinyllama-q5,85,feedback,"response:
+this email",False,9.08,831.11
+E2-accuracy,device3,tinyllama-q5,86,feedback,"response:
+the email ",False,8.84,855.97
+E2-accuracy,device3,tinyllama-q5,87,spam,inquiry,False,7.56,1028.28
+E2-accuracy,device3,tinyllama-q5,88,spam,"response: ""warning: ",False,7.63,1032.49
+E2-accuracy,device3,tinyllama-q5,89,urgent,urgent,True,7.85,992.1
+E2-accuracy,device3,tinyllama-q5,90,urgent,inquiry,False,8.06,967.07
+E2-accuracy,device3,tinyllama-q5,91,inquiry,"response:
+the email ",False,7.2,1109.21
+E2-accuracy,device3,tinyllama-q5,92,inquiry,"response:
+the email ",False,8.81,863.15
+E2-accuracy,device3,tinyllama-q5,93,complaint,"response:
+this email",False,8.82,858.06
+E2-accuracy,device3,tinyllama-q5,94,complaint,complaint,True,8.47,908.34
+E2-accuracy,device3,tinyllama-q5,95,feedback,"response:
+the email ",False,8.7,876.41
+E2-accuracy,device3,tinyllama-q5,96,feedback,inquiry,False,7.9,994.9
+E2-accuracy,device3,tinyllama-q5,97,spam,inquiry,False,7.5,1050.44
+E2-accuracy,device3,tinyllama-q5,98,spam,"response:
+this email",False,7.77,1017.11
+E2-accuracy,device3,tinyllama-q5,99,urgent,urgent,True,7.77,1006.82
+E2-accuracy,device3,tinyllama-q5,100,urgent,"response:
+according ",False,8.02,974.2
+E2-accuracy,device3,tinyllama-q8,1,inquiry,complaint,False,4.11,2055.3
+E2-accuracy,device3,tinyllama-q8,2,inquiry,"response:
+sure! the ",False,7.54,976.12
+E2-accuracy,device3,tinyllama-q8,3,inquiry,"response: ""return po",False,7.49,992.64
+E2-accuracy,device3,tinyllama-q8,4,inquiry,"response:
+based on t",False,7.98,900.81
+E2-accuracy,device3,tinyllama-q8,5,inquiry,complaint,False,7.84,925.63
+E2-accuracy,device3,tinyllama-q8,6,inquiry,"response: yes, your ",False,7.7,957.55
+E2-accuracy,device3,tinyllama-q8,7,inquiry,"response:
+according ",False,8.29,863.18
+E2-accuracy,device3,tinyllama-q8,8,inquiry,"response: ""internati",False,8.18,873.87
+E2-accuracy,device3,tinyllama-q8,9,inquiry,"response:
+bulk disco",False,8.26,847.09
+E2-accuracy,device3,tinyllama-q8,10,inquiry,response: the email ,False,7.28,1027.44
+E2-accuracy,device3,tinyllama-q8,11,complaint,"response:
+this email",False,7.87,911.47
+E2-accuracy,device3,tinyllama-q8,12,complaint,"response: ""this emai",False,7.78,917.07
+E2-accuracy,device3,tinyllama-q8,13,complaint,"response:
+this email",False,6.98,1067.94
+E2-accuracy,device3,tinyllama-q8,14,complaint,inquiry,False,7.38,1007.54
+E2-accuracy,device3,tinyllama-q8,15,complaint,"response:
+this email",False,8.38,849.69
+E2-accuracy,device3,tinyllama-q8,16,complaint,complaint,True,7.61,958.48
+E2-accuracy,device3,tinyllama-q8,17,complaint,"response:
+the email ",False,7.17,1042.51
+E2-accuracy,device3,tinyllama-q8,18,complaint,"response: ""this emai",False,7.5,968.4
+E2-accuracy,device3,tinyllama-q8,19,complaint,"response:
+this email",False,7.03,1080.42
+E2-accuracy,device3,tinyllama-q8,20,complaint,"response:
+this email",False,7.39,1012.6
+E2-accuracy,device3,tinyllama-q8,21,feedback,feedback,True,7.57,971.7
+E2-accuracy,device3,tinyllama-q8,22,feedback,inquiry,False,8.4,847.65
+E2-accuracy,device3,tinyllama-q8,23,feedback,complaint,False,7.84,935.5
+E2-accuracy,device3,tinyllama-q8,24,feedback,"response:
+this email",False,7.97,918.08
+E2-accuracy,device3,tinyllama-q8,25,feedback,response: please add,False,8.1,885.86
+E2-accuracy,device3,tinyllama-q8,26,feedback,"response:
+this email",False,7.34,1016.57
+E2-accuracy,device3,tinyllama-q8,27,feedback,inquiry,False,7.29,1016.45
+E2-accuracy,device3,tinyllama-q8,28,feedback,"response:
+the email ",False,8.24,868.12
+E2-accuracy,device3,tinyllama-q8,29,feedback,"response:
+the email ",False,7.88,916.97
+E2-accuracy,device3,tinyllama-q8,30,feedback,"response:
+the email ",False,8.52,828.74
+E2-accuracy,device3,tinyllama-q8,31,spam,complaint,False,6.7,1138.55
+E2-accuracy,device3,tinyllama-q8,32,spam,urgent,False,7.41,1008.5
+E2-accuracy,device3,tinyllama-q8,33,spam,"response: ""no experi",False,7.92,914.28
+E2-accuracy,device3,tinyllama-q8,34,spam,inquiry,False,6.8,1115.89
+E2-accuracy,device3,tinyllama-q8,35,spam,"response:
+this email",False,7.33,997.03
+E2-accuracy,device3,tinyllama-q8,36,spam,"response: ""act now!""",False,6.64,1159.28
+E2-accuracy,device3,tinyllama-q8,37,spam,complaint,False,6.98,1084.76
+E2-accuracy,device3,tinyllama-q8,38,spam,complaint,False,7.27,1030.48
+E2-accuracy,device3,tinyllama-q8,39,spam,complaint,False,6.57,1164.97
+E2-accuracy,device3,tinyllama-q8,40,spam,complaint,False,6.55,1186.41
+E2-accuracy,device3,tinyllama-q8,41,urgent,urgent,True,7.4,988.2
+E2-accuracy,device3,tinyllama-q8,42,urgent,urgent,True,8.16,883.78
+E2-accuracy,device3,tinyllama-q8,43,urgent,urgent,True,7.74,949.63
+E2-accuracy,device3,tinyllama-q8,44,urgent,urgent,True,6.86,1112.25
+E2-accuracy,device3,tinyllama-q8,45,urgent,urgent,True,7.94,903.09
+E2-accuracy,device3,tinyllama-q8,46,urgent,"response:
+legal noti",False,7.42,990.8
+E2-accuracy,device3,tinyllama-q8,47,urgent,urgent,True,7.48,991.54
+E2-accuracy,device3,tinyllama-q8,48,urgent,urgent,True,8.12,870.41
+E2-accuracy,device3,tinyllama-q8,49,urgent,urgent,True,7.39,1013.48
+E2-accuracy,device3,tinyllama-q8,50,urgent,urgent,True,7.92,920.52
+E2-accuracy,device3,tinyllama-q8,51,inquiry,inquiry,True,7.55,970.21
+E2-accuracy,device3,tinyllama-q8,52,inquiry,inquiry,True,8.8,795.25
+E2-accuracy,device3,tinyllama-q8,53,complaint,"response:
+the email ",False,7.36,992.45
+E2-accuracy,device3,tinyllama-q8,54,complaint,"response:
+this email",False,7.88,889.05
+E2-accuracy,device3,tinyllama-q8,55,feedback,"response:
+the email ",False,7.25,980.39
+E2-accuracy,device3,tinyllama-q8,56,feedback,feedback,True,7.58,965.53
+E2-accuracy,device3,tinyllama-q8,57,spam,urgent,False,6.67,1141.48
+E2-accuracy,device3,tinyllama-q8,58,spam,response: congratula,False,6.96,1080.89
+E2-accuracy,device3,tinyllama-q8,59,urgent,urgent,True,7.37,1010.02
+E2-accuracy,device3,tinyllama-q8,60,urgent,complaint,False,6.67,1158.62
+E2-accuracy,device3,tinyllama-q8,61,inquiry,inquiry,True,7.53,982.34
+E2-accuracy,device3,tinyllama-q8,62,inquiry,complaint,False,8.38,842.73
+E2-accuracy,device3,tinyllama-q8,63,complaint,"response:
+the email ",False,6.57,1166.75
+E2-accuracy,device3,tinyllama-q8,64,complaint,"response:
+this email",False,7.16,1030.58
+E2-accuracy,device3,tinyllama-q8,65,feedback,complaint,False,7.23,1021.96
+E2-accuracy,device3,tinyllama-q8,66,feedback,"response:
+this email",False,8.2,871.0
+E2-accuracy,device3,tinyllama-q8,67,spam,"response:
+this email",False,6.55,1183.08
+E2-accuracy,device3,tinyllama-q8,68,spam,response: please fin,False,7.29,1000.87
+E2-accuracy,device3,tinyllama-q8,69,urgent,urgent,True,7.62,969.07
+E2-accuracy,device3,tinyllama-q8,70,urgent,urgent,True,7.03,1071.09
+E2-accuracy,device3,tinyllama-q8,71,inquiry,complaint,False,8.05,876.97
+E2-accuracy,device3,tinyllama-q8,72,inquiry,"response:
+bulk stati",False,8.07,877.57
+E2-accuracy,device3,tinyllama-q8,73,complaint,"response:
+the email ",False,7.85,908.22
+E2-accuracy,device3,tinyllama-q8,74,complaint,"response:
+the email ",False,7.68,957.75
+E2-accuracy,device3,tinyllama-q8,75,feedback,complaint,False,7.57,957.18
+E2-accuracy,device3,tinyllama-q8,76,feedback,complaint,False,7.01,1074.47
+E2-accuracy,device3,tinyllama-q8,77,spam,inquiry,False,6.43,1214.03
+E2-accuracy,device3,tinyllama-q8,78,spam,complaint,False,7.21,1043.93
+E2-accuracy,device3,tinyllama-q8,79,urgent,urgent,True,6.88,1093.76
+E2-accuracy,device3,tinyllama-q8,80,urgent,urgent,True,7.36,1017.26
+E2-accuracy,device3,tinyllama-q8,81,inquiry,"response:
+yes, our r",False,8.08,895.71
+E2-accuracy,device3,tinyllama-q8,82,inquiry,complaint,False,7.68,952.88
+E2-accuracy,device3,tinyllama-q8,83,complaint,complaint,True,7.75,948.75
+E2-accuracy,device3,tinyllama-q8,84,complaint,"response:
+the furnit",False,7.79,930.86
+E2-accuracy,device3,tinyllama-q8,85,feedback,inquiry,False,7.82,914.61
+E2-accuracy,device3,tinyllama-q8,86,feedback,"response:
+the email ",False,7.92,919.46
+E2-accuracy,device3,tinyllama-q8,87,spam,complaint,False,6.96,1081.39
+E2-accuracy,device3,tinyllama-q8,88,spam,"response: ""warning: ",False,6.93,1092.11
+E2-accuracy,device3,tinyllama-q8,89,urgent,urgent,True,7.26,1031.4
+E2-accuracy,device3,tinyllama-q8,90,urgent,urgent,True,7.5,993.11
+E2-accuracy,device3,tinyllama-q8,91,inquiry,"response:
+the email ",False,6.56,1175.51
+E2-accuracy,device3,tinyllama-q8,92,inquiry,"response:
+the email ",False,7.69,928.49
+E2-accuracy,device3,tinyllama-q8,93,complaint,"response:
+this email",False,7.7,923.1
+E2-accuracy,device3,tinyllama-q8,94,complaint,complaint,True,7.87,928.08
+E2-accuracy,device3,tinyllama-q8,95,feedback,"response:
+bronze mem",False,7.64,960.99
+E2-accuracy,device3,tinyllama-q8,96,feedback,"response: ""the live ",False,7.34,1019.12
+E2-accuracy,device3,tinyllama-q8,97,spam,inquiry,False,7.05,1073.34
+E2-accuracy,device3,tinyllama-q8,98,spam,"response:
+this email",False,7.17,1051.37
+E2-accuracy,device3,tinyllama-q8,99,urgent,urgent,True,7.1,1064.11
+E2-accuracy,device3,tinyllama-q8,100,urgent,urgent,True,7.32,1021.82
+E2-accuracy,device3,phi3:mini,1,inquiry,inquiry,True,0.43,6768.15
+E2-accuracy,device3,phi3:mini,2,inquiry,inquiry,True,2.0,1259.68
+E2-accuracy,device3,phi3:mini,3,inquiry,inquiry,True,1.85,1384.87
+E2-accuracy,device3,phi3:mini,4,inquiry,inquiry,True,2.21,1113.24
+E2-accuracy,device3,phi3:mini,5,inquiry,inquiry,True,1.75,1473.46
+E2-accuracy,device3,phi3:mini,6,inquiry,inquiry,True,1.91,1330.59
+E2-accuracy,device3,phi3:mini,7,inquiry,inquiry,True,1.98,1273.44
+E2-accuracy,device3,phi3:mini,8,inquiry,urgent,False,1.32,1356.0
+E2-accuracy,device3,phi3:mini,9,inquiry,inquiry,True,2.0,1264.19
+E2-accuracy,device3,phi3:mini,10,inquiry,inquiry,True,1.59,1654.67
+E2-accuracy,device3,phi3:mini,11,complaint,complaint,True,1.99,1279.43
+E2-accuracy,device3,phi3:mini,12,complaint,complaint,True,1.95,1291.43
+E2-accuracy,device3,phi3:mini,13,complaint,complaint,True,1.61,1615.15
+E2-accuracy,device3,phi3:mini,14,complaint,complaint,True,1.7,1525.1
+E2-accuracy,device3,phi3:mini,15,complaint,complaint,True,2.1,1192.0
+E2-accuracy,device3,phi3:mini,16,complaint,complaint,True,1.75,1462.12
+E2-accuracy,device3,phi3:mini,17,complaint,complaint,True,1.62,1606.2
+E2-accuracy,device3,phi3:mini,18,complaint,complaint,True,1.77,1459.63
+E2-accuracy,device3,phi3:mini,19,complaint,complaint,True,1.48,1762.36
+E2-accuracy,device3,phi3:mini,20,complaint,complaint,True,1.68,1544.67
+E2-accuracy,device3,phi3:mini,21,feedback,feedback,True,1.25,1439.8
+E2-accuracy,device3,phi3:mini,22,feedback,feedback,True,1.45,1215.5
+E2-accuracy,device3,phi3:mini,23,feedback,feedback,True,1.32,1353.07
+E2-accuracy,device3,phi3:mini,24,feedback,feedback,True,1.33,1344.19
+E2-accuracy,device3,phi3:mini,25,feedback,feedback,True,1.38,1294.43
+E2-accuracy,device3,phi3:mini,26,feedback,complaint,False,1.72,1511.51
+E2-accuracy,device3,phi3:mini,27,feedback,feedback,True,1.21,1492.08
+E2-accuracy,device3,phi3:mini,28,feedback,complaint,False,2.01,1223.94
+E2-accuracy,device3,phi3:mini,29,feedback,feedback,True,1.38,1291.7
+E2-accuracy,device3,phi3:mini,30,feedback,complaint,False,2.05,1221.32
+E2-accuracy,device3,phi3:mini,31,spam,spam,True,1.04,1757.72
+E2-accuracy,device3,phi3:mini,32,spam,spam,True,1.1,1644.64
+E2-accuracy,device3,phi3:mini,33,spam,spam,True,1.3,1379.48
+E2-accuracy,device3,phi3:mini,34,spam,spam,True,1.09,1674.8
+E2-accuracy,device3,phi3:mini,35,spam,spam,True,1.22,1477.71
+E2-accuracy,device3,phi3:mini,36,spam,spam,True,1.06,1733.42
+E2-accuracy,device3,phi3:mini,37,spam,spam,True,1.07,1705.81
+E2-accuracy,device3,phi3:mini,38,spam,spam,True,1.11,1646.89
+E2-accuracy,device3,phi3:mini,39,spam,spam,True,1.02,1797.61
+E2-accuracy,device3,phi3:mini,40,spam,spam,True,0.98,1872.08
+E2-accuracy,device3,phi3:mini,41,urgent,urgent,True,1.17,1542.21
+E2-accuracy,device3,phi3:mini,42,urgent,urgent,True,1.43,1245.31
+E2-accuracy,device3,phi3:mini,43,urgent,urgent,True,1.25,1441.17
+E2-accuracy,device3,phi3:mini,44,urgent,urgent,True,1.02,1796.62
+E2-accuracy,device3,phi3:mini,45,urgent,urgent,True,1.37,1300.23
+E2-accuracy,device3,phi3:mini,46,urgent,urgent,True,1.25,1446.61
+E2-accuracy,device3,phi3:mini,47,urgent,complaint,False,1.71,1518.22
+E2-accuracy,device3,phi3:mini,48,urgent,urgent,True,1.36,1310.71
+E2-accuracy,device3,phi3:mini,49,urgent,urgent,True,1.17,1548.06
+E2-accuracy,device3,phi3:mini,50,urgent,urgent,True,1.33,1339.91
+E2-accuracy,device3,phi3:mini,51,inquiry,inquiry,True,1.81,1421.04
+E2-accuracy,device3,phi3:mini,52,inquiry,inquiry,True,2.06,1219.17
+E2-accuracy,device3,phi3:mini,53,complaint,complaint,True,1.64,1583.51
+E2-accuracy,device3,phi3:mini,54,complaint,complaint,True,1.95,1288.56
+E2-accuracy,device3,phi3:mini,55,feedback,inquiry,False,1.64,1577.51
+E2-accuracy,device3,phi3:mini,56,feedback,feedback,True,1.17,1544.67
+E2-accuracy,device3,phi3:mini,57,spam,spam,True,0.93,1993.28
+E2-accuracy,device3,phi3:mini,58,spam,spam,True,0.91,2033.7
+E2-accuracy,device3,phi3:mini,59,urgent,urgent,True,1.05,1732.82
+E2-accuracy,device3,phi3:mini,60,urgent,urgent,True,0.85,2189.12
+E2-accuracy,device3,phi3:mini,61,inquiry,inquiry,True,1.52,1710.86
+E2-accuracy,device3,phi3:mini,62,inquiry,inquiry,True,1.79,1413.29
+E2-accuracy,device3,phi3:mini,63,complaint,complaint,True,1.26,2122.9
+E2-accuracy,device3,phi3:mini,64,complaint,complaint,True,1.32,1983.6
+E2-accuracy,device3,phi3:mini,65,feedback,feedback,True,0.87,2124.93
+E2-accuracy,device3,phi3:mini,66,feedback,feedback,True,1.13,1576.25
+E2-accuracy,device3,phi3:mini,67,spam,spam,True,0.79,2347.12
+E2-accuracy,device3,phi3:mini,68,spam,spam,True,0.86,2081.47
+E2-accuracy,device3,phi3:mini,69,urgent,urgent,True,0.92,1992.63
+E2-accuracy,device3,phi3:mini,70,urgent,urgent,True,0.78,2371.39
+E2-accuracy,device3,phi3:mini,71,inquiry,inquiry,True,1.53,1668.15
+E2-accuracy,device3,phi3:mini,72,inquiry,inquiry,True,1.48,1749.29
+E2-accuracy,device3,phi3:mini,73,complaint,complaint,True,1.41,1814.57
+E2-accuracy,device3,phi3:mini,74,complaint,complaint,True,1.33,1965.47
+E2-accuracy,device3,phi3:mini,75,feedback,feedback,True,0.91,2002.85
+E2-accuracy,device3,phi3:mini,76,feedback,complaint,False,1.32,1979.11
+E2-accuracy,device3,phi3:mini,77,spam,spam,True,0.71,2627.72
+E2-accuracy,device3,phi3:mini,78,spam,urgent,False,0.8,2308.35
+E2-accuracy,device3,phi3:mini,79,urgent,urgent,True,0.75,2474.68
+E2-accuracy,device3,phi3:mini,80,urgent,urgent,True,0.8,2299.06
+E2-accuracy,device3,phi3:mini,81,inquiry,inquiry,True,1.42,1801.01
+E2-accuracy,device3,phi3:mini,82,inquiry,inquiry,True,1.28,2048.1
+E2-accuracy,device3,phi3:mini,83,complaint,complaint,True,1.29,2022.97
+E2-accuracy,device3,phi3:mini,84,complaint,complaint,True,1.28,2039.19
+E2-accuracy,device3,phi3:mini,85,feedback,feedback,True,0.97,1863.82
+E2-accuracy,device3,phi3:mini,86,feedback,feedback,True,0.91,1984.26
+E2-accuracy,device3,phi3:mini,87,spam,spam,True,0.72,2564.14
+E2-accuracy,device3,phi3:mini,88,spam,spam,True,0.71,2608.33
+E2-accuracy,device3,phi3:mini,89,urgent,urgent,True,0.79,2294.96
+E2-accuracy,device3,phi3:mini,90,urgent,urgent,True,0.82,2248.75
+E2-accuracy,device3,phi3:mini,91,inquiry,complaint,False,1.02,2643.93
+E2-accuracy,device3,phi3:mini,92,inquiry,inquiry,True,1.29,2009.9
+E2-accuracy,device3,phi3:mini,93,complaint,complaint,True,1.29,2003.45
+E2-accuracy,device3,phi3:mini,94,complaint,complaint,True,1.21,2168.48
+E2-accuracy,device3,phi3:mini,95,feedback,complaint,False,1.24,2091.42
+E2-accuracy,device3,phi3:mini,96,feedback,feedback,True,0.76,2437.22
+E2-accuracy,device3,phi3:mini,97,spam,spam,True,0.69,2667.51
+E2-accuracy,device3,phi3:mini,98,spam,spam,True,0.71,2590.21
+E2-accuracy,device3,phi3:mini,99,urgent,urgent,True,0.72,2571.83
+E2-accuracy,device3,phi3:mini,100,urgent,urgent,True,0.82,2239.44
+E2-accuracy,device3,phi3-q5,1,inquiry,inquiry,True,0.21,9353.93
+E2-accuracy,device3,phi3-q5,2,inquiry,inquiry,True,0.77,2380.6
+E2-accuracy,device3,phi3-q5,3,inquiry,inquiry,True,0.73,2545.53
+E2-accuracy,device3,phi3-q5,4,inquiry,inquiry,True,0.89,2027.05
+E2-accuracy,device3,phi3-q5,5,inquiry,inquiry,True,0.78,2366.36
+E2-accuracy,device3,phi3-q5,6,inquiry,inquiry,True,0.86,2126.53
+E2-accuracy,device3,phi3-q5,7,inquiry,inquiry,True,0.92,1977.67
+E2-accuracy,device3,phi3-q5,8,inquiry,inquiry,True,0.88,2067.63
+E2-accuracy,device3,phi3-q5,9,inquiry,inquiry,True,0.9,2015.03
+E2-accuracy,device3,phi3-q5,10,inquiry,inquiry,True,0.72,2568.86
+E2-accuracy,device3,phi3-q5,11,complaint,complaint,True,0.88,2065.39
+E2-accuracy,device3,phi3-q5,12,complaint,complaint,True,0.87,2103.59
+E2-accuracy,device3,phi3-q5,13,complaint,complaint,True,0.7,2665.42
+E2-accuracy,device3,phi3-q5,14,complaint,complaint,True,0.73,2512.29
+E2-accuracy,device3,phi3-q5,15,complaint,complaint,True,0.87,2086.84
+E2-accuracy,device3,phi3-q5,16,complaint,complaint,True,0.73,2521.97
+E2-accuracy,device3,phi3-q5,17,complaint,complaint,True,0.65,2857.66
+E2-accuracy,device3,phi3-q5,18,complaint,complaint,True,0.7,2645.37
+E2-accuracy,device3,phi3-q5,19,complaint,complaint,True,0.58,3210.84
+E2-accuracy,device3,phi3-q5,20,complaint,complaint,True,0.64,2913.19
+E2-accuracy,device3,phi3-q5,21,feedback,feedback,True,0.34,2857.84
+E2-accuracy,device3,phi3-q5,22,feedback,feedback,True,0.4,2397.89
+E2-accuracy,device3,phi3-q5,23,feedback,feedback,True,0.39,2460.85
+E2-accuracy,device3,phi3-q5,24,feedback,feedback,True,0.37,2537.8
+E2-accuracy,device3,phi3-q5,25,feedback,feedback,True,0.32,2938.25
+E2-accuracy,device3,phi3-q5,26,feedback,complaint,False,0.77,2393.14
+E2-accuracy,device3,phi3-q5,27,feedback,feedback,True,0.38,2492.4
+E2-accuracy,device3,phi3-q5,28,feedback,feedback,True,0.45,2129.95
+E2-accuracy,device3,phi3-q5,29,feedback,feedback,True,0.41,2319.91
+E2-accuracy,device3,phi3-q5,30,feedback,feedback,True,0.5,1902.57
+E2-accuracy,device3,phi3-q5,31,spam,spam,True,0.63,2947.68
+E2-accuracy,device3,phi3-q5,32,spam,spam,True,0.68,2736.25
+E2-accuracy,device3,phi3-q5,33,spam,spam,True,0.75,2447.27
+E2-accuracy,device3,phi3-q5,34,spam,spam,True,0.6,3133.04
+E2-accuracy,device3,phi3-q5,35,spam,spam,True,0.76,2420.3
+E2-accuracy,device3,phi3-q5,36,spam,spam,True,0.62,3020.18
+E2-accuracy,device3,phi3-q5,37,spam,spam,True,0.58,3093.29
+E2-accuracy,device3,phi3-q5,38,spam,spam,True,0.6,3065.08
+E2-accuracy,device3,phi3-q5,39,spam,spam,True,0.4,4717.83
+E2-accuracy,device3,phi3-q5,40,spam,spam,True,0.53,3528.57
+E2-accuracy,device3,phi3-q5,41,urgent,urgent,True,0.58,3160.4
+E2-accuracy,device3,phi3-q5,42,urgent,urgent,True,0.85,2144.05
+E2-accuracy,device3,phi3-q5,43,urgent,urgent,True,0.61,3030.9
+E2-accuracy,device3,phi3-q5,44,urgent,urgent,True,0.58,3217.29
+E2-accuracy,device3,phi3-q5,45,urgent,urgent,True,0.83,2218.69
+E2-accuracy,device3,phi3-q5,46,urgent,urgent,True,0.73,2481.66
+E2-accuracy,device3,phi3-q5,47,urgent,complaint,False,0.65,2821.47
+E2-accuracy,device3,phi3-q5,48,urgent,urgent,True,0.78,2368.63
+E2-accuracy,device3,phi3-q5,49,urgent,complaint,False,0.72,2588.11
+E2-accuracy,device3,phi3-q5,50,urgent,urgent,True,0.77,2405.87
+E2-accuracy,device3,phi3-q5,51,inquiry,inquiry,True,0.8,2298.06
+E2-accuracy,device3,phi3-q5,52,inquiry,inquiry,True,0.92,1964.79
+E2-accuracy,device3,phi3-q5,53,complaint,complaint,True,0.71,2611.89
+E2-accuracy,device3,phi3-q5,54,complaint,complaint,True,0.9,2006.96
+E2-accuracy,device3,phi3-q5,55,feedback,feedback,True,0.4,2379.25
+E2-accuracy,device3,phi3-q5,56,feedback,feedback,True,0.4,2407.65
+E2-accuracy,device3,phi3-q5,57,spam,spam,True,0.59,3193.3
+E2-accuracy,device3,phi3-q5,58,spam,spam,True,0.6,3095.33
+E2-accuracy,device3,phi3-q5,59,urgent,urgent,True,0.73,2534.25
+E2-accuracy,device3,phi3-q5,60,urgent,urgent,True,0.6,3137.74
+E2-accuracy,device3,phi3-q5,61,inquiry,inquiry,True,0.75,2471.93
+E2-accuracy,device3,phi3-q5,62,inquiry,inquiry,True,0.93,1936.15
+E2-accuracy,device3,phi3-q5,63,complaint,complaint,True,0.63,2991.26
+E2-accuracy,device3,phi3-q5,64,complaint,complaint,True,0.66,2817.52
+E2-accuracy,device3,phi3-q5,65,feedback,feedback,True,0.36,2712.0
+E2-accuracy,device3,phi3-q5,66,feedback,feedback,True,0.48,1970.12
+E2-accuracy,device3,phi3-q5,67,spam,spam,True,0.6,3119.74
+E2-accuracy,device3,phi3-q5,68,spam,spam,True,0.67,2774.68
+E2-accuracy,device3,phi3-q5,69,urgent,urgent,True,0.75,2478.26
+E2-accuracy,device3,phi3-q5,70,urgent,complaint,False,0.64,2898.79
+E2-accuracy,device3,phi3-q5,71,inquiry,inquiry,True,0.88,2032.8
+E2-accuracy,device3,phi3-q5,72,inquiry,inquiry,True,0.84,2153.12
+E2-accuracy,device3,phi3-q5,73,complaint,complaint,True,0.76,2416.45
+E2-accuracy,device3,phi3-q5,74,complaint,complaint,True,0.79,2326.96
+E2-accuracy,device3,phi3-q5,75,feedback,feedback,True,0.41,2361.91
+E2-accuracy,device3,phi3-q5,76,feedback,feedback,True,0.42,2307.17
+E2-accuracy,device3,phi3-q5,77,spam,spam,True,0.56,3361.0
+E2-accuracy,device3,phi3-q5,78,spam,spam,True,0.7,2629.89
+E2-accuracy,device3,phi3-q5,79,urgent,urgent,True,0.66,2812.38
+E2-accuracy,device3,phi3-q5,80,urgent,urgent,True,0.71,2609.36
+E2-accuracy,device3,phi3-q5,81,inquiry,inquiry,True,0.84,2147.71
+E2-accuracy,device3,phi3-q5,82,inquiry,inquiry,True,0.81,2263.52
+E2-accuracy,device3,phi3-q5,83,complaint,complaint,True,0.81,2271.66
+E2-accuracy,device3,phi3-q5,84,complaint,complaint,True,0.79,2321.36
+E2-accuracy,device3,phi3-q5,85,feedback,feedback,True,0.43,2196.98
+E2-accuracy,device3,phi3-q5,86,feedback,feedback,True,0.42,2247.35
+E2-accuracy,device3,phi3-q5,87,spam,spam,True,0.66,2811.24
+E2-accuracy,device3,phi3-q5,88,spam,spam,True,0.65,2866.4
+E2-accuracy,device3,phi3-q5,89,urgent,urgent,True,0.7,2664.82
+E2-accuracy,device3,phi3-q5,90,urgent,urgent,True,0.64,2915.07
+E2-accuracy,device3,phi3-q5,91,inquiry,inquiry,True,0.52,3663.56
+E2-accuracy,device3,phi3-q5,92,inquiry,inquiry,True,0.74,2491.34
+E2-accuracy,device3,phi3-q5,93,complaint,complaint,True,0.68,2663.51
+E2-accuracy,device3,phi3-q5,94,complaint,complaint,True,0.62,2994.32
+E2-accuracy,device3,phi3-q5,95,feedback,feedback,True,0.36,2660.56
+E2-accuracy,device3,phi3-q5,96,feedback,feedback,True,0.28,3393.03
+E2-accuracy,device3,phi3-q5,97,spam,spam,True,0.48,3880.16
+E2-accuracy,device3,phi3-q5,98,spam,spam,True,0.52,3552.53
+E2-accuracy,device3,phi3-q5,99,urgent,urgent,True,0.46,4075.38
+E2-accuracy,device3,phi3-q5,100,urgent,urgent,True,0.62,2965.66
+E2-accuracy,device3,phi3-q8,1,inquiry,inquiry,True,0.14,14395.1
+E2-accuracy,device3,phi3-q8,2,inquiry,inquiry,True,0.73,2475.86
+E2-accuracy,device3,phi3-q8,3,inquiry,inquiry,True,0.7,2585.49
+E2-accuracy,device3,phi3-q8,4,inquiry,inquiry,True,0.85,2094.02
+E2-accuracy,device3,phi3-q8,5,inquiry,inquiry,True,0.73,2472.45
+E2-accuracy,device3,phi3-q8,6,inquiry,inquiry,True,0.79,2268.3
+E2-accuracy,device3,phi3-q8,7,inquiry,inquiry,True,0.86,2080.61
+E2-accuracy,device3,phi3-q8,8,inquiry,inquiry,True,0.83,2169.35
+E2-accuracy,device3,phi3-q8,9,inquiry,inquiry,True,0.85,2084.28
+E2-accuracy,device3,phi3-q8,10,inquiry,inquiry,True,0.68,2679.74
+E2-accuracy,device3,phi3-q8,11,complaint,complaint,True,0.83,2155.06
+E2-accuracy,device3,phi3-q8,12,complaint,complaint,True,0.82,2169.84
+E2-accuracy,device3,phi3-q8,13,complaint,complaint,True,0.69,2653.74
+E2-accuracy,device3,phi3-q8,14,complaint,complaint,True,0.72,2520.66
+E2-accuracy,device3,phi3-q8,15,complaint,complaint,True,0.86,2058.44
+E2-accuracy,device3,phi3-q8,16,complaint,complaint,True,0.74,2446.84
+E2-accuracy,device3,phi3-q8,17,complaint,complaint,True,0.69,2644.08
+E2-accuracy,device3,phi3-q8,18,complaint,complaint,True,0.75,2396.02
+E2-accuracy,device3,phi3-q8,19,complaint,complaint,True,0.64,2860.73
+E2-accuracy,device3,phi3-q8,20,complaint,complaint,True,0.71,2559.2
+E2-accuracy,device3,phi3-q8,21,feedback,feedback,True,0.4,2356.72
+E2-accuracy,device3,phi3-q8,22,feedback,feedback,True,0.44,2107.82
+E2-accuracy,device3,phi3-q8,23,feedback,feedback,True,0.4,2327.71
+E2-accuracy,device3,phi3-q8,24,feedback,feedback,True,0.42,2271.63
+E2-accuracy,device3,phi3-q8,25,feedback,feedback,True,0.43,2207.82
+E2-accuracy,device3,phi3-q8,26,feedback,complaint,False,0.69,2614.43
+E2-accuracy,device3,phi3-q8,27,feedback,feedback,True,0.37,2551.19
+E2-accuracy,device3,phi3-q8,28,feedback,feedback,True,0.44,2128.66
+E2-accuracy,device3,phi3-q8,29,feedback,feedback,True,0.41,2296.75
+E2-accuracy,device3,phi3-q8,30,feedback,feedback,True,0.48,1932.81
+E2-accuracy,device3,phi3-q8,31,spam,spam,True,0.62,2919.69
+E2-accuracy,device3,phi3-q8,32,spam,spam,True,0.69,2651.37
+E2-accuracy,device3,phi3-q8,33,spam,spam,True,0.76,2347.78
+E2-accuracy,device3,phi3-q8,34,spam,spam,True,0.62,2929.62
+E2-accuracy,device3,phi3-q8,35,spam,spam,True,0.71,2498.43
+E2-accuracy,device3,phi3-q8,36,spam,spam,True,0.57,3195.83
+E2-accuracy,device3,phi3-q8,37,spam,spam,True,0.63,2894.83
+E2-accuracy,device3,phi3-q8,38,spam,spam,True,0.67,2716.18
+E2-accuracy,device3,phi3-q8,39,spam,spam,True,0.59,3143.01
+E2-accuracy,device3,phi3-q8,40,spam,spam,True,0.58,3162.12
+E2-accuracy,device3,phi3-q8,41,urgent,urgent,True,0.7,2582.63
+E2-accuracy,device3,phi3-q8,42,urgent,urgent,True,0.86,2062.94
+E2-accuracy,device3,phi3-q8,43,urgent,urgent,True,0.77,2292.54
+E2-accuracy,device3,phi3-q8,44,urgent,urgent,True,0.64,2854.42
+E2-accuracy,device3,phi3-q8,45,urgent,urgent,True,0.79,2240.96
+E2-accuracy,device3,phi3-q8,46,urgent,urgent,True,0.72,2478.2
+E2-accuracy,device3,phi3-q8,47,urgent,complaint,False,0.71,2561.33
+E2-accuracy,device3,phi3-q8,48,urgent,urgent,True,0.8,2236.21
+E2-accuracy,device3,phi3-q8,49,urgent,complaint,False,0.7,2620.3
+E2-accuracy,device3,phi3-q8,50,urgent,urgent,True,0.79,2285.11
+E2-accuracy,device3,phi3-q8,51,inquiry,inquiry,True,0.78,2298.08
+E2-accuracy,device3,phi3-q8,52,inquiry,inquiry,True,0.93,1848.87
+E2-accuracy,device3,phi3-q8,53,complaint,complaint,True,0.72,2536.96
+E2-accuracy,device3,phi3-q8,54,complaint,complaint,True,0.85,2102.55
+E2-accuracy,device3,phi3-q8,55,feedback,feedback,True,0.4,2347.5
+E2-accuracy,device3,phi3-q8,56,feedback,feedback,True,0.4,2368.06
+E2-accuracy,device3,phi3-q8,57,spam,spam,True,0.59,3103.93
+E2-accuracy,device3,phi3-q8,58,spam,spam,True,0.6,3050.62
+E2-accuracy,device3,phi3-q8,59,urgent,urgent,True,0.69,2611.4
+E2-accuracy,device3,phi3-q8,60,urgent,urgent,True,0.57,3268.29
+E2-accuracy,device3,phi3-q8,61,inquiry,inquiry,True,0.72,2484.29
+E2-accuracy,device3,phi3-q8,62,inquiry,inquiry,True,0.83,2128.13
+E2-accuracy,device3,phi3-q8,63,complaint,complaint,True,0.6,3031.8
+E2-accuracy,device3,phi3-q8,64,complaint,complaint,True,0.68,2656.3
+E2-accuracy,device3,phi3-q8,65,feedback,feedback,True,0.35,2698.37
+E2-accuracy,device3,phi3-q8,66,feedback,feedback,True,0.45,2074.11
+E2-accuracy,device3,phi3-q8,67,spam,spam,True,0.57,3192.96
+E2-accuracy,device3,phi3-q8,68,spam,spam,True,0.67,2713.38
+E2-accuracy,device3,phi3-q8,69,urgent,urgent,True,0.73,2466.3
+E2-accuracy,device3,phi3-q8,70,urgent,complaint,False,0.63,2917.45
+E2-accuracy,device3,phi3-q8,71,inquiry,inquiry,True,0.84,2098.49
+E2-accuracy,device3,phi3-q8,72,inquiry,inquiry,True,0.77,2299.19
+E2-accuracy,device3,phi3-q8,73,complaint,complaint,True,0.79,2250.8
+E2-accuracy,device3,phi3-q8,74,complaint,complaint,True,0.73,2457.79
+E2-accuracy,device3,phi3-q8,75,feedback,feedback,True,0.39,2426.41
+E2-accuracy,device3,phi3-q8,76,feedback,feedback,True,0.39,2425.78
+E2-accuracy,device3,phi3-q8,77,spam,spam,True,0.56,3299.22
+E2-accuracy,device3,phi3-q8,78,spam,spam,True,0.68,2678.59
+E2-accuracy,device3,phi3-q8,79,urgent,urgent,True,0.64,2858.58
+E2-accuracy,device3,phi3-q8,80,urgent,urgent,True,0.67,2686.89
+E2-accuracy,device3,phi3-q8,81,inquiry,inquiry,True,0.8,2247.52
+E2-accuracy,device3,phi3-q8,82,inquiry,inquiry,True,0.75,2412.87
+E2-accuracy,device3,phi3-q8,83,complaint,complaint,True,0.74,2440.71
+E2-accuracy,device3,phi3-q8,84,complaint,complaint,True,0.75,2404.23
+E2-accuracy,device3,phi3-q8,85,feedback,feedback,True,0.42,2245.43
+E2-accuracy,device3,phi3-q8,86,feedback,feedback,True,0.4,2346.14
+E2-accuracy,device3,phi3-q8,87,spam,spam,True,0.64,2854.68
+E2-accuracy,device3,phi3-q8,88,spam,spam,True,0.66,2794.49
+E2-accuracy,device3,phi3-q8,89,urgent,urgent,True,0.72,2520.32
+E2-accuracy,device3,phi3-q8,90,urgent,urgent,True,0.7,2606.76
+E2-accuracy,device3,phi3-q8,91,inquiry,inquiry,True,0.58,3166.61
+E2-accuracy,device3,phi3-q8,92,inquiry,inquiry,True,0.78,2307.37
+E2-accuracy,device3,phi3-q8,93,complaint,complaint,True,0.78,2297.04
+E2-accuracy,device3,phi3-q8,94,complaint,complaint,True,0.7,2547.51
+E2-accuracy,device3,phi3-q8,95,feedback,feedback,True,0.41,2305.05
+E2-accuracy,device3,phi3-q8,96,feedback,feedback,True,0.36,2645.78
+E2-accuracy,device3,phi3-q8,97,spam,spam,True,0.63,2930.08
+E2-accuracy,device3,phi3-q8,98,spam,spam,True,0.65,2829.81
+E2-accuracy,device3,phi3-q8,99,urgent,urgent,True,0.65,2816.91
+E2-accuracy,device3,phi3-q8,100,urgent,urgent,True,0.72,2513.16
+E2-accuracy,device3,qwen2.5:3b,1,inquiry,inquiry,True,0.32,6153.97
+E2-accuracy,device3,qwen2.5:3b,2,inquiry,inquiry,True,1.63,1080.98
+E2-accuracy,device3,qwen2.5:3b,3,inquiry,feedback,False,0.71,1330.35
+E2-accuracy,device3,qwen2.5:3b,4,inquiry,inquiry,True,1.49,1166.79
+E2-accuracy,device3,qwen2.5:3b,5,inquiry,inquiry,True,1.56,1121.27
+E2-accuracy,device3,qwen2.5:3b,6,inquiry,inquiry,True,1.52,1165.74
+E2-accuracy,device3,qwen2.5:3b,7,inquiry,feedback,False,0.83,1117.66
+E2-accuracy,device3,qwen2.5:3b,8,inquiry,complaint,False,1.41,1246.23
+E2-accuracy,device3,qwen2.5:3b,9,inquiry,inquiry,True,1.55,1138.29
+E2-accuracy,device3,qwen2.5:3b,10,inquiry,inquiry,True,1.27,1419.09
+E2-accuracy,device3,qwen2.5:3b,11,complaint,complaint,True,1.45,1227.12
+E2-accuracy,device3,qwen2.5:3b,12,complaint,complaint,True,1.58,1114.38
+E2-accuracy,device3,qwen2.5:3b,13,complaint,complaint,True,1.26,1405.1
+E2-accuracy,device3,qwen2.5:3b,14,complaint,complaint,True,1.35,1319.46
+E2-accuracy,device3,qwen2.5:3b,15,complaint,complaint,True,1.47,1184.42
+E2-accuracy,device3,qwen2.5:3b,16,complaint,complaint,True,1.42,1252.46
+E2-accuracy,device3,qwen2.5:3b,17,complaint,complaint,True,1.19,1507.92
+E2-accuracy,device3,qwen2.5:3b,18,complaint,complaint,True,1.48,1185.3
+E2-accuracy,device3,qwen2.5:3b,19,complaint,complaint,True,1.18,1527.23
+E2-accuracy,device3,qwen2.5:3b,20,complaint,complaint,True,1.3,1362.43
+E2-accuracy,device3,qwen2.5:3b,21,feedback,feedback,True,0.69,1356.75
+E2-accuracy,device3,qwen2.5:3b,22,feedback,feedback,True,0.77,1216.47
+E2-accuracy,device3,qwen2.5:3b,23,feedback,feedback,True,0.81,1155.82
+E2-accuracy,device3,qwen2.5:3b,24,feedback,feedback,True,0.68,1391.98
+E2-accuracy,device3,qwen2.5:3b,25,feedback,feedback,True,0.7,1348.13
+E2-accuracy,device3,qwen2.5:3b,26,feedback,complaint,False,1.24,1417.84
+E2-accuracy,device3,qwen2.5:3b,27,feedback,feedback,True,0.69,1382.06
+E2-accuracy,device3,qwen2.5:3b,28,feedback,complaint,False,1.19,1518.91
+E2-accuracy,device3,qwen2.5:3b,29,feedback,feedback,True,0.68,1377.68
+E2-accuracy,device3,qwen2.5:3b,30,feedback,feedback,True,0.68,1381.34
+E2-accuracy,device3,qwen2.5:3b,31,spam,spam,True,0.57,1678.92
+E2-accuracy,device3,qwen2.5:3b,32,spam,urgent,False,1.54,1703.79
+E2-accuracy,device3,qwen2.5:3b,33,spam,spam,True,0.58,1620.93
+E2-accuracy,device3,qwen2.5:3b,34,spam,promotion,False,0.92,1965.4
+E2-accuracy,device3,qwen2.5:3b,35,spam,spam,True,0.57,1671.13
+E2-accuracy,device3,qwen2.5:3b,36,spam,spam,True,0.47,2046.67
+E2-accuracy,device3,qwen2.5:3b,37,spam,urgent,False,1.47,1751.71
+E2-accuracy,device3,qwen2.5:3b,38,spam,spam,True,0.52,1852.04
+E2-accuracy,device3,qwen2.5:3b,39,spam,complaint,False,0.81,2286.97
+E2-accuracy,device3,qwen2.5:3b,40,spam,spam,True,0.47,2055.05
+E2-accuracy,device3,qwen2.5:3b,41,urgent,urgent,True,0.54,1761.73
+E2-accuracy,device3,qwen2.5:3b,42,urgent,complaint,False,1.08,1641.17
+E2-accuracy,device3,qwen2.5:3b,43,urgent,urgent,True,0.54,1733.3
+E2-accuracy,device3,qwen2.5:3b,44,urgent,urgent,True,0.47,2041.88
+E2-accuracy,device3,qwen2.5:3b,45,urgent,complaint,False,0.97,1868.2
+E2-accuracy,device3,qwen2.5:3b,46,urgent,urgent,True,0.52,1831.2
+E2-accuracy,device3,qwen2.5:3b,47,urgent,complaint,False,1.02,1742.16
+E2-accuracy,device3,qwen2.5:3b,48,urgent,complaint,False,1.01,1766.07
+E2-accuracy,device3,qwen2.5:3b,49,urgent,urgent,True,0.48,1990.87
+E2-accuracy,device3,qwen2.5:3b,50,urgent,urgent,True,0.56,1691.92
+E2-accuracy,device3,qwen2.5:3b,51,inquiry,inquiry,True,0.93,1945.77
+E2-accuracy,device3,qwen2.5:3b,52,inquiry,feedback,False,0.61,1551.7
+E2-accuracy,device3,qwen2.5:3b,53,complaint,complaint,True,0.92,1942.78
+E2-accuracy,device3,qwen2.5:3b,54,complaint,complaint,True,1.02,1783.55
+E2-accuracy,device3,qwen2.5:3b,55,feedback,feedback,True,0.51,1874.22
+E2-accuracy,device3,qwen2.5:3b,56,feedback,feedback,True,0.53,1804.04
+E2-accuracy,device3,qwen2.5:3b,57,spam,spam,True,0.41,2359.12
+E2-accuracy,device3,qwen2.5:3b,58,spam,spam,True,0.4,2378.32
+E2-accuracy,device3,qwen2.5:3b,59,urgent,urgent,True,0.49,1923.66
+E2-accuracy,device3,qwen2.5:3b,60,urgent,complaint,False,0.84,2171.71
+E2-accuracy,device3,qwen2.5:3b,61,inquiry,inquiry,True,0.88,2059.16
+E2-accuracy,device3,qwen2.5:3b,62,inquiry,feedback,False,0.55,1721.26
+E2-accuracy,device3,qwen2.5:3b,63,complaint,complaint,True,0.72,2531.99
+E2-accuracy,device3,qwen2.5:3b,64,complaint,complaint,True,0.86,2105.31
+E2-accuracy,device3,qwen2.5:3b,65,feedback,feedback,True,0.43,2175.23
+E2-accuracy,device3,qwen2.5:3b,66,feedback,complaint,False,0.99,1822.1
+E2-accuracy,device3,qwen2.5:3b,67,spam,spam,True,0.38,2512.13
+E2-accuracy,device3,qwen2.5:3b,68,spam,spam,True,0.45,2090.07
+E2-accuracy,device3,qwen2.5:3b,69,urgent,urgent,True,0.46,2050.42
+E2-accuracy,device3,qwen2.5:3b,70,urgent,urgent,True,0.45,2125.04
+E2-accuracy,device3,qwen2.5:3b,71,inquiry,inquiry,True,0.98,1800.57
+E2-accuracy,device3,qwen2.5:3b,72,inquiry,feedback,False,0.52,1818.0
+E2-accuracy,device3,qwen2.5:3b,73,complaint,complaint,True,1.0,1794.9
+E2-accuracy,device3,qwen2.5:3b,74,complaint,complaint,True,0.94,1919.28
+E2-accuracy,device3,qwen2.5:3b,75,feedback,feedback,True,0.54,1754.66
+E2-accuracy,device3,qwen2.5:3b,76,feedback,complaint,False,0.98,1840.48
+E2-accuracy,device3,qwen2.5:3b,77,spam,spam,True,0.47,2021.58
+E2-accuracy,device3,qwen2.5:3b,78,spam,complaint,False,1.15,1560.99
+E2-accuracy,device3,qwen2.5:3b,79,urgent,urgent,True,0.59,1610.55
+E2-accuracy,device3,qwen2.5:3b,80,urgent,complaint,False,1.03,1759.85
+E2-accuracy,device3,qwen2.5:3b,81,inquiry,inquiry,True,1.21,1477.22
+E2-accuracy,device3,qwen2.5:3b,82,inquiry,inquiry,True,1.13,1585.44
+E2-accuracy,device3,qwen2.5:3b,83,complaint,complaint,True,1.21,1427.14
+E2-accuracy,device3,qwen2.5:3b,84,complaint,complaint,True,1.25,1433.55
+E2-accuracy,device3,qwen2.5:3b,85,feedback,feedback,True,0.72,1303.12
+E2-accuracy,device3,qwen2.5:3b,86,feedback,feedback,True,0.71,1338.18
+E2-accuracy,device3,qwen2.5:3b,87,spam,spam,True,0.74,1254.99
+E2-accuracy,device3,qwen2.5:3b,88,spam,spam,True,0.66,1426.32
+E2-accuracy,device3,qwen2.5:3b,89,urgent,urgent,True,2.12,1134.32
+E2-accuracy,device3,qwen2.5:3b,90,urgent,urgent,True,0.62,1521.0
+E2-accuracy,device3,qwen2.5:3b,91,inquiry,complaint,False,1.12,1635.02
+E2-accuracy,device3,qwen2.5:3b,92,inquiry,inquiry,True,1.62,1068.64
+E2-accuracy,device3,qwen2.5:3b,93,complaint,complaint,True,1.47,1204.63
+E2-accuracy,device3,qwen2.5:3b,94,complaint,complaint,True,1.41,1258.4
+E2-accuracy,device3,qwen2.5:3b,95,feedback,complaint,False,1.42,1254.91
+E2-accuracy,device3,qwen2.5:3b,96,feedback,feedback,True,0.67,1409.49
+E2-accuracy,device3,qwen2.5:3b,97,spam,spam,True,0.63,1501.36
+E2-accuracy,device3,qwen2.5:3b,98,spam,spam,True,0.71,1335.97
+E2-accuracy,device3,qwen2.5:3b,99,urgent,urgent,True,0.66,1445.28
+E2-accuracy,device3,qwen2.5:3b,100,urgent,urgent,True,0.78,1208.15
+E2-accuracy,device3,qwen-q5,1,inquiry,inquiry,True,0.14,7289.65
+E2-accuracy,device3,qwen-q5,2,inquiry,inquiry,True,0.54,1756.33
+E2-accuracy,device3,qwen-q5,3,inquiry,inquiry,True,0.46,2064.43
+E2-accuracy,device3,qwen-q5,4,inquiry,inquiry,True,0.66,1419.26
+E2-accuracy,device3,qwen-q5,5,inquiry,inquiry,True,0.51,1852.79
+E2-accuracy,device3,qwen-q5,6,inquiry,inquiry,True,0.56,1703.43
+E2-accuracy,device3,qwen-q5,7,inquiry,inquiry,True,0.64,1462.84
+E2-accuracy,device3,qwen-q5,8,inquiry,urgent,False,0.53,1783.1
+E2-accuracy,device3,qwen-q5,9,inquiry,inquiry,True,0.58,1623.76
+E2-accuracy,device3,qwen-q5,10,inquiry,inquiry,True,0.43,2241.22
+E2-accuracy,device3,qwen-q5,11,complaint,complaint,True,0.57,1656.57
+E2-accuracy,device3,qwen-q5,12,complaint,complaint,True,0.62,1521.54
+E2-accuracy,device3,qwen-q5,13,complaint,complaint,True,0.43,2188.64
+E2-accuracy,device3,qwen-q5,14,complaint,complaint,True,0.47,2021.81
+E2-accuracy,device3,qwen-q5,15,complaint,complaint,True,0.64,1476.85
+E2-accuracy,device3,qwen-q5,16,complaint,complaint,True,0.55,1717.69
+E2-accuracy,device3,qwen-q5,17,complaint,complaint,True,0.49,1942.02
+E2-accuracy,device3,qwen-q5,18,complaint,complaint,True,0.56,1681.45
+E2-accuracy,device3,qwen-q5,19,complaint,complaint,True,0.48,1968.96
+E2-accuracy,device3,qwen-q5,20,complaint,complaint,True,0.45,2113.52
+E2-accuracy,device3,qwen-q5,21,feedback,feedback,True,0.49,1927.73
+E2-accuracy,device3,qwen-q5,22,feedback,feedback,True,0.57,1663.82
+E2-accuracy,device3,qwen-q5,23,feedback,feedback,True,0.54,1754.17
+E2-accuracy,device3,qwen-q5,24,feedback,feedback,True,0.51,1873.53
+E2-accuracy,device3,qwen-q5,25,feedback,feedback,True,0.52,1823.82
+E2-accuracy,device3,qwen-q5,26,feedback,complaint,False,0.5,1903.74
+E2-accuracy,device3,qwen-q5,27,feedback,feedback,True,0.49,1925.17
+E2-accuracy,device3,qwen-q5,28,feedback,complaint,False,0.53,1782.67
+E2-accuracy,device3,qwen-q5,29,feedback,feedback,True,0.53,1788.05
+E2-accuracy,device3,qwen-q5,30,feedback,feedback,True,0.6,1575.48
+E2-accuracy,device3,qwen-q5,31,spam,spam,True,0.46,2077.51
+E2-accuracy,device3,qwen-q5,32,spam,urgent,False,0.5,1924.1
+E2-accuracy,device3,qwen-q5,33,spam,spam,True,0.48,1958.65
+E2-accuracy,device3,qwen-q5,34,spam,spam,True,0.43,2222.82
+E2-accuracy,device3,qwen-q5,35,spam,spam,True,0.51,1867.87
+E2-accuracy,device3,qwen-q5,36,spam,spam,True,0.44,2166.23
+E2-accuracy,device3,qwen-q5,37,spam,spam,True,0.51,1833.47
+E2-accuracy,device3,qwen-q5,38,spam,spam,True,0.46,2085.18
+E2-accuracy,device3,qwen-q5,39,spam,spam,True,0.38,2548.52
+E2-accuracy,device3,qwen-q5,40,spam,spam,True,0.4,2389.6
+E2-accuracy,device3,qwen-q5,41,urgent,urgent,True,0.52,1828.85
+E2-accuracy,device3,qwen-q5,42,urgent,complaint,False,0.64,1468.42
+E2-accuracy,device3,qwen-q5,43,urgent,complaint,False,0.53,1770.15
+E2-accuracy,device3,qwen-q5,44,urgent,urgent,True,0.45,2139.15
+E2-accuracy,device3,qwen-q5,45,urgent,complaint,False,3.87,1668.2
+E2-accuracy,device3,qwen-q5,46,urgent,urgent,True,0.55,1728.58
+E2-accuracy,device3,qwen-q5,47,urgent,complaint,False,0.51,1848.96
+E2-accuracy,device3,qwen-q5,48,urgent,complaint,False,0.55,1738.88
+E2-accuracy,device3,qwen-q5,49,urgent,complaint,False,0.48,1988.9
+E2-accuracy,device3,qwen-q5,50,urgent,complaint,False,0.59,1578.45
+E2-accuracy,device3,qwen-q5,51,inquiry,inquiry,True,0.52,1847.58
+E2-accuracy,device3,qwen-q5,52,inquiry,inquiry,True,0.68,1371.02
+E2-accuracy,device3,qwen-q5,53,complaint,complaint,True,0.52,1831.34
+E2-accuracy,device3,qwen-q5,54,complaint,complaint,True,4.21,1553.27
+E2-accuracy,device3,qwen-q5,55,feedback,feedback,True,0.47,2033.54
+E2-accuracy,device3,qwen-q5,56,feedback,feedback,True,0.57,1662.21
+E2-accuracy,device3,qwen-q5,57,spam,spam,True,0.42,2295.04
+E2-accuracy,device3,qwen-q5,58,spam,spam,True,0.44,2169.95
+E2-accuracy,device3,qwen-q5,59,urgent,urgent,True,0.55,1739.55
+E2-accuracy,device3,qwen-q5,60,urgent,complaint,False,3.43,2110.03
+E2-accuracy,device3,qwen-q5,61,inquiry,inquiry,True,0.49,1936.17
+E2-accuracy,device3,qwen-q5,62,inquiry,inquiry,True,0.62,1514.62
+E2-accuracy,device3,qwen-q5,63,complaint,complaint,True,0.43,2232.32
+E2-accuracy,device3,qwen-q5,64,complaint,complaint,True,0.52,1838.76
+E2-accuracy,device3,qwen-q5,65,feedback,feedback,True,0.51,1856.01
+E2-accuracy,device3,qwen-q5,66,feedback,complaint,False,0.6,1558.12
+E2-accuracy,device3,qwen-q5,67,spam,spam,True,0.46,2060.37
+E2-accuracy,device3,qwen-q5,68,spam,spam,True,0.49,1962.79
+E2-accuracy,device3,qwen-q5,69,urgent,urgent,True,0.57,1668.77
+E2-accuracy,device3,qwen-q5,70,urgent,urgent,True,0.54,1752.66
+E2-accuracy,device3,qwen-q5,71,inquiry,inquiry,True,0.63,1488.14
+E2-accuracy,device3,qwen-q5,72,inquiry,inquiry,True,0.6,1587.37
+E2-accuracy,device3,qwen-q5,73,complaint,complaint,True,0.58,1641.91
+E2-accuracy,device3,qwen-q5,74,complaint,complaint,True,0.54,1750.63
+E2-accuracy,device3,qwen-q5,75,feedback,feedback,True,0.58,1637.41
+E2-accuracy,device3,qwen-q5,76,feedback,complaint,False,0.54,1750.13
+E2-accuracy,device3,qwen-q5,77,spam,spam,True,0.42,2306.2
+E2-accuracy,device3,qwen-q5,78,spam,complaint,False,0.55,1730.74
+E2-accuracy,device3,qwen-q5,79,urgent,urgent,True,0.53,1807.69
+E2-accuracy,device3,qwen-q5,80,urgent,complaint,False,0.47,2017.16
+E2-accuracy,device3,qwen-q5,81,inquiry,inquiry,True,0.58,1630.49
+E2-accuracy,device3,qwen-q5,82,inquiry,inquiry,True,0.52,1838.0
+E2-accuracy,device3,qwen-q5,83,complaint,complaint,True,0.59,1617.45
+E2-accuracy,device3,qwen-q5,84,complaint,complaint,True,0.59,1605.47
+E2-accuracy,device3,qwen-q5,85,feedback,feedback,True,0.63,1494.64
+E2-accuracy,device3,qwen-q5,86,feedback,feedback,True,0.55,1739.1
+E2-accuracy,device3,qwen-q5,87,spam,spam,True,0.55,1724.55
+E2-accuracy,device3,qwen-q5,88,spam,spam,True,0.5,1927.83
+E2-accuracy,device3,qwen-q5,89,urgent,urgent,True,0.57,1675.52
+E2-accuracy,device3,qwen-q5,90,urgent,urgent,True,0.52,1825.32
+E2-accuracy,device3,qwen-q5,91,inquiry,complaint,False,3.24,2287.41
+E2-accuracy,device3,qwen-q5,92,inquiry,inquiry,True,0.57,1667.47
+E2-accuracy,device3,qwen-q5,93,complaint,complaint,True,0.58,1644.96
+E2-accuracy,device3,qwen-q5,94,complaint,complaint,True,0.56,1707.94
+E2-accuracy,device3,qwen-q5,95,feedback,complaint,False,0.55,1728.99
+E2-accuracy,device3,qwen-q5,96,feedback,feedback,True,0.48,1997.69
+E2-accuracy,device3,qwen-q5,97,spam,spam,True,0.44,2161.45
+E2-accuracy,device3,qwen-q5,98,spam,spam,True,0.46,2096.19
+E2-accuracy,device3,qwen-q5,99,urgent,urgent,True,0.46,2050.5
+E2-accuracy,device3,qwen-q5,100,urgent,urgent,True,0.54,1742.97
+E2-accuracy,device3,qwen-q8,1,inquiry,inquiry,True,0.11,8580.09
+E2-accuracy,device3,qwen-q8,2,inquiry,inquiry,True,0.52,1827.79
+E2-accuracy,device3,qwen-q8,3,inquiry,inquiry,True,0.48,1939.41
+E2-accuracy,device3,qwen-q8,4,inquiry,inquiry,True,0.64,1437.47
+E2-accuracy,device3,qwen-q8,5,inquiry,inquiry,True,0.53,1772.85
+E2-accuracy,device3,qwen-q8,6,inquiry,inquiry,True,0.53,1751.23
+E2-accuracy,device3,qwen-q8,7,inquiry,inquiry,True,0.58,1569.43
+E2-accuracy,device3,qwen-q8,8,inquiry,urgent,False,0.55,1700.2
+E2-accuracy,device3,qwen-q8,9,inquiry,inquiry,True,0.57,1624.4
+E2-accuracy,device3,qwen-q8,10,inquiry,inquiry,True,0.46,2080.56
+E2-accuracy,device3,qwen-q8,11,complaint,complaint,True,0.59,1572.45
+E2-accuracy,device3,qwen-q8,12,complaint,complaint,True,0.63,1477.77
+E2-accuracy,device3,qwen-q8,13,complaint,complaint,True,0.47,2027.09
+E2-accuracy,device3,qwen-q8,14,complaint,complaint,True,0.49,1930.38
+E2-accuracy,device3,qwen-q8,15,complaint,complaint,True,0.6,1518.06
+E2-accuracy,device3,qwen-q8,16,complaint,complaint,True,0.53,1766.32
+E2-accuracy,device3,qwen-q8,17,complaint,complaint,True,0.5,1890.56
+E2-accuracy,device3,qwen-q8,18,complaint,complaint,True,0.55,1713.13
+E2-accuracy,device3,qwen-q8,19,complaint,complaint,True,0.49,1923.4
+E2-accuracy,device3,qwen-q8,20,complaint,complaint,True,0.48,1934.12
+E2-accuracy,device3,qwen-q8,21,feedback,feedback,True,0.51,1864.98
+E2-accuracy,device3,qwen-q8,22,feedback,feedback,True,0.63,1481.55
+E2-accuracy,device3,qwen-q8,23,feedback,feedback,True,0.56,1665.94
+E2-accuracy,device3,qwen-q8,24,feedback,feedback,True,0.52,1821.47
+E2-accuracy,device3,qwen-q8,25,feedback,feedback,True,0.55,1691.79
+E2-accuracy,device3,qwen-q8,26,feedback,complaint,False,0.49,1896.27
+E2-accuracy,device3,qwen-q8,27,feedback,feedback,True,0.5,1856.14
+E2-accuracy,device3,qwen-q8,28,feedback,complaint,False,0.57,1649.91
+E2-accuracy,device3,qwen-q8,29,feedback,feedback,True,0.53,1761.21
+E2-accuracy,device3,qwen-q8,30,feedback,feedback,True,0.61,1523.36
+E2-accuracy,device3,qwen-q8,31,spam,spam,True,0.49,1940.54
+E2-accuracy,device3,qwen-q8,32,spam,urgent,False,0.48,1962.43
+E2-accuracy,device3,qwen-q8,33,spam,spam,True,0.5,1844.8
+E2-accuracy,device3,qwen-q8,34,spam,promotion,False,0.45,2105.48
+E2-accuracy,device3,qwen-q8,35,spam,spam,True,0.51,1854.65
+E2-accuracy,device3,qwen-q8,36,spam,spam,True,0.45,2118.92
+E2-accuracy,device3,qwen-q8,37,spam,complaint,False,3.55,1769.58
+E2-accuracy,device3,qwen-q8,38,spam,spam,True,0.48,1952.71
+E2-accuracy,device3,qwen-q8,39,spam,spam,True,0.41,2335.55
+E2-accuracy,device3,qwen-q8,40,spam,spam,True,0.43,2211.53
+E2-accuracy,device3,qwen-q8,41,urgent,urgent,True,0.5,1909.95
+E2-accuracy,device3,qwen-q8,42,urgent,complaint,False,0.61,1516.95
+E2-accuracy,device3,qwen-q8,43,urgent,complaint,False,0.53,1767.44
+E2-accuracy,device3,qwen-q8,44,urgent,urgent,True,0.47,2023.81
+E2-accuracy,device3,qwen-q8,45,urgent,complaint,False,3.79,1618.41
+E2-accuracy,device3,qwen-q8,46,urgent,urgent,True,0.59,1594.1
+E2-accuracy,device3,qwen-q8,47,urgent,complaint,False,0.55,1703.66
+E2-accuracy,device3,qwen-q8,48,urgent,complaint,False,0.58,1584.22
+E2-accuracy,device3,qwen-q8,49,urgent,complaint,False,0.51,1832.33
+E2-accuracy,device3,qwen-q8,50,urgent,complaint,False,0.6,1542.83
+E2-accuracy,device3,qwen-q8,51,inquiry,inquiry,True,0.52,1783.72
+E2-accuracy,device3,qwen-q8,52,inquiry,inquiry,True,0.66,1385.26
+E2-accuracy,device3,qwen-q8,53,complaint,complaint,True,0.51,1867.52
+E2-accuracy,device3,qwen-q8,54,complaint,complaint,True,3.88,1589.3
+E2-accuracy,device3,qwen-q8,55,feedback,feedback,True,0.51,1826.95
+E2-accuracy,device3,qwen-q8,56,feedback,feedback,True,0.57,1632.79
+E2-accuracy,device3,qwen-q8,57,spam,spam,True,0.43,2221.63
+E2-accuracy,device3,qwen-q8,58,spam,spam,True,0.44,2152.57
+E2-accuracy,device3,qwen-q8,59,urgent,urgent,True,0.52,1790.69
+E2-accuracy,device3,qwen-q8,60,urgent,complaint,False,3.16,2114.85
+E2-accuracy,device3,qwen-q8,61,inquiry,inquiry,True,0.48,1934.62
+E2-accuracy,device3,qwen-q8,62,inquiry,inquiry,True,0.58,1592.99
+E2-accuracy,device3,qwen-q8,63,complaint,complaint,True,0.43,2203.39
+E2-accuracy,device3,qwen-q8,64,complaint,complaint,True,0.53,1794.06
+E2-accuracy,device3,qwen-q8,65,feedback,feedback,True,0.5,1869.18
+E2-accuracy,device3,qwen-q8,66,feedback,complaint,False,0.58,1618.03
+E2-accuracy,device3,qwen-q8,67,spam,spam,True,0.42,2250.27
+E2-accuracy,device3,qwen-q8,68,spam,spam,True,0.48,1964.94
+E2-accuracy,device3,qwen-q8,69,urgent,urgent,True,0.53,1781.17
+E2-accuracy,device3,qwen-q8,70,urgent,urgent,True,0.5,1886.06
+E2-accuracy,device3,qwen-q8,71,inquiry,inquiry,True,0.62,1483.2
+E2-accuracy,device3,qwen-q8,72,inquiry,inquiry,True,0.57,1635.34
+E2-accuracy,device3,qwen-q8,73,complaint,complaint,True,0.53,1770.6
+E2-accuracy,device3,qwen-q8,74,complaint,complaint,True,0.5,1868.54
+E2-accuracy,device3,qwen-q8,75,feedback,feedback,True,0.54,1732.03
+E2-accuracy,device3,qwen-q8,76,feedback,complaint,False,0.51,1837.91
+E2-accuracy,device3,qwen-q8,77,spam,promotion,False,0.41,2297.66
+E2-accuracy,device3,qwen-q8,78,spam,complaint,False,0.52,1799.46
+E2-accuracy,device3,qwen-q8,79,urgent,urgent,True,0.5,1903.91
+E2-accuracy,device3,qwen-q8,80,urgent,complaint,False,0.47,2006.56
+E2-accuracy,device3,qwen-q8,81,inquiry,inquiry,True,0.58,1601.37
+E2-accuracy,device3,qwen-q8,82,inquiry,inquiry,True,0.51,1851.41
+E2-accuracy,device3,qwen-q8,83,complaint,complaint,True,0.55,1695.87
+E2-accuracy,device3,qwen-q8,84,complaint,complaint,True,0.56,1688.2
+E2-accuracy,device3,qwen-q8,85,feedback,feedback,True,0.63,1475.52
+E2-accuracy,device3,qwen-q8,86,feedback,feedback,True,0.52,1807.67
+E2-accuracy,device3,qwen-q8,87,spam,spam,True,0.53,1774.53
+E2-accuracy,device3,qwen-q8,88,spam,spam,True,0.49,1948.09
+E2-accuracy,device3,qwen-q8,89,urgent,urgent,True,0.55,1708.72
+E2-accuracy,device3,qwen-q8,90,urgent,urgent,True,0.49,1929.05
+E2-accuracy,device3,qwen-q8,91,inquiry,complaint,False,2.98,2335.81
+E2-accuracy,device3,qwen-q8,92,inquiry,inquiry,True,0.54,1711.03
+E2-accuracy,device3,qwen-q8,93,complaint,complaint,True,0.56,1679.7
+E2-accuracy,device3,qwen-q8,94,complaint,complaint,True,0.55,1726.95
+E2-accuracy,device3,qwen-q8,95,feedback,complaint,False,0.53,1772.13
+E2-accuracy,device3,qwen-q8,96,feedback,feedback,True,0.48,1987.29
+E2-accuracy,device3,qwen-q8,97,spam,spam,True,0.45,2102.93
+E2-accuracy,device3,qwen-q8,98,spam,spam,True,0.45,2106.29
+E2-accuracy,device3,qwen-q8,99,urgent,urgent,True,0.47,2004.34
+E2-accuracy,device3,qwen-q8,100,urgent,urgent,True,0.52,1792.71
+E2-accuracy,device3,mistral:7b,1,inquiry,inquiry,True,0.12,16239.77
+E2-accuracy,device3,mistral:7b,2,inquiry,inquiry,True,0.66,2671.18
+E2-accuracy,device3,mistral:7b,3,inquiry,inquiry,True,0.59,3041.88
+E2-accuracy,device3,mistral:7b,4,inquiry,inquiry,True,0.71,2503.23
+E2-accuracy,device3,mistral:7b,5,inquiry,inquiry,True,0.75,2339.01
+E2-accuracy,device3,mistral:7b,6,inquiry,inquiry,True,0.67,2642.27
+E2-accuracy,device3,mistral:7b,7,inquiry,inquiry,True,0.76,2319.16
+E2-accuracy,device3,mistral:7b,8,inquiry,inquiry,True,0.71,2473.88
+E2-accuracy,device3,mistral:7b,9,inquiry,inquiry,True,0.73,2419.91
+E2-accuracy,device3,mistral:7b,10,inquiry,inquiry,True,0.58,3097.14
+E2-accuracy,device3,mistral:7b,11,complaint,complaint,True,0.35,2628.91
+E2-accuracy,device3,mistral:7b,12,complaint,complaint,True,0.38,2450.08
+E2-accuracy,device3,mistral:7b,13,complaint,complaint,True,0.34,2706.01
+E2-accuracy,device3,mistral:7b,14,complaint,complaint,True,0.35,2655.13
+E2-accuracy,device3,mistral:7b,15,complaint,complaint,True,0.44,2115.74
+E2-accuracy,device3,mistral:7b,16,complaint,complaint,True,0.4,2330.6
+E2-accuracy,device3,mistral:7b,17,complaint,complaint,True,0.35,2723.26
+E2-accuracy,device3,mistral:7b,18,complaint,complaint,True,0.4,2354.59
+E2-accuracy,device3,mistral:7b,19,complaint,complaint,True,0.31,3014.62
+E2-accuracy,device3,mistral:7b,20,complaint,complaint,True,0.35,2687.69
+E2-accuracy,device3,mistral:7b,21,feedback,feedback,True,1.08,2297.13
+E2-accuracy,device3,mistral:7b,22,feedback,feedback,True,0.42,2206.21
+E2-accuracy,device3,mistral:7b,23,feedback,feedback,True,1.01,2490.14
+E2-accuracy,device3,mistral:7b,24,feedback,feedback,True,1.06,2349.88
+E2-accuracy,device3,mistral:7b,25,feedback,feedback,True,0.39,2432.45
+E2-accuracy,device3,mistral:7b,26,feedback,complaint,False,0.35,2677.48
+E2-accuracy,device3,mistral:7b,27,feedback,feedback,True,1.01,2446.99
+E2-accuracy,device3,mistral:7b,28,feedback,complaint,False,0.36,2597.41
+E2-accuracy,device3,mistral:7b,29,feedback,feedback,True,1.08,2290.82
+E2-accuracy,device3,mistral:7b,30,feedback,complaint,False,0.4,2349.63
+E2-accuracy,device3,mistral:7b,31,spam,spam,True,0.56,3262.71
+E2-accuracy,device3,mistral:7b,32,spam,spam,True,0.64,2790.04
+E2-accuracy,device3,mistral:7b,33,spam,spam,True,0.73,2435.94
+E2-accuracy,device3,mistral:7b,34,spam,spam,True,0.57,3177.49
+E2-accuracy,device3,mistral:7b,35,spam,spam,True,0.7,2546.18
+E2-accuracy,device3,mistral:7b,36,spam,spam,True,0.56,3261.94
+E2-accuracy,device3,mistral:7b,37,spam,spam,True,0.66,2721.87
+E2-accuracy,device3,mistral:7b,38,spam,spam,True,0.67,2670.96
+E2-accuracy,device3,mistral:7b,39,spam,spam,True,0.54,3354.68
+E2-accuracy,device3,mistral:7b,40,spam,spam,True,0.55,3350.68
+E2-accuracy,device3,mistral:7b,41,urgent,urgent,True,0.35,2661.57
+E2-accuracy,device3,mistral:7b,42,urgent,urgent,True,0.41,2249.68
+E2-accuracy,device3,mistral:7b,43,urgent,urgent,True,0.4,2342.14
+E2-accuracy,device3,mistral:7b,44,urgent,urgent,True,0.31,3036.08
+E2-accuracy,device3,mistral:7b,45,urgent,urgent,True,0.4,2316.88
+E2-accuracy,device3,mistral:7b,46,urgent,urgent,True,0.34,2741.7
+E2-accuracy,device3,mistral:7b,47,urgent,urgent,True,0.33,2822.18
+E2-accuracy,device3,mistral:7b,48,urgent,urgent,True,0.37,2537.58
+E2-accuracy,device3,mistral:7b,49,urgent,urgent,True,0.32,2936.12
+E2-accuracy,device3,mistral:7b,50,urgent,urgent,True,0.37,2546.14
+E2-accuracy,device3,mistral:7b,51,inquiry,inquiry,True,0.66,2692.57
+E2-accuracy,device3,mistral:7b,52,inquiry,inquiry,True,0.83,2024.07
+E2-accuracy,device3,mistral:7b,53,complaint,complaint,True,0.34,2747.2
+E2-accuracy,device3,mistral:7b,54,complaint,complaint,True,0.37,2464.45
+E2-accuracy,device3,mistral:7b,55,feedback,feedback,True,0.34,2747.43
+E2-accuracy,device3,mistral:7b,56,feedback,feedback,True,0.99,2497.63
+E2-accuracy,device3,mistral:7b,57,spam,spam,True,0.51,3588.74
+E2-accuracy,device3,mistral:7b,58,spam,spam,True,0.49,3755.55
+E2-accuracy,device3,mistral:7b,59,urgent,urgent,True,0.32,2909.21
+E2-accuracy,device3,mistral:7b,60,urgent,urgent,True,0.26,3689.74
+E2-accuracy,device3,mistral:7b,61,inquiry,inquiry,True,0.62,2910.62
+E2-accuracy,device3,mistral:7b,62,inquiry,inquiry,True,0.76,2296.62
+E2-accuracy,device3,mistral:7b,63,complaint,complaint,True,0.27,3563.22
+E2-accuracy,device3,mistral:7b,64,complaint,complaint,True,0.31,3020.2
+E2-accuracy,device3,mistral:7b,65,feedback,feedback,True,0.87,2857.91
+E2-accuracy,device3,mistral:7b,66,feedback,complaint,False,0.35,2660.5
+E2-accuracy,device3,mistral:7b,67,spam,spam,True,0.53,3423.06
+E2-accuracy,device3,mistral:7b,68,spam,spam,True,0.61,2928.43
+E2-accuracy,device3,mistral:7b,69,urgent,urgent,True,0.36,2609.3
+E2-accuracy,device3,mistral:7b,70,urgent,urgent,True,0.29,3294.23
+E2-accuracy,device3,mistral:7b,71,inquiry,inquiry,True,0.71,2475.72
+E2-accuracy,device3,mistral:7b,72,inquiry,inquiry,True,0.7,2555.57
+E2-accuracy,device3,mistral:7b,73,complaint,complaint,True,0.33,2797.34
+E2-accuracy,device3,mistral:7b,74,complaint,complaint,True,0.35,2628.12
+E2-accuracy,device3,mistral:7b,75,feedback,feedback,True,0.98,2522.57
+E2-accuracy,device3,mistral:7b,76,feedback,complaint,False,0.35,2675.27
+E2-accuracy,device3,mistral:7b,77,spam,spam,True,0.49,3701.95
+E2-accuracy,device3,mistral:7b,78,spam,spam,True,0.57,3191.6
+E2-accuracy,device3,mistral:7b,79,urgent,urgent,True,0.3,3186.97
+E2-accuracy,device3,mistral:7b,80,urgent,urgent,True,0.32,2951.23
+E2-accuracy,device3,mistral:7b,81,inquiry,inquiry,True,0.76,2313.36
+E2-accuracy,device3,mistral:7b,82,inquiry,inquiry,True,0.65,2696.09
+E2-accuracy,device3,mistral:7b,83,complaint,complaint,True,0.35,2677.12
+E2-accuracy,device3,mistral:7b,84,complaint,complaint,True,0.33,2843.52
+E2-accuracy,device3,mistral:7b,85,feedback,feedback,True,0.38,2470.5
+E2-accuracy,device3,mistral:7b,86,feedback,feedback,True,0.36,2603.81
+E2-accuracy,device3,mistral:7b,87,spam,spam,True,0.64,2790.53
+E2-accuracy,device3,mistral:7b,88,spam,spam,True,0.58,3090.89
+E2-accuracy,device3,mistral:7b,89,urgent,urgent,True,0.33,2832.69
+E2-accuracy,device3,mistral:7b,90,urgent,urgent,True,0.35,2669.35
+E2-accuracy,device3,mistral:7b,91,inquiry,complaint,False,0.27,3523.68
+E2-accuracy,device3,mistral:7b,92,inquiry,inquiry,True,0.65,2696.11
+E2-accuracy,device3,mistral:7b,93,complaint,complaint,True,0.35,2606.87
+E2-accuracy,device3,mistral:7b,94,complaint,complaint,True,0.34,2822.85
+E2-accuracy,device3,mistral:7b,95,feedback,complaint,False,0.36,2572.63
+E2-accuracy,device3,mistral:7b,96,feedback,feedback,True,0.83,3109.25
+E2-accuracy,device3,mistral:7b,97,spam,spam,True,0.55,3206.07
+E2-accuracy,device3,mistral:7b,98,spam,spam,True,0.57,3170.52
+E2-accuracy,device3,mistral:7b,99,urgent,urgent,True,0.29,3322.33
+E2-accuracy,device3,mistral:7b,100,urgent,urgent,True,0.34,2776.06
+E2-accuracy,device3,mistral-q5,1,inquiry,inquiry,True,0.08,23520.97
+E2-accuracy,device3,mistral-q5,2,inquiry,inquiry,True,0.37,5068.41
+E2-accuracy,device3,mistral-q5,3,inquiry,inquiry,True,0.32,5765.21
+E2-accuracy,device3,mistral-q5,4,inquiry,inquiry,True,0.41,4389.41
+E2-accuracy,device3,mistral-q5,5,inquiry,inquiry,True,0.36,5154.55
+E2-accuracy,device3,mistral-q5,6,inquiry,inquiry,True,0.41,4478.09
+E2-accuracy,device3,mistral-q5,7,inquiry,inquiry,True,0.45,4083.43
+E2-accuracy,device3,mistral-q5,8,inquiry,inquiry,True,0.41,4441.65
+E2-accuracy,device3,mistral-q5,9,inquiry,inquiry,True,0.45,4092.7
+E2-accuracy,device3,mistral-q5,10,inquiry,inquiry,True,0.33,5591.85
+E2-accuracy,device3,mistral-q5,11,complaint,complaint,True,0.23,4216.64
+E2-accuracy,device3,mistral-q5,12,complaint,complaint,True,0.22,4305.89
+E2-accuracy,device3,mistral-q5,13,complaint,complaint,True,0.18,5239.93
+E2-accuracy,device3,mistral-q5,14,complaint,complaint,True,0.19,5070.5
+E2-accuracy,device3,mistral-q5,15,complaint,complaint,True,0.25,3849.76
+E2-accuracy,device3,mistral-q5,16,complaint,complaint,True,0.2,4906.69
+E2-accuracy,device3,mistral-q5,17,complaint,complaint,True,0.18,5492.63
+E2-accuracy,device3,mistral-q5,18,complaint,complaint,True,0.19,5047.89
+E2-accuracy,device3,mistral-q5,19,complaint,complaint,True,0.17,5849.39
+E2-accuracy,device3,mistral-q5,20,complaint,complaint,True,0.19,4931.24
+E2-accuracy,device3,mistral-q5,21,feedback,feedback,True,0.19,4913.49
+E2-accuracy,device3,mistral-q5,22,feedback,feedback,True,0.24,4059.3
+E2-accuracy,device3,mistral-q5,23,feedback,feedback,True,0.22,4433.99
+E2-accuracy,device3,mistral-q5,24,feedback,feedback,True,0.21,4652.38
+E2-accuracy,device3,mistral-q5,25,feedback,feedback,True,0.23,4253.68
+E2-accuracy,device3,mistral-q5,26,feedback,complaint,False,0.19,5009.04
+E2-accuracy,device3,mistral-q5,27,feedback,feedback,True,0.21,4496.84
+E2-accuracy,device3,mistral-q5,28,feedback,complaint,False,0.21,4524.09
+E2-accuracy,device3,mistral-q5,29,feedback,feedback,True,0.2,4844.73
+E2-accuracy,device3,mistral-q5,30,feedback,complaint,False,0.22,4344.69
+E2-accuracy,device3,mistral-q5,31,spam,spam,True,0.32,5962.84
+E2-accuracy,device3,mistral-q5,32,spam,urgency (note: this ,False,1.37,5498.54
+E2-accuracy,device3,mistral-q5,33,spam,spam,True,0.37,5030.76
+E2-accuracy,device3,mistral-q5,34,spam,spam,True,0.3,6253.36
+E2-accuracy,device3,mistral-q5,35,spam,spam,True,0.34,5477.56
+E2-accuracy,device3,mistral-q5,36,spam,spam,True,0.3,6297.04
+E2-accuracy,device3,mistral-q5,37,spam,spam,True,0.35,5360.29
+E2-accuracy,device3,mistral-q5,38,spam,spam,True,0.35,5343.13
+E2-accuracy,device3,mistral-q5,39,spam,spam,True,0.3,6286.25
+E2-accuracy,device3,mistral-q5,40,spam,spam,True,0.3,6286.45
+E2-accuracy,device3,mistral-q5,41,urgent,urgent,True,0.19,5156.01
+E2-accuracy,device3,mistral-q5,42,urgent,urgent,True,0.24,3917.29
+E2-accuracy,device3,mistral-q5,43,urgent,urgent,True,0.19,4932.98
+E2-accuracy,device3,mistral-q5,44,urgent,urgent,True,0.17,5797.05
+E2-accuracy,device3,mistral-q5,45,urgent,urgent,True,0.22,4322.26
+E2-accuracy,device3,mistral-q5,46,urgent,urgent,True,0.21,4590.42
+E2-accuracy,device3,mistral-q5,47,urgent,urgent,True,1.55,4712.78
+E2-accuracy,device3,mistral-q5,48,urgent,urgent,True,0.22,4256.15
+E2-accuracy,device3,mistral-q5,49,urgent,urgent,True,0.17,5650.23
+E2-accuracy,device3,mistral-q5,50,urgent,urgent,True,0.2,4894.65
+E2-accuracy,device3,mistral-q5,51,inquiry,inquiry,True,0.38,4955.54
+E2-accuracy,device3,mistral-q5,52,inquiry,inquiry,True,0.49,3604.92
+E2-accuracy,device3,mistral-q5,53,complaint,complaint,True,0.18,5269.36
+E2-accuracy,device3,mistral-q5,54,complaint,complaint,True,0.23,4174.58
+E2-accuracy,device3,mistral-q5,55,feedback,feedback,True,0.19,5133.35
+E2-accuracy,device3,mistral-q5,56,feedback,feedback,True,0.19,4949.74
+E2-accuracy,device3,mistral-q5,57,spam,spam,True,0.31,5994.08
+E2-accuracy,device3,mistral-q5,58,spam,spam,True,0.28,6719.85
+E2-accuracy,device3,mistral-q5,59,urgent,urgent,True,0.16,5821.19
+E2-accuracy,device3,mistral-q5,60,urgent,urgent,True,0.14,6983.28
+E2-accuracy,device3,mistral-q5,61,inquiry,inquiry,True,0.35,5325.46
+E2-accuracy,device3,mistral-q5,62,inquiry,inquiry,True,0.4,4406.15
+E2-accuracy,device3,mistral-q5,63,complaint,complaint,True,0.14,7103.48
+E2-accuracy,device3,mistral-q5,64,complaint,complaint,True,0.18,5464.13
+E2-accuracy,device3,mistral-q5,65,feedback,feedback,True,0.18,5213.99
+E2-accuracy,device3,mistral-q5,66,feedback,complaint,False,1.26,4081.72
+E2-accuracy,device3,mistral-q5,67,spam,spam,True,0.3,6212.88
+E2-accuracy,device3,mistral-q5,68,spam,spam,True,0.35,5269.31
+E2-accuracy,device3,mistral-q5,69,urgent,urgent,True,0.2,4910.07
+E2-accuracy,device3,mistral-q5,70,urgent,urgent,True,0.17,5519.06
+E2-accuracy,device3,mistral-q5,71,inquiry,inquiry,True,0.42,4338.21
+E2-accuracy,device3,mistral-q5,72,inquiry,inquiry,True,0.41,4423.42
+E2-accuracy,device3,mistral-q5,73,complaint,complaint,True,0.2,4883.62
+E2-accuracy,device3,mistral-q5,74,complaint,complaint,True,0.2,4851.3
+E2-accuracy,device3,mistral-q5,75,feedback,feedback,True,0.2,4922.42
+E2-accuracy,device3,mistral-q5,76,feedback,complaint,False,0.19,4989.46
+E2-accuracy,device3,mistral-q5,77,spam,spam,True,0.28,6702.53
+E2-accuracy,device3,mistral-q5,78,spam,spam,True,0.31,6015.65
+E2-accuracy,device3,mistral-q5,79,urgent,urgent,True,0.16,5957.47
+E2-accuracy,device3,mistral-q5,80,urgent,urgent,True,0.18,5524.83
+E2-accuracy,device3,mistral-q5,81,inquiry,inquiry,True,0.42,4364.1
+E2-accuracy,device3,mistral-q5,82,inquiry,inquiry,True,0.37,5035.69
+E2-accuracy,device3,mistral-q5,83,complaint,complaint,True,0.19,4922.01
+E2-accuracy,device3,mistral-q5,84,complaint,complaint,True,0.21,4600.53
+E2-accuracy,device3,mistral-q5,85,feedback,feedback,True,0.21,4503.03
+E2-accuracy,device3,mistral-q5,86,feedback,feedback,True,0.2,4846.14
+E2-accuracy,device3,mistral-q5,87,spam,spam,True,0.34,5431.64
+E2-accuracy,device3,mistral-q5,88,spam,spam,True,0.33,5611.99
+E2-accuracy,device3,mistral-q5,89,urgent,urgent,True,0.18,5255.24
+E2-accuracy,device3,mistral-q5,90,urgent,urgent,True,0.18,5420.83
+E2-accuracy,device3,mistral-q5,91,inquiry,complaint,False,0.15,6572.92
+E2-accuracy,device3,mistral-q5,92,inquiry,inquiry,True,0.39,4628.79
+E2-accuracy,device3,mistral-q5,93,complaint,complaint,True,0.2,4884.4
+E2-accuracy,device3,mistral-q5,94,complaint,complaint,True,0.21,4503.46
+E2-accuracy,device3,mistral-q5,95,feedback,inquiry,False,0.4,4614.8
+E2-accuracy,device3,mistral-q5,96,feedback,feedback,True,0.18,5427.05
+E2-accuracy,device3,mistral-q5,97,spam,spam,True,0.32,5829.04
+E2-accuracy,device3,mistral-q5,98,spam,spam,True,0.35,5299.43
+E2-accuracy,device3,mistral-q5,99,urgent,urgent,True,0.18,5479.24
+E2-accuracy,device3,mistral-q5,100,urgent,urgent,True,0.2,4793.88
+E2-accuracy,device3,mistral-q8,1,inquiry,inquiry,True,0.01,113119.93
+E2-accuracy,device3,mistral-q8,2,inquiry,inquiry,True,0.32,5687.68
+E2-accuracy,device3,mistral-q8,3,inquiry,inquiry,True,0.15,8881.54
+E2-accuracy,device3,mistral-q8,4,inquiry,inquiry,True,0.07,21199.63
+E2-accuracy,device3,mistral-q8,5,inquiry,inquiry,True,0.11,16048.68
+E2-accuracy,device3,mistral-q8,6,inquiry,inquiry,True,0.32,5118.33
+E2-accuracy,device3,mistral-q8,7,inquiry,inquiry,True,0.15,11136.75
+E2-accuracy,device3,mistral-q8,8,inquiry,inquiry,True,0.41,4288.35
+E2-accuracy,device3,mistral-q8,9,inquiry,inquiry,True,0.3,6151.7
+E2-accuracy,device3,mistral-q8,10,inquiry,inquiry,True,0.33,5497.12
+E2-accuracy,device3,mistral-q8,11,complaint,complaint,True,0.17,5653.68
+E2-accuracy,device3,mistral-q8,12,complaint,complaint,True,0.23,4155.6
+E2-accuracy,device3,mistral-q8,13,complaint,complaint,True,0.19,4885.21
+E2-accuracy,device3,mistral-q8,14,complaint,complaint,True,0.19,4904.7
+E2-accuracy,device3,mistral-q8,15,complaint,complaint,True,0.25,3801.76
+E2-accuracy,device3,mistral-q8,16,complaint,complaint,True,0.21,4587.09
+E2-accuracy,device3,mistral-q8,17,complaint,complaint,True,0.19,4948.6
+E2-accuracy,device3,mistral-q8,18,complaint,complaint,True,0.21,4485.65
+E2-accuracy,device3,mistral-q8,19,complaint,complaint,True,0.18,5363.28
+E2-accuracy,device3,mistral-q8,20,complaint,complaint,True,0.19,4900.03
+E2-accuracy,device3,mistral-q8,21,feedback,feedback,True,0.21,4476.91
+E2-accuracy,device3,mistral-q8,22,feedback,feedback,True,0.24,3905.42
+E2-accuracy,device3,mistral-q8,23,feedback,feedback,True,0.22,4271.68
+E2-accuracy,device3,mistral-q8,24,feedback,feedback,True,0.21,4622.63
+E2-accuracy,device3,mistral-q8,25,feedback,feedback,True,0.22,4256.93
+E2-accuracy,device3,mistral-q8,26,feedback,complaint,False,0.19,4945.41
+E2-accuracy,device3,mistral-q8,27,feedback,feedback,True,0.21,4500.62
+E2-accuracy,device3,mistral-q8,28,feedback,complaint,False,0.22,4383.97
+E2-accuracy,device3,mistral-q8,29,feedback,feedback,True,0.21,4494.25
+E2-accuracy,device3,mistral-q8,30,feedback,complaint,False,0.24,3901.68
+E2-accuracy,device3,mistral-q8,31,spam,spam,True,0.34,5376.84
+E2-accuracy,device3,mistral-q8,32,spam,urgent,False,1.35,5057.03
+E2-accuracy,device3,mistral-q8,33,spam,spam,True,0.39,4584.28
+E2-accuracy,device3,mistral-q8,34,spam,spam,True,0.34,5396.11
+E2-accuracy,device3,mistral-q8,35,spam,spam,True,0.38,4726.66
+E2-accuracy,device3,mistral-q8,36,spam,spam,True,0.33,5554.19
+E2-accuracy,device3,mistral-q8,37,spam,spam,True,0.37,4958.06
+E2-accuracy,device3,mistral-q8,38,spam,spam,True,0.37,4949.8
+E2-accuracy,device3,mistral-q8,39,spam,spam,True,0.32,5736.03
+E2-accuracy,device3,mistral-q8,40,spam,spam,True,0.32,5724.74
+E2-accuracy,device3,mistral-q8,41,urgent,urgent,True,0.2,4741.2
+E2-accuracy,device3,mistral-q8,42,urgent,urgent,True,0.23,4047.02
+E2-accuracy,device3,mistral-q8,43,urgent,urgent,True,0.21,4461.07
+E2-accuracy,device3,mistral-q8,44,urgent,urgent,True,0.18,5366.91
+E2-accuracy,device3,mistral-q8,45,urgent,urgent,True,0.23,4016.7
+E2-accuracy,device3,mistral-q8,46,urgent,urgent,True,0.22,4259.08
+E2-accuracy,device3,mistral-q8,47,urgent,urgent,True,1.51,4345.15
+E2-accuracy,device3,mistral-q8,48,urgent,urgent,True,0.23,4122.41
+E2-accuracy,device3,mistral-q8,49,urgent,urgent,True,0.2,4756.51
+E2-accuracy,device3,mistral-q8,50,urgent,urgent,True,0.21,4498.05
+E2-accuracy,device3,mistral-q8,51,inquiry,inquiry,True,0.39,4581.89
+E2-accuracy,device3,mistral-q8,52,inquiry,inquiry,True,0.51,3399.89
+E2-accuracy,device3,mistral-q8,53,complaint,complaint,True,0.2,4706.12
+E2-accuracy,device3,mistral-q8,54,complaint,complaint,True,0.23,4054.36
+E2-accuracy,device3,mistral-q8,55,feedback,feedback,True,0.2,4709.33
+E2-accuracy,device3,mistral-q8,56,feedback,feedback,True,0.2,4596.04
+E2-accuracy,device3,mistral-q8,57,spam,spam,True,0.34,5343.71
+E2-accuracy,device3,mistral-q8,58,spam,spam,True,0.33,5551.12
+E2-accuracy,device3,mistral-q8,59,urgent,urgent,True,0.2,4802.05
+E2-accuracy,device3,mistral-q8,60,urgent,urgent,True,0.17,5575.16
+E2-accuracy,device3,mistral-q8,61,inquiry,inquiry,True,0.38,4782.43
+E2-accuracy,device3,mistral-q8,62,inquiry,inquiry,True,0.46,3871.6
+E2-accuracy,device3,mistral-q8,63,complaint,complaint,True,0.17,5714.69
+E2-accuracy,device3,mistral-q8,64,complaint,complaint,True,0.19,4940.93
+E2-accuracy,device3,mistral-q8,65,feedback,feedback,True,0.19,4968.4
+E2-accuracy,device3,mistral-q8,66,feedback,complaint,False,1.2,4060.66
+E2-accuracy,device3,mistral-q8,67,spam,spam,True,0.31,5829.91
+E2-accuracy,device3,mistral-q8,68,spam,spam,True,0.35,5143.72
+E2-accuracy,device3,mistral-q8,69,urgent,urgent,True,0.21,4516.51
+E2-accuracy,device3,mistral-q8,70,urgent,urgent,True,0.19,5138.47
+E2-accuracy,device3,mistral-q8,71,inquiry,inquiry,True,0.44,4017.19
+E2-accuracy,device3,mistral-q8,72,inquiry,inquiry,True,0.43,4136.02
+E2-accuracy,device3,mistral-q8,73,complaint,complaint,True,0.22,4343.72
+E2-accuracy,device3,mistral-q8,74,complaint,complaint,True,0.21,4554.85
+E2-accuracy,device3,mistral-q8,75,feedback,feedback,True,0.21,4408.74
+E2-accuracy,device3,mistral-q8,76,feedback,complaint,False,0.21,4454.13
+E2-accuracy,device3,mistral-q8,77,spam,spam,True,0.32,5719.78
+E2-accuracy,device3,mistral-q8,78,spam,spam,True,0.35,5183.73
+E2-accuracy,device3,mistral-q8,79,urgent,urgent,True,0.18,5183.55
+E2-accuracy,device3,mistral-q8,80,urgent,urgent,True,0.2,4823.77
+E2-accuracy,device3,mistral-q8,81,inquiry,inquiry,True,0.44,4029.04
+E2-accuracy,device3,mistral-q8,82,inquiry,inquiry,True,0.4,4518.89
+E2-accuracy,device3,mistral-q8,83,complaint,complaint,True,0.21,4498.52
+E2-accuracy,device3,mistral-q8,84,complaint,complaint,True,0.22,4307.07
+E2-accuracy,device3,mistral-q8,85,feedback,feedback,True,0.22,4263.84
+E2-accuracy,device3,mistral-q8,86,feedback,feedback,True,0.21,4441.58
+E2-accuracy,device3,mistral-q8,87,spam,spam,True,0.38,4744.24
+E2-accuracy,device3,mistral-q8,88,spam,spam,True,0.36,5085.78
+E2-accuracy,device3,mistral-q8,89,urgent,urgent,True,0.2,4646.46
+E2-accuracy,device3,mistral-q8,90,urgent,urgent,True,0.2,4721.3
+E2-accuracy,device3,mistral-q8,91,inquiry,complaint,False,0.17,5725.14
+E2-accuracy,device3,mistral-q8,92,inquiry,inquiry,True,0.41,4388.25
+E2-accuracy,device3,mistral-q8,93,complaint,complaint,True,0.21,4489.86
+E2-accuracy,device3,mistral-q8,94,complaint,complaint,True,0.22,4326.62
+E2-accuracy,device3,mistral-q8,95,feedback,inquiry,False,0.4,4478.09
+E2-accuracy,device3,mistral-q8,96,feedback,feedback,True,0.19,4916.48
+E2-accuracy,device3,mistral-q8,97,spam,spam,True,0.34,5363.42
+E2-accuracy,device3,mistral-q8,98,spam,spam,True,0.35,5179.9
+E2-accuracy,device3,mistral-q8,99,urgent,urgent,True,0.18,5201.93
+E2-accuracy,device3,mistral-q8,100,urgent,urgent,True,0.2,4735.11
